@@ -1,0 +1,616 @@
+﻿[2015.07.30-01.41.19:565][  0]Log file open, 07/30/15 11:41:19
+[2015.07.30-01.41.19:565][  0]LogInit:Display: Running engine for game: TheEnding
+[2015.07.30-01.41.19:565][  0]LogInit:Display: RandInit(-218581394) SRandInit(-218581394).
+[2015.07.30-01.41.19:565][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.07.30-01.41.19:565][  0]LogStats: Stats thread started
+[2015.07.30-01.41.19:565][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.07.30-01.41.19:565][  0]LogInit: API Version: 2579680
+[2015.07.30-01.41.19:565][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.07.30-01.41.19:565][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.30-01.41.19:565][  0]LogInit: Build Configuration: Development
+[2015.07.30-01.41.19:565][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.30-01.41.19:565][  0]LogInit: Command line:  
+[2015.07.30-01.41.19:565][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.30-01.41.19:565][  0]LogInit: Rocket: 1
+[2015.07.30-01.41.19:587][  0]LogInit: Using libcurl 7.41.0
+[2015.07.30-01.41.19:587][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.30-01.41.19:587][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.30-01.41.19:587][  0]LogInit:  - other features:
+[2015.07.30-01.41.19:587][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.30-01.41.19:587][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.30-01.41.19:587][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.30-01.41.19:587][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.30-01.41.19:587][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.30-01.41.19:588][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.30-01.41.19:589][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.30-01.41.19:589][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.30-01.41.19:589][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.30-01.41.19:589][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.30-01.41.19:600][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.30-01.41.19:663][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.30-01.41.19:682][  0]LogInit: Object subsystem initialized
+[2015.07.30-01.41.19:693][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.30-01.41.19:693][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.30-01.41.19:693][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.30-01.41.19:693][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.30-01.41.19:693][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.30-01.41.19:693][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.30-01.41.19:701][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.30-01.41.19:701][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.30-01.41.19:727][  0]LogInit: Computer: TAB-1090
+[2015.07.30-01.41.19:727][  0]LogInit: User: 076271
+[2015.07.30-01.41.19:727][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.07.30-01.41.19:727][  0]LogInit: High frequency timer resolution =1.558892 MHz
+[2015.07.30-01.41.19:727][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.07.30-01.41.19:727][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.30-01.41.19:727][  0]LogMemory: Process Physical Memory: 49.61 MB used, 49.61 MB peak
+[2015.07.30-01.41.19:727][  0]LogMemory: Process Virtual Memory: 22.24 MB used, 22.24 MB peak
+[2015.07.30-01.41.19:727][  0]LogMemory: Physical Memory: 2897.67 MB used, 8097.05 MB total
+[2015.07.30-01.41.19:727][  0]LogMemory: Virtual Memory: 294.59 MB used, 134217728.00 MB total
+[2015.07.30-01.41.20:074][  0]LogTextLocalizationManager: The requested culture ('en_AU') has no localization data; parent culture's ('en') localization data will be used.
+[2015.07.30-01.41.20:397][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.30-01.41.21:238][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2015.07.30-01.41.21:238][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
+[2015.07.30-01.41.21:240][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.30-01.41.21:240][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.07.30-01.41.21:240][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.30-01.41.21:245][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.41.21:245][  0]LogD3D11RHI: !Direct3DDevice
+[2015.07.30-01.41.21:245][  0]LogRHI: Texture pool is 627 MB (70% of 896 MB)
+[2015.07.30-01.41.21:254][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.30-01.41.21:284][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.30-01.41.23:735][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.30-01.41.23:752][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.30-01.41.23:769][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.30-01.41.23:786][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.30-01.41.23:802][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.30-01.41.23:818][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.30-01.41.23:835][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.30-01.41.23:853][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.30-01.41.23:867][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.30-01.41.23:880][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.30-01.41.23:893][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.30-01.41.23:907][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.30-01.41.23:920][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.07.30-01.41.23:992][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.30-01.41.24:007][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.30-01.41.24:021][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.30-01.41.24:039][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.30-01.41.24:039][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.30-01.41.24:576][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.30-01.41.24:752][  0]LogDerivedDataCache: Loaded boot cache 0.18s 53MB C:/Users/076271/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.30-01.41.24:752][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/076271/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.30-01.41.24:752][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.30-01.41.24:752][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.30-01.41.24:752][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.30-01.41.24:752][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.30-01.41.24:972][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.30-01.41.24:986][  0]LogDerivedDataCache: Using Local data cache path C:/Users/076271/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.30-01.41.30:336][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.30-01.41.30:541][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.30-01.41.30:542][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.30-01.41.30:598][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.30-01.41.30:598][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.30-01.41.31:707][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.30-01.41.35:265][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.30-01.41.35:940][  0]SourceControl: Info Source control is disabled
+[2015.07.30-01.41.36:031][  0]SourceControl: Info Source control is disabled
+[2015.07.30-01.41.36:049][  0]SourceControl: Info Source control is disabled
+[2015.07.30-01.41.36:068][  0]SourceControl: Info Source control is disabled
+[2015.07.30-01.41.36:460][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.07.30-01.41.36:460][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.07.30-01.41.36:597][  0]LogEngine: Initializing Engine...
+[2015.07.30-01.41.36:601][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.30-01.41.36:619][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 100
+[2015.07.30-01.41.37:160][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.30-01.41.37:175][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.30-01.41.37:530][  0]LogInit: FAudioDevice initialized.
+[2015.07.30-01.41.37:559][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/076271/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.30-01.41.37:565][  0]LogInit: Texture streaming: Disabled
+[2015.07.30-01.41.37:589][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.30-01.41.37:590][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.07.30-01.41.37:590][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 76c04c81496839754ea32aa1f64fd1dc|0cceb55ada7a48d4a2aa42507710ea50|1bc6e7bf-6992-4f6c-b1ed-24e2f407b47a
+[2015.07.30-01.41.37:590][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.30-01.41.37:649][  0]LogInit: Transaction tracking system initialized
+[2015.07.30-01.41.37:874][  0]BlueprintLog: New page: Editor Load
+[2015.07.30-01.41.37:924][  0]LogAssetRegistry: FAssetRegistry took 0.0128 seconds to start up
+[2015.07.30-01.41.37:934][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.30-01.41.40:160][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.30-01.41.40:163][  0]LogConsoleResponse:Display: 
+[2015.07.30-01.41.41:035][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.30-01.41.41:528][  0]SourceControl: Info Source control is disabled
+[2015.07.30-01.41.41:529][  0]Cmd: MAP LOAD FILE="../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Maps/LevelTest_Test01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.30-01.41.41:534][  0]LightingResults: New page: Lighting Build
+[2015.07.30-01.41.41:559][  0]MapCheck: New page: Map Check
+[2015.07.30-01.41.41:560][  0]LightingResults: New page: Lighting Build
+[2015.07.30-01.41.41:594][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000089985F8F40
+[2015.07.30-01.41.42:695][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem_C:ItemData'. Unknown structure.
+[2015.07.30-01.41.42:695][  0]LogClass:Warning: Property ItemData of BPA_MasterItem_C struct type mismatch STRUCT_REINST_BPS_ItemData_26/FallbackStruct for package:  ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Blueprints/BPA_MasterItem.uasset. If that property got renamed, add an ActiveStructRedirect.
+[2015.07.30-01.41.42:747][  0]LogClass:Warning: Property ItemData of BPA_MasterItem_C struct type mismatch FallbackStruct/BPS_ItemData for package:  FObjectReader. If that property got renamed, add an ActiveStructRedirect.
+[2015.07.30-01.41.47:933][  0]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.30-01.41.48:207][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.30-01.41.51:142][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.30-01.41.51:283][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 140.522ms to complete.
+[2015.07.30-01.41.51:283][  0]LogFileHelpers: Loading map 'LevelTest_Test01' took 9.754
+[2015.07.30-01.41.51:489][  0]LogCollectionManager: Loaded 0 collections in 0.001762 seconds
+[2015.07.30-01.41.51:501][  0]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 1792 classes and 301 folders.
+[2015.07.30-01.41.51:575][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2015.07.30-01.41.51:762][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2015.07.30-01.41.51:785][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2015.07.30-01.41.51:900][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.30-01.41.51:909][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.41.51:915][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.30-01.41.51:942][  0]LogLoad: Full Startup: 35.04 seconds (BP compile: 0.78 seconds)
+[2015.07.30-01.41.51:951][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.30-01.41.51:951][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.30-01.41.52:108][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.30-01.41.52:260][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.07.30-01.41.52:503][  0]LogRenderer: Reallocating scene render targets to support 776x376 (Frame:2).
+[2015.07.30-01.41.53:340][  2]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.41.54:000][  9]LogAssetRegistry: Asset discovery search completed in 16.0870 seconds
+[2015.07.30-01.41.54:963][ 42]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.42.00:215][146]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.42.19:329][212]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.42.19:354][212]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/Artwork/Can/Can.fbx)
+[2015.07.30-01.42.19:382][212]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.07.30-01.42.19:382][212]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.07.30-01.42.19:382][212]LogFbx: ItemName: Model, ItemCount : 1
+[2015.07.30-01.42.19:434][212]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.42.26:222][212]LogFbx: Loading FBX Scene from ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/Artwork/Can/Can.fbx
+[2015.07.30-01.42.26:238][212]LogFbx: FBX Scene Loaded Succesfully
+[2015.07.30-01.42.26:242][212]LogFbx:Warning: Triangulating static mesh Cylinder
+[2015.07.30-01.42.26:255][212]LogStaticMesh: Building static mesh Can...
+[2015.07.30-01.42.26:261][212]LogStaticMesh: Built static mesh [0.006487.2s] /Game/FirstPersonBP/Meshes/Can.Can
+[2015.07.30-01.42.26:273][212]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.07.30-01.42.26:273][212]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.07.30-01.42.26:277][212]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.42.31:680][325]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.42.32:002][325]LogRenderer: Reallocating scene render targets to support 1016x616 (Frame:304).
+[2015.07.30-01.42.38:494][525]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.42.50:313][728]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.42.50:555][728]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.42.50:602][728]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.42.50:724][728]LogSavePackage: Save=55.921127ms
+[2015.07.30-01.42.50:725][728]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/SM_CanE2BEFFDD4F0098C0241AB28C8E386E31.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Meshes/SM_Can.uasset'
+[2015.07.30-01.42.50:829][728]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.42.52:247][742]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.42.53:605][784]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.42.57:067][912]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.42.59:064][987]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.43.00:450][ 42]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.43.02:632][119]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.43.14:384][493]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.43.14:870][505]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.43.25:344][638]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.43.28:841][670]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.43.30:698][686]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.43.30:756][686]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.43.30:786][686]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.43.30:940][686]LogSavePackage: Save=34.852318ms
+[2015.07.30-01.43.30:940][686]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/M_CanTexure68AFB2D747587D570A51F8B042B63AF5.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Materials/M_CanTexure.uasset'
+[2015.07.30-01.43.30:953][686]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.43.35:089][719]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.43.37:918][774]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.43.41:958][806]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.43.42:055][806]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/Artwork/Can/CanTextured.png)
+[2015.07.30-01.43.42:237][806]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.43.42:242][806]LogTexture:Display: Building textures: CanTextured (BC5)
+[2015.07.30-01.43.47:095][867]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.43.47:299][867]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.43.47:361][867]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.43.47:482][867]LogSavePackage: Save=69.707840ms
+[2015.07.30-01.43.47:482][867]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/T_CanTexturedFF54FA294AF861436A61FA811F7B2F34.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Textures/Items/T_CanTextured.uasset'
+[2015.07.30-01.43.47:496][867]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.43.52:832][931]LogTexture:Display: Building textures: T_CanTextured (AutoDXT)
+[2015.07.30-01.43.56:034][957]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.43.56:170][957]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2015.07.30-01.43.58:368][ 35]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.44.11:483][501]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.44.17:111][599]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.44.17:701][621]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.44.18:650][646]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.44.18:676][646]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.44.18:800][646]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.44.18:923][646]LogSavePackage: Save=24.439795ms
+[2015.07.30-01.44.18:923][646]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/SM_Can447BD5C846E4A6697BB6949BC609C3A1.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Meshes/Items/SM_Can.uasset'
+[2015.07.30-01.44.18:936][646]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.44.18:982][646]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.44.20:885][663]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.44.25:917][745]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.44.26:467][759]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.44.27:250][778]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.44.27:294][778]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.44.27:319][778]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.44.27:394][778]LogSavePackage: Save=26.343710ms
+[2015.07.30-01.44.27:394][778]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/M_CanTexure4BAD5ABC40DD926FCB4E43A9125E5197.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Materials/Items/M_CanTexure.uasset'
+[2015.07.30-01.44.27:441][778]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.44.27:738][778]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.44.30:288][804]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.44.30:383][804]LogSavePackage: Save=10.340036ms
+[2015.07.30-01.44.30:383][804]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/CanF57936D34060916576B3B6B948847302.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Meshes/Can.uasset'
+[2015.07.30-01.44.30:414][804]LogSavePackage: Save=8.665129ms
+[2015.07.30-01.44.30:414][804]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/M_CanTex9596668C4089E5D8003C3D951FBCD921.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Materials/M_CanTex.uasset'
+[2015.07.30-01.44.30:438][804]LogSavePackage: Save=5.310823ms
+[2015.07.30-01.44.30:438][804]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/CanTextured533E45EF4BB5CE66331274BF064EB901.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Textures/Items/CanTextured.uasset'
+[2015.07.30-01.44.30:599][804]LogSavePackage: Save=23.318485ms
+[2015.07.30-01.44.30:599][804]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/T_CanTexturedC05CCFBB4E293F9646F985B40AF93B8E.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Textures/Items/T_CanTextured.uasset'
+[2015.07.30-01.44.33:002][830]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.44.33:185][830]LogMaterial: Missing cached shader map for material M_CanTexure, compiling. 
+[2015.07.30-01.44.33:382][830]LogMaterial: Missing cached shader map for material M_CanTexure, compiling. 
+[2015.07.30-01.44.33:391][830]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-01.44.42:500][979]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.44.51:492][171]LogMaterial: Missing cached shader map for material M_CanTexure, compiling. 
+[2015.07.30-01.44.51:602][171]LogMaterial: 0.000193 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-01.45.00:277][318]LogMaterial: Missing cached shader map for material M_CanTexure, compiling. 
+[2015.07.30-01.45.00:294][318]LogMaterial: 0.000082 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-01.45.02:867][363]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.45.16:369][586]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.45.26:954][760]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.07.30-01.45.26:954][760]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.30-01.45.26:954][760]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.30-01.46.17:317][994]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.46.57:474][339]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.46.58:017][355]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.46.58:486][361]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.47.04:181][458]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.47.09:051][526]LogMaterial: Missing cached shader map for material M_Can, compiling. 
+[2015.07.30-01.47.12:724][566]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.47.13:870][582]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.47.15:220][600]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.47.15:326][600]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.47.15:366][600]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.47.24:663][600]LogSavePackage: Save=42.262070ms
+[2015.07.30-01.47.24:663][600]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/M_CanE4316EAE41DBC2F41FB427921CD98E0D.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Materials/Items/M_Can.uasset'
+[2015.07.30-01.47.24:678][600]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.47.27:187][627]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.47.38:752][797]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.47.48:876][ 14]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000899AC26160
+[2015.07.30-01.47.48:926][ 14]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.47.50:545][ 14]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.47.50:581][ 14]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.47.50:670][ 14]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.47.51:882][ 25]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.47.52:089][ 25]LogSavePackage: Save=21.550562ms
+[2015.07.30-01.47.52:089][ 25]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/SM_Can0A8534E34387E70E0776A4B1CA4D2DA9.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Meshes/Items/SM_Can.uasset'
+[2015.07.30-01.47.52:106][ 25]LogSavePackage: Save=4.496142ms
+[2015.07.30-01.47.52:106][ 25]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/M_Can40C70EA04C90729AA5F8CB9F639CD626.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Textures/Items/M_Can.uasset'
+[2015.07.30-01.48.01:087][142]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.48.01:103][142]LogActorFactory: Actor Factory created SM_Can
+[2015.07.30-01.48.10:291][247]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.48.10:515][247]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.30-01.48.10:790][247]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.30-01.48.21:083][408]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.48.49:671][823]BlueprintLog: New page: Compile BPA_Cola
+[2015.07.30-01.48.50:162][823]BlueprintEditorCompileResults: Info [0453.26] Compile of BPA_Cola successful! [in 489 ms]
+[2015.07.30-01.49.13:246][ 25]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.49.19:719][ 82]BlueprintLog: New page: Compile BPA_Cola
+[2015.07.30-01.49.20:107][ 82]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000898AE03CE0
+[2015.07.30-01.49.20:544][ 82]BlueprintEditorCompileResults: Info [0483.64] Compile of BPA_Cola successful! [in 824 ms]
+[2015.07.30-01.49.27:574][151]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.30-01.49.27:723][151]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 9:49:27 pm)
+[2015.07.30-01.49.27:725][151]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.30-01.49.27:806][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081277s)
+[2015.07.30-01.49.27:816][151]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.30-01.49.27:820][151]LogPlayLevel: PIE: World Init took: (0.006882s)
+[2015.07.30-01.49.27:821][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.095811s)
+[2015.07.30-01.49.28:155][151]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.30-01.49.28:171][151]LogInit: FAudioDevice initialized.
+[2015.07.30-01.49.28:176][151]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.49.31:512][151]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.30-01.49.31:540][151]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 0) at 2015.07.30-11.49.31
+[2015.07.30-01.49.31:540][151]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-01.49.31:541][151]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-01.49.31:541][151]LogWorld: Bringing up level for play took: 0.020771
+[2015.07.30-01.49.31:665][151]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 3.321
+[2015.07.30-01.49.43:150][251]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.43:153][251]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.43:272][252]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.43:273][252]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.43:506][253]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.43:507][253]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.43:646][254]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.43:646][254]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.43:669][255]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.43:669][255]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.43:691][256]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.43:692][256]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.43:853][257]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.43:853][257]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.43:972][258]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.43:973][258]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.44:011][259]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.44:012][259]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.44:142][260]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.44:143][260]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.44:309][261]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.44:310][261]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.44:403][262]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.44:403][262]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.44:428][263]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.44:428][263]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.44:553][264]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.44:553][264]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.45:785][274]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.45:786][274]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-01.49.48:715][296]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000089CA849EE0
+[2015.07.30-01.50.03:370][439]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.50.13:171][600]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.50.25:918][751]BlueprintLog: New page: Compile BPA_Cola
+[2015.07.30-01.50.26:874][751]BlueprintEditorCompileResults: Info [0549.98] Compile of BPA_Cola successful! [in 956 ms]
+[2015.07.30-01.50.29:139][774]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.30-01.50.29:139][774]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 9:50:29 pm)
+[2015.07.30-01.50.29:140][774]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.30-01.50.29:322][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.181278s)
+[2015.07.30-01.50.29:331][774]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.30-01.50.29:346][774]LogPlayLevel: PIE: World Init took: (0.023227s)
+[2015.07.30-01.50.29:348][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.207730s)
+[2015.07.30-01.50.29:525][774]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.30-01.50.29:535][774]LogInit: FAudioDevice initialized.
+[2015.07.30-01.50.29:539][774]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.50.29:572][774]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.30-01.50.29:595][774]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 0) at 2015.07.30-11.50.29
+[2015.07.30-01.50.29:595][774]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-01.50.29:597][774]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-01.50.29:598][774]LogWorld: Bringing up level for play took: 0.023942
+[2015.07.30-01.50.29:787][774]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 1.443
+[2015.07.30-01.50.35:652][815]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000089907D5F80
+[2015.07.30-01.50.41:260][871]BlueprintLog: New page: Compile BPA_Cola
+[2015.07.30-01.50.41:808][871]BlueprintEditorCompileResults: Info [0564.91] Compile of BPA_Cola successful! [in 548 ms]
+[2015.07.30-01.50.46:460][912]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor2)
+[2015.07.30-01.50.46:568][912]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.50.47:703][922]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor2)
+[2015.07.30-01.50.47:740][922]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.50.48:326][933]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.50.52:076][986]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.50.52:494][993]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.50.53:111][  6]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.30-01.50.53:113][  6]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 9:50:53 pm)
+[2015.07.30-01.50.53:121][  6]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.30-01.50.53:275][  6]LogPlayLevel: PIE: StaticDuplicateObject took: (0.153855s)
+[2015.07.30-01.50.53:276][  6]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.30-01.50.53:279][  6]LogPlayLevel: PIE: World Init took: (0.003905s)
+[2015.07.30-01.50.53:280][  6]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.159326s)
+[2015.07.30-01.50.53:381][  6]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.30-01.50.53:406][  6]LogAudio:Warning: CreateMasteringVoice error: Unhandled error code -2004287465
+[2015.07.30-01.50.53:406][  6]LogInit:Warning: Failed to create the mastering voice for XAudio2
+[2015.07.30-01.50.53:630][  6]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.30-01.50.53:654][  6]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 0) at 2015.07.30-11.50.53
+[2015.07.30-01.50.53:654][  6]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-01.50.53:654][  6]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-01.50.53:655][  6]LogWorld: Bringing up level for play took: 0.022345
+[2015.07.30-01.50.53:660][  6]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 1.315
+[2015.07.30-01.51.00:884][ 83]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000089CBD2DEE0
+[2015.07.30-01.51.02:491][ 92]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.30-01.51.02:491][ 92]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 9:51:02 pm)
+[2015.07.30-01.51.02:492][ 92]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.30-01.51.02:619][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.126802s)
+[2015.07.30-01.51.02:673][ 92]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.30-01.51.02:686][ 92]LogPlayLevel: PIE: World Init took: (0.067176s)
+[2015.07.30-01.51.02:691][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.198619s)
+[2015.07.30-01.51.02:968][ 92]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.30-01.51.02:983][ 92]LogInit: FAudioDevice initialized.
+[2015.07.30-01.51.02:991][ 92]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.51.03:083][ 92]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.30-01.51.03:121][ 92]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 0) at 2015.07.30-11.51.03
+[2015.07.30-01.51.03:121][ 92]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-01.51.03:122][ 92]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-01.51.03:123][ 92]LogWorld: Bringing up level for play took: 0.034217
+[2015.07.30-01.51.03:166][ 92]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 0.822
+[2015.07.30-01.51.15:175][173]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000089CA23BCE0
+[2015.07.30-01.51.23:305][246]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.51.23:530][246]LogSavePackage: Save=35.977478ms
+[2015.07.30-01.51.23:530][246]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/BPA_Cola5B216F064B87699F330FE68B4637C662.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Items/BPA_Cola.uasset'
+[2015.07.30-01.51.28:604][294]LogD3D11RHI: InitD3DDevice
+[2015.07.30-01.51.42:693][294]LogSavePackage: Save=13664.655273ms
+[2015.07.30-01.51.42:693][294]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/LevelTest_Test014386440646362A75C527EB8CCA70E22F.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Maps/LevelTest_Test01.umap'
+[2015.07.30-01.51.43:091][294]LogFileHelpers: Saving map 'LevelTest_Test01' took 14.463
+[2015.07.30-01.51.44:890][314]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000899AC279C0
+[2015.07.30-01.51.45:796][315]Cmd: QUIT_EDITOR
+[2015.07.30-01.51.46:400][315]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.30-01.51.46:400][315]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.30-01.51.46:631][315]LogExit: Preparing to exit.
+[2015.07.30-01.51.47:718][315]LogExit: Editor shut down
+[2015.07.30-01.51.47:719][315]LogExit: Transaction tracking system shut down
+[2015.07.30-01.51.47:722][315]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000898AC72700
+[2015.07.30-01.51.47:723][315]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000898C4DF9C0
+[2015.07.30-01.51.47:723][315]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000089C3906AC0
+[2015.07.30-01.51.47:723][315]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000898AE02C00
+[2015.07.30-01.51.47:724][315]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000089C38AB920
+[2015.07.30-01.51.48:438][315]LogExit: Object subsystem successfully closed.
+[2015.07.30-01.51.48:563][315]LogD3D11RHI: Shutdown
+[2015.07.30-01.51.48:563][315]LogD3D11RHI: CleanupD3DDevice
+[2015.07.30-01.51.48:801][315]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.07.30-01.51.49:119][315]LogModuleManager: Shutting down and abandoning module MaterialEditor (191)
+[2015.07.30-01.51.49:119][315]LogModuleManager: Shutting down and abandoning module TextureEditor (190)
+[2015.07.30-01.51.49:119][315]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (189)
+[2015.07.30-01.51.49:119][315]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.07.30-01.51.49:119][315]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.07.30-01.51.49:119][315]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.07.30-01.51.49:119][315]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.07.30-01.51.49:119][315]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.07.30-01.51.49:120][315]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.07.30-01.51.49:120][315]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.07.30-01.51.49:120][315]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.07.30-01.51.49:120][315]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.07.30-01.51.49:120][315]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.07.30-01.51.49:121][315]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.07.30-01.51.49:121][315]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.07.30-01.51.49:121][315]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.07.30-01.51.49:121][315]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.07.30-01.51.49:121][315]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.07.30-01.51.49:121][315]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.07.30-01.51.49:121][315]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.07.30-01.51.49:121][315]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.07.30-01.51.49:121][315]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.07.30-01.51.49:121][315]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.07.30-01.51.49:121][315]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.07.30-01.51.49:121][315]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.07.30-01.51.49:122][315]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.07.30-01.51.49:122][315]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.07.30-01.51.49:122][315]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.07.30-01.51.49:122][315]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.07.30-01.51.49:947][315]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.07.30-01.51.49:947][315]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.07.30-01.51.49:947][315]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.07.30-01.51.49:947][315]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.07.30-01.51.49:947][315]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.07.30-01.51.49:947][315]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.07.30-01.51.49:948][315]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.07.30-01.51.49:948][315]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.07.30-01.51.49:948][315]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.07.30-01.51.49:948][315]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.07.30-01.51.49:948][315]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.07.30-01.51.49:948][315]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.07.30-01.51.49:948][315]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.07.30-01.51.49:948][315]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.07.30-01.51.49:948][315]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.07.30-01.51.49:948][315]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.07.30-01.51.49:949][315]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.07.30-01.51.49:949][315]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.07.30-01.51.49:949][315]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.07.30-01.51.49:949][315]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.07.30-01.51.49:949][315]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.07.30-01.51.49:949][315]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.07.30-01.51.49:950][315]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.07.30-01.51.49:950][315]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.07.30-01.51.49:950][315]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.07.30-01.51.49:950][315]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.07.30-01.51.49:950][315]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.07.30-01.51.49:950][315]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.07.30-01.51.49:950][315]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.07.30-01.51.49:950][315]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.07.30-01.51.49:950][315]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.07.30-01.51.49:951][315]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.07.30-01.51.50:028][315]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.07.30-01.51.50:028][315]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.07.30-01.51.50:028][315]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.07.30-01.51.50:028][315]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.07.30-01.51.50:028][315]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.07.30-01.51.50:028][315]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.07.30-01.51.50:028][315]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.07.30-01.51.50:028][315]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.07.30-01.51.50:028][315]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.07.30-01.51.50:028][315]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.07.30-01.51.50:028][315]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.07.30-01.51.50:028][315]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.07.30-01.51.50:028][315]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.07.30-01.51.50:028][315]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.07.30-01.51.50:028][315]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.07.30-01.51.50:028][315]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.07.30-01.51.50:028][315]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.07.30-01.51.50:028][315]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.07.30-01.51.50:080][315]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.07.30-01.51.50:080][315]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.07.30-01.51.50:080][315]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.07.30-01.51.50:080][315]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.07.30-01.51.50:080][315]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.07.30-01.51.50:080][315]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.07.30-01.51.50:080][315]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.07.30-01.51.50:100][315]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.07.30-01.51.50:100][315]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.07.30-01.51.50:100][315]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.07.30-01.51.50:100][315]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.07.30-01.51.50:100][315]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.07.30-01.51.50:100][315]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.07.30-01.51.50:100][315]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.07.30-01.51.50:100][315]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.07.30-01.51.50:101][315]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.07.30-01.51.50:101][315]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.07.30-01.51.50:101][315]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.07.30-01.51.50:101][315]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.07.30-01.51.50:101][315]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.07.30-01.51.50:101][315]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.07.30-01.51.50:101][315]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.07.30-01.51.50:101][315]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.07.30-01.51.50:101][315]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.07.30-01.51.50:101][315]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.07.30-01.51.50:101][315]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.07.30-01.51.50:101][315]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.07.30-01.51.50:102][315]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.07.30-01.51.50:102][315]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.07.30-01.51.50:102][315]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.07.30-01.51.50:103][315]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.07.30-01.51.50:106][315]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.07.30-01.51.50:106][315]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.07.30-01.51.50:207][315]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.07.30-01.51.50:207][315]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.07.30-01.51.50:219][315]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.07.30-01.51.50:219][315]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.07.30-01.51.50:224][315]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.07.30-01.51.50:224][315]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.07.30-01.51.50:224][315]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.07.30-01.51.50:224][315]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.07.30-01.51.50:224][315]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.07.30-01.51.50:224][315]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.07.30-01.51.50:224][315]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.07.30-01.51.50:224][315]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.07.30-01.51.50:224][315]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.07.30-01.51.50:225][315]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.07.30-01.51.50:225][315]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.07.30-01.51.50:225][315]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.07.30-01.51.50:225][315]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.07.30-01.51.50:231][315]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.07.30-01.51.50:231][315]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.07.30-01.51.50:232][315]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.07.30-01.51.50:232][315]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.07.30-01.51.50:232][315]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.07.30-01.51.50:232][315]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.07.30-01.51.50:232][315]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.07.30-01.51.50:232][315]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.07.30-01.51.50:232][315]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.07.30-01.51.50:232][315]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.07.30-01.51.50:244][315]LogDerivedDataCache: Shutdown
+[2015.07.30-01.51.50:244][315]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.07.30-01.51.50:244][315]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.07.30-01.51.50:244][315]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.07.30-01.51.50:244][315]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.07.30-01.51.50:244][315]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.07.30-01.51.50:244][315]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.07.30-01.51.50:244][315]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.07.30-01.51.50:244][315]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.07.30-01.51.50:244][315]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.07.30-01.51.50:244][315]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.07.30-01.51.50:244][315]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.07.30-01.51.50:244][315]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.07.30-01.51.50:244][315]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.07.30-01.51.50:244][315]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.07.30-01.51.50:244][315]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.07.30-01.51.50:244][315]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.07.30-01.51.50:244][315]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.07.30-01.51.50:245][315]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.07.30-01.51.50:245][315]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.07.30-01.51.50:245][315]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.07.30-01.51.50:245][315]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.07.30-01.51.50:245][315]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.07.30-01.51.50:245][315]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.07.30-01.51.50:245][315]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.07.30-01.51.50:245][315]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.07.30-01.51.50:245][315]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.07.30-01.51.50:245][315]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.07.30-01.51.50:245][315]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.07.30-01.51.50:245][315]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.07.30-01.51.50:245][315]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.07.30-01.51.50:245][315]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.07.30-01.51.50:245][315]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.07.30-01.51.50:245][315]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.07.30-01.51.50:245][315]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.07.30-01.51.50:245][315]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.07.30-01.51.50:245][315]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.07.30-01.51.50:246][315]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.07.30-01.51.50:246][315]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.07.30-01.51.50:246][315]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.07.30-01.51.50:246][315]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.07.30-01.51.50:246][315]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.07.30-01.51.50:252][315]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.07.30-01.51.50:252][315]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.07.30-01.51.50:252][315]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.07.30-01.51.50:252][315]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.07.30-01.51.50:252][315]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.07.30-01.51.50:252][315]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.07.30-01.51.50:252][315]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.07.30-01.51.50:253][315]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.07.30-01.51.50:253][315]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.07.30-01.51.50:254][315]LogExit: Exiting.
+[2015.07.30-01.51.50:323][315]Log file closed, 07/30/15 11:51:50

@@ -1,0 +1,264 @@
+﻿[2015.07.30-05.57.13:101][  0]Log file open, 07/30/15 15:57:13
+[2015.07.30-05.57.13:101][  0]LogInit:Display: Running engine for game: TheEnding
+[2015.07.30-05.57.13:101][  0]LogInit:Display: RandInit(-2050256001) SRandInit(-2050256001).
+[2015.07.30-05.57.13:101][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.07.30-05.57.13:101][  0]LogStats: Stats thread started
+[2015.07.30-05.57.13:101][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.07.30-05.57.13:101][  0]LogInit: API Version: 2579680
+[2015.07.30-05.57.13:101][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.07.30-05.57.13:101][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.30-05.57.13:101][  0]LogInit: Build Configuration: Development
+[2015.07.30-05.57.13:101][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.30-05.57.13:101][  0]LogInit: Command line:  
+[2015.07.30-05.57.13:101][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.30-05.57.13:101][  0]LogInit: Rocket: 1
+[2015.07.30-05.57.13:122][  0]LogInit: Using libcurl 7.41.0
+[2015.07.30-05.57.13:122][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.30-05.57.13:122][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.30-05.57.13:122][  0]LogInit:  - other features:
+[2015.07.30-05.57.13:122][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.30-05.57.13:122][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.30-05.57.13:122][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.30-05.57.13:122][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.30-05.57.13:122][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.30-05.57.13:123][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.30-05.57.13:123][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.30-05.57.13:123][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.30-05.57.13:123][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.30-05.57.13:123][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.30-05.57.13:246][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.30-05.57.13:303][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.30-05.57.13:317][  0]LogInit: Object subsystem initialized
+[2015.07.30-05.57.13:319][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.30-05.57.13:319][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.30-05.57.13:319][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.30-05.57.13:319][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.30-05.57.13:319][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.30-05.57.13:319][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.30-05.57.13:319][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.30-05.57.13:319][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.30-05.57.13:338][  0]LogInit: Computer: TAB-1090
+[2015.07.30-05.57.13:338][  0]LogInit: User: 076271
+[2015.07.30-05.57.13:338][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.07.30-05.57.13:338][  0]LogInit: High frequency timer resolution =1.558892 MHz
+[2015.07.30-05.57.13:338][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.07.30-05.57.13:338][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.30-05.57.13:338][  0]LogMemory: Process Physical Memory: 49.60 MB used, 49.60 MB peak
+[2015.07.30-05.57.13:338][  0]LogMemory: Process Virtual Memory: 22.24 MB used, 22.24 MB peak
+[2015.07.30-05.57.13:338][  0]LogMemory: Physical Memory: 2637.20 MB used, 8097.05 MB total
+[2015.07.30-05.57.13:338][  0]LogMemory: Virtual Memory: 294.59 MB used, 134217728.00 MB total
+[2015.07.30-05.57.13:435][  0]LogTextLocalizationManager: The requested culture ('en_AU') has no localization data; parent culture's ('en') localization data will be used.
+[2015.07.30-05.57.13:789][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.30-05.57.14:218][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2015.07.30-05.57.14:218][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
+[2015.07.30-05.57.14:220][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.30-05.57.14:220][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.07.30-05.57.14:220][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.30-05.57.14:226][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.57.14:226][  0]LogD3D11RHI: !Direct3DDevice
+[2015.07.30-05.57.14:226][  0]LogRHI: Texture pool is 627 MB (70% of 896 MB)
+[2015.07.30-05.57.14:235][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.30-05.57.14:242][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.30-05.57.16:141][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.30-05.57.16:158][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.30-05.57.16:176][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.30-05.57.16:193][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.30-05.57.16:212][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.30-05.57.16:230][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.30-05.57.16:330][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.30-05.57.16:374][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.30-05.57.16:407][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.30-05.57.16:433][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.30-05.57.16:454][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.30-05.57.16:474][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.30-05.57.16:492][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.07.30-05.57.16:543][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.30-05.57.16:558][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.30-05.57.16:575][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.30-05.57.16:603][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.30-05.57.16:603][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.30-05.57.17:140][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.30-05.57.17:218][  0]LogDerivedDataCache: Loaded boot cache 0.08s 53MB C:/Users/076271/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.30-05.57.17:218][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/076271/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.30-05.57.17:218][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.30-05.57.17:218][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.30-05.57.17:218][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.30-05.57.17:218][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.30-05.57.17:662][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.30-05.57.17:676][  0]LogDerivedDataCache: Using Local data cache path C:/Users/076271/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.30-05.57.18:015][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.30-05.57.18:134][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.30-05.57.18:135][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.30-05.57.18:224][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.30-05.57.18:225][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.30-05.57.19:068][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.30-05.57.20:505][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.30-05.57.21:091][  0]SourceControl: Info Source control is disabled
+[2015.07.30-05.57.21:107][  0]SourceControl: Info Source control is disabled
+[2015.07.30-05.57.21:118][  0]SourceControl: Info Source control is disabled
+[2015.07.30-05.57.21:130][  0]SourceControl: Info Source control is disabled
+[2015.07.30-05.57.21:374][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.07.30-05.57.21:374][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.07.30-05.57.21:558][  0]LogEngine: Initializing Engine...
+[2015.07.30-05.57.21:561][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.30-05.57.21:563][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 100
+[2015.07.30-05.57.21:890][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.30-05.57.21:904][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.30-05.57.22:261][  0]LogInit: FAudioDevice initialized.
+[2015.07.30-05.57.22:306][  0]LogDerivedDataCache: Saved boot cache 0.04s 53MB C:/Users/076271/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.30-05.57.22:313][  0]LogInit: Texture streaming: Disabled
+[2015.07.30-05.57.22:337][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.30-05.57.22:337][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.07.30-05.57.22:337][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 76c04c81496839754ea32aa1f64fd1dc|0cceb55ada7a48d4a2aa42507710ea50|1bc6e7bf-6992-4f6c-b1ed-24e2f407b47a
+[2015.07.30-05.57.22:337][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.30-05.57.22:374][  0]LogInit: Transaction tracking system initialized
+[2015.07.30-05.57.22:665][  0]BlueprintLog: New page: Editor Load
+[2015.07.30-05.57.22:702][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2015.07.30-05.57.22:703][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.30-05.57.24:931][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.30-05.57.24:933][  0]LogConsoleResponse:Display: 
+[2015.07.30-05.57.25:321][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.30-05.57.25:864][  0]SourceControl: Info Source control is disabled
+[2015.07.30-05.57.25:865][  0]Cmd: MAP LOAD FILE="../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Maps/LevelTest_Test01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.30-05.57.25:875][  0]LightingResults: New page: Lighting Build
+[2015.07.30-05.57.26:057][  0]MapCheck: New page: Map Check
+[2015.07.30-05.57.26:057][  0]LightingResults: New page: Lighting Build
+[2015.07.30-05.57.26:112][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0ED29CF40
+[2015.07.30-05.57.27:281][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem_C:ItemData'. Unknown structure.
+[2015.07.30-05.57.27:281][  0]LogClass:Warning: Property ItemData of BPA_MasterItem_C struct type mismatch STRUCT_REINST_BPS_ItemData_26/FallbackStruct for package:  ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Blueprints/BPA_MasterItem.uasset. If that property got renamed, add an ActiveStructRedirect.
+[2015.07.30-05.57.27:329][  0]LogClass:Warning: Property ItemData of BPA_MasterItem_C struct type mismatch FallbackStruct/BPS_ItemData for package:  FObjectReader. If that property got renamed, add an ActiveStructRedirect.
+[2015.07.30-05.57.30:168][  0]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.30-05.57.30:476][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.30-05.57.36:384][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.30-05.57.36:523][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 137.68ms to complete.
+[2015.07.30-05.57.36:523][  0]LogFileHelpers: Loading map 'LevelTest_Test01' took 10.659
+[2015.07.30-05.57.36:737][  0]LogCollectionManager: Loaded 0 collections in 0.001891 seconds
+[2015.07.30-05.57.36:747][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 1792 classes and 301 folders.
+[2015.07.30-05.57.36:797][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.07.30-05.57.36:827][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.07.30-05.57.36:843][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2015.07.30-05.57.36:880][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.30-05.57.36:882][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.57.36:887][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.30-05.57.36:909][  0]LogLoad: Full Startup: 25.98 seconds (BP compile: 0.99 seconds)
+[2015.07.30-05.57.37:327][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.30-05.57.37:477][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.07.30-05.57.37:659][  0]LogRenderer: Reallocating scene render targets to support 776x376 (Frame:2).
+[2015.07.30-05.57.39:110][  2]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.57.40:529][  8]LogAssetRegistry: Asset discovery search completed in 17.8376 seconds
+[2015.07.30-05.57.43:918][ 83]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.57.52:393][230]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.57.56:290][279]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.57.56:492][279]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.30-05.57.56:634][279]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.30-05.58.23:969][259]LogRenderer: Reallocating scene render targets to support 808x464 (Frame:479).
+[2015.07.30-05.58.41:587][572]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.45:604][694]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.47:636][732]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.58.50:391][776]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.59.15:679][397]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.59.17:231][444]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.59.19:179][444]LightingResults: New page: Lighting Build
+[2015.07.30-05.59.19:186][444]MapCheck: New page: Map Check
+[2015.07.30-05.59.19:186][444]LightingResults: New page: Lighting Build
+[2015.07.30-05.59.19:250][444]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0E42BF7E0
+[2015.07.30-05.59.19:251][444]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0E39D1440
+[2015.07.30-05.59.19:254][444]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0A9B1F100
+[2015.07.30-05.59.19:637][444]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.30-05.59.19:668][444]LoadErrors: New page: New Map
+[2015.07.30-05.59.20:284][456]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.59.37:527][782]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.59.39:672][829]LogD3D11RHI: InitD3DDevice
+[2015.07.30-05.59.40:989][855]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.07.30-05.59.59:805][187]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.00.03:749][239]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.30-06.00.03:781][239]PIE: New page: PIE session: Untitled_1 (31 Jul 2015 2:00:03 am)
+[2015.07.30-06.00.03:782][239]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2015.07.30-06.00.03:785][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002697s)
+[2015.07.30-06.00.03:786][239]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.30-06.00.03:787][239]LogPlayLevel: PIE: World Init took: (0.001668s)
+[2015.07.30-06.00.03:787][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.NewWorld to /Temp/UEDPIE_0_Untitled_1.NewWorld (0.004902s)
+[2015.07.30-06.00.03:967][239]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.30-06.00.03:999][239]LogAudio:Warning: CreateMasteringVoice error: Unhandled error code -2004287465
+[2015.07.30-06.00.03:999][239]LogInit:Warning: Failed to create the mastering voice for XAudio2
+[2015.07.30-06.00.04:040][239]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.00.06:279][239]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.30-06.00.06:290][239]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.NewWorld up for play (max tick rate 60) at 2015.07.30-16.00.06
+[2015.07.30-06.00.06:290][239]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.NewWorld:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-06.00.06:292][239]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.NewWorld:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-06.00.06:292][239]LogWorld: Bringing up level for play took: 0.004510
+[2015.07.30-06.00.06:451][239]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 2.253
+[2015.07.30-06.00.10:023][299]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0DA106A20
+[2015.07.30-06.00.11:800][329]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.07.30-06.00.40:295][878]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.00.56:151][200]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.01.25:504][664]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.01.39:716][922]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.07.30-06.01.40:516][937]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.07.30-06.02.06:210][358]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.02.15:418][490]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.30-06.02.15:418][490]PIE: New page: PIE session: Untitled_1 (31 Jul 2015 2:02:15 am)
+[2015.07.30-06.02.15:420][490]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2015.07.30-06.02.15:426][490]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006527s)
+[2015.07.30-06.02.15:428][490]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.30-06.02.15:430][490]LogPlayLevel: PIE: World Init took: (0.003610s)
+[2015.07.30-06.02.15:430][490]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.NewWorld to /Temp/UEDPIE_0_Untitled_1.NewWorld (0.010715s)
+[2015.07.30-06.02.15:431][490]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2015.07.30-06.02.15:670][490]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.30-06.02.15:685][490]LogInit: FAudioDevice initialized.
+[2015.07.30-06.02.15:691][490]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.02.15:733][490]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.30-06.02.15:737][490]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.NewWorld up for play (max tick rate 60) at 2015.07.30-16.02.15
+[2015.07.30-06.02.15:737][490]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.NewWorld:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-06.02.15:738][490]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.NewWorld:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-06.02.15:738][490]LogWorld: Bringing up level for play took: 0.002961
+[2015.07.30-06.02.15:868][490]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.33
+[2015.07.30-06.02.23:349][591]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.23:349][591]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.23:412][592]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.23:412][592]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.23:432][593]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.23:432][593]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.23:455][594]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.23:455][594]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.23:547][595]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.23:548][595]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.23:682][596]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.23:682][596]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.23:703][597]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.23:703][597]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.23:724][598]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.23:724][598]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.23:740][599]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.23:740][599]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.23:761][600]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.23:761][600]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.23:829][601]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.23:829][601]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.24:003][602]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.24:004][602]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.24:772][613]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.24:773][613]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.24:850][614]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.24:850][614]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.24:873][615]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.24:873][615]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.24:896][616]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.24:896][616]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.25:029][617]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.25:030][617]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.25:165][618]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.25:165][618]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.25:337][619]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.25:337][619]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.30-06.02.34:177][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0A98191C0
+[2015.07.30-06.02.38:604][800]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.02.54:208][997]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.02.54:257][997]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.02.54:745][997]LogMetaData: Removing '/Game/FirstPersonBP/LevelActors/BPA_Sky.SKEL_BPA_Sky_C' ref from Metadata '/Game/FirstPersonBP/LevelActors/BP_Sky_Sphere.PackageMetaData'
+[2015.07.30-06.02.54:745][997]LogMetaData: Removing '/Game/FirstPersonBP/LevelActors/BPA_Sky.BPA_Sky_C' ref from Metadata '/Game/FirstPersonBP/LevelActors/BP_Sky_Sphere.PackageMetaData'
+[2015.07.30-06.02.54:772][997]LogD3D11RHI: InitD3DDevice
+[2015.07.30-06.02.55:411][997]LogSavePackage: Save=586.396606ms
+[2015.07.30-06.02.55:411][997]LogSavePackage: Moving '../../../../../../Users

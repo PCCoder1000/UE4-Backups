@@ -1,0 +1,1490 @@
+﻿[2015.07.29-07.09.46:362][  0]Log file open, 07/29/15 17:09:46
+[2015.07.29-07.09.46:362][  0]LogInit:Display: Running engine for game: TheEnding
+[2015.07.29-07.09.46:362][  0]LogInit:Display: RandInit(303642657) SRandInit(303642657).
+[2015.07.29-07.09.46:362][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.07.29-07.09.46:362][  0]LogStats: Stats thread started
+[2015.07.29-07.09.46:362][  0]LogInit: Version: 4.8.2-2614606+++depot+UE4-Releases+4.8
+[2015.07.29-07.09.46:362][  0]LogInit: API Version: 2579680
+[2015.07.29-07.09.46:362][  0]LogInit: Compiled (64-bit): Jul  8 2015 23:43:41
+[2015.07.29-07.09.46:362][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.29-07.09.46:362][  0]LogInit: Build Configuration: Development
+[2015.07.29-07.09.46:362][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.29-07.09.46:362][  0]LogInit: Command line:  
+[2015.07.29-07.09.46:362][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.29-07.09.46:362][  0]LogInit: Rocket: 1
+[2015.07.29-07.09.46:376][  0]LogInit: Using libcurl 7.41.0
+[2015.07.29-07.09.46:376][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.29-07.09.46:376][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.29-07.09.46:376][  0]LogInit:  - other features:
+[2015.07.29-07.09.46:376][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.29-07.09.46:376][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.29-07.09.46:376][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.29-07.09.46:376][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.29-07.09.46:376][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.29-07.09.46:376][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.29-07.09.46:376][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.29-07.09.46:376][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.29-07.09.46:376][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.29-07.09.46:376][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.29-07.09.46:387][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.29-07.09.46:401][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.29-07.09.46:410][  0]LogInit: Object subsystem initialized
+[2015.07.29-07.09.46:411][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.29-07.09.46:412][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.29-07.09.46:412][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.29-07.09.46:412][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.29-07.09.46:412][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.29-07.09.46:412][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.29-07.09.46:412][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.29-07.09.46:412][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.29-07.09.46:422][  0]LogInit: Computer: TAB-1090
+[2015.07.29-07.09.46:422][  0]LogInit: User: 076271
+[2015.07.29-07.09.46:422][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.07.29-07.09.46:422][  0]LogInit: High frequency timer resolution =1.558894 MHz
+[2015.07.29-07.09.46:422][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.07.29-07.09.46:422][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.29-07.09.46:422][  0]LogMemory: Process Physical Memory: 49.57 MB used, 49.57 MB peak
+[2015.07.29-07.09.46:422][  0]LogMemory: Process Virtual Memory: 22.25 MB used, 23.16 MB peak
+[2015.07.29-07.09.46:423][  0]LogMemory: Physical Memory: 2590.12 MB used, 8097.05 MB total
+[2015.07.29-07.09.46:423][  0]LogMemory: Virtual Memory: 290.65 MB used, 134217728.00 MB total
+[2015.07.29-07.09.46:457][  0]LogTextLocalizationManager: The requested culture ('en_AU') has no localization data; parent culture's ('en') localization data will be used.
+[2015.07.29-07.09.46:871][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.29-07.09.47:629][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2015.07.29-07.09.47:629][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
+[2015.07.29-07.09.47:631][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.29-07.09.47:631][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.07.29-07.09.47:631][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.29-07.09.47:636][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.09.47:636][  0]LogD3D11RHI: !Direct3DDevice
+[2015.07.29-07.09.47:636][  0]LogRHI: Texture pool is 627 MB (70% of 896 MB)
+[2015.07.29-07.09.47:643][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.29-07.09.47:647][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.29-07.09.49:399][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.29-07.09.49:415][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.29-07.09.49:431][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.29-07.09.49:445][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.29-07.09.49:462][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.29-07.09.49:475][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.29-07.09.49:488][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.29-07.09.49:502][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.29-07.09.49:519][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.29-07.09.49:595][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.29-07.09.49:640][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.29-07.09.49:669][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.29-07.09.49:690][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.07.29-07.09.49:732][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.29-07.09.49:746][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.29-07.09.49:762][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.29-07.09.49:779][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.29-07.09.49:779][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.29-07.09.49:992][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.29-07.09.50:075][  0]LogDerivedDataCache: Loaded boot cache 0.08s 53MB C:/Users/076271/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.29-07.09.50:075][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/076271/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.29-07.09.50:075][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.29-07.09.50:075][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.29-07.09.50:075][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.29-07.09.50:075][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.29-07.09.50:284][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.29-07.09.50:296][  0]LogDerivedDataCache: Using Local data cache path C:/Users/076271/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.29-07.09.50:574][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.29-07.09.50:686][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.29-07.09.50:686][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.29-07.09.50:715][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.29-07.09.50:716][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.29-07.09.51:665][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.29-07.09.53:579][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.29-07.09.54:377][  0]SourceControl: Info Source control is disabled
+[2015.07.29-07.09.54:397][  0]SourceControl: Info Source control is disabled
+[2015.07.29-07.09.54:407][  0]SourceControl: Info Source control is disabled
+[2015.07.29-07.09.54:416][  0]SourceControl: Info Source control is disabled
+[2015.07.29-07.09.54:658][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.07.29-07.09.54:658][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.07.29-07.09.54:815][  0]LogEngine: Initializing Engine...
+[2015.07.29-07.09.54:818][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.29-07.09.54:820][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 100
+[2015.07.29-07.09.55:017][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.29-07.09.55:021][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.09.55:374][  0]LogInit: FAudioDevice initialized.
+[2015.07.29-07.09.55:409][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/076271/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.29-07.09.55:414][  0]LogInit: Texture streaming: Disabled
+[2015.07.29-07.09.55:441][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.29-07.09.55:441][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.2-2614606+++depot+UE4-Releases+4.8
+[2015.07.29-07.09.55:441][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 76c04c81496839754ea32aa1f64fd1dc|0cceb55ada7a48d4a2aa42507710ea50|1bc6e7bf-6992-4f6c-b1ed-24e2f407b47a
+[2015.07.29-07.09.55:441][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.29-07.09.55:476][  0]LogInit: Transaction tracking system initialized
+[2015.07.29-07.09.55:726][  0]BlueprintLog: New page: Editor Load
+[2015.07.29-07.09.55:779][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2015.07.29-07.09.55:780][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.29-07.09.58:453][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.29-07.09.58:454][  0]LogConsoleResponse:Display: 
+[2015.07.29-07.09.58:840][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.29-07.09.59:432][  0]SourceControl: Info Source control is disabled
+[2015.07.29-07.09.59:432][  0]Cmd: MAP LOAD FILE="../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Maps/LevelTest_Test01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.29-07.09.59:433][  0]LightingResults: New page: Lighting Build
+[2015.07.29-07.09.59:455][  0]MapCheck: New page: Map Check
+[2015.07.29-07.09.59:455][  0]LightingResults: New page: Lighting Build
+[2015.07.29-07.09.59:491][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FC938ECB80
+[2015.07.29-07.10.01:170][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem_C:ItemData'. Unknown structure.
+[2015.07.29-07.10.01:171][  0]LogClass:Warning: Property ItemData of BPA_MasterItem_C struct type mismatch STRUCT_REINST_BPS_ItemData_26/FallbackStruct for package:  ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Blueprints/BPA_MasterItem.uasset. If that property got renamed, add an ActiveStructRedirect.
+[2015.07.29-07.10.01:438][  0]LogClass:Warning: Property ItemData of BPA_MasterItem_C struct type mismatch FallbackStruct/BPS_ItemData for package:  FObjectReader. If that property got renamed, add an ActiveStructRedirect.
+[2015.07.29-07.10.05:159][  0]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.10.05:599][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.29-07.10.12:515][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.29-07.10.12:606][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 90.609ms to complete.
+[2015.07.29-07.10.12:606][  0]LogFileHelpers: Loading map 'LevelTest_Test01' took 13.173
+[2015.07.29-07.10.12:960][  0]LogCollectionManager: Loaded 0 collections in 0.004581 seconds
+[2015.07.29-07.10.12:976][  0]LogContentBrowser: Native class hierarchy populated in 0.0163 seconds. Added 1792 classes and 301 folders.
+[2015.07.29-07.10.13:230][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0113 seconds. Added 0 classes and 0 folders.
+[2015.07.29-07.10.13:315][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2015.07.29-07.10.13:346][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2015.07.29-07.10.13:394][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.29-07.10.13:395][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.10.13:402][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.29-07.10.13:428][  0]LogLoad: Full Startup: 28.94 seconds (BP compile: 1.23 seconds)
+[2015.07.29-07.10.13:837][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.29-07.10.14:032][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.07.29-07.10.14:385][  0]LogRenderer: Reallocating scene render targets to support 776x376 (Frame:2).
+[2015.07.29-07.10.15:890][  2]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.10.18:251][  9]LogAssetRegistry: Asset discovery search completed in 22.4826 seconds
+[2015.07.29-07.10.34:250][119]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.10.41:292][257]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.10.41:359][257]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.29-07.10.41:569][257]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.29-07.10.51:118][570]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.10.51:121][570]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:10:51 am)
+[2015.07.29-07.10.51:121][570]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.10.51:166][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044830s)
+[2015.07.29-07.10.51:168][570]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.10.51:170][570]LogPlayLevel: PIE: World Init took: (0.003441s)
+[2015.07.29-07.10.51:170][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.048661s)
+[2015.07.29-07.10.51:474][570]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.10.51:483][570]LogInit: FAudioDevice initialized.
+[2015.07.29-07.10.51:488][570]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.10.51:801][570]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.10.51:817][570]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.10.51
+[2015.07.29-07.10.51:817][570]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.10.51:818][570]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.10.51:818][570]LogWorld: Bringing up level for play took: 0.015983
+[2015.07.29-07.10.51:840][570]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 0.433
+[2015.07.29-07.10.53:016][579]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.53:017][579]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.53:041][580]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.53:041][580]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.53:062][581]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.53:063][581]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.53:082][582]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.53:083][582]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.53:154][583]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.53:155][583]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.53:254][584]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.53:254][584]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.53:284][585]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.53:284][585]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.53:389][586]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.53:390][586]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.53:461][587]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.53:461][587]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.53:488][588]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.53:488][588]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.53:513][589]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.53:513][589]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.53:673][590]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.53:673][590]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.56:839][643]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.56:839][643]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.56:865][644]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.56:865][644]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.56:890][645]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.56:890][645]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.56:997][646]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.56:998][646]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:083][647]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:083][647]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:110][648]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:110][648]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:133][649]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:133][649]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:168][650]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:168][650]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:260][651]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:261][651]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:292][652]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:292][652]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:376][653]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:376][653]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:417][654]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:417][654]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:519][655]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:520][655]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:571][656]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:571][656]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:597][657]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:597][657]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:627][658]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.57:627][658]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.58:635][672]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.58:635][672]LogArray:Warning: Attempted to remove an item from an invalid index from array Inventory [-1/0]!
+[2015.07.29-07.10.58:646][672]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.58:646][672]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.58:679][673]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.10.58:679][673]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.01:445][714]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.01:445][714]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.01:477][715]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.01:477][715]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.01:499][716]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.01:499][716]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.01:592][717]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.01:593][717]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.01:768][718]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.01:768][718]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.01:799][719]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.01:799][719]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.01:947][720]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.01:947][720]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.01:977][721]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.01:977][721]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.02:136][722]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.02:137][722]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.02:214][723]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.02:215][723]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.02:249][724]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.02:249][724]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.02:375][725]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.02:376][725]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.02:406][726]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.02:406][726]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.02:436][727]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.02:436][727]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.04:029][751]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.04:030][751]LogArray:Warning: Attempted to remove an item from an invalid index from array Inventory [-1/0]!
+[2015.07.29-07.11.04:042][751]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.04:042][751]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.04:068][752]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.04:068][752]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.04:088][753]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.04:088][753]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.04:111][754]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.04:111][754]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.04:185][755]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.04:186][755]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:181][767]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:181][767]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:207][768]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:207][768]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:260][769]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:260][769]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:357][770]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:359][770]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:510][771]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:512][771]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:627][772]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:628][772]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:653][773]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:654][773]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:678][774]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:678][774]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:699][775]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:699][775]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:774][776]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:775][776]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:830][777]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:830][777]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:900][778]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.05:901][778]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.06:073][779]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.06:073][779]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.06:102][780]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.06:102][780]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.06:159][781]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.06:160][781]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.06:207][782]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.06:207][782]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.06:246][783]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.06:246][783]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-07.11.06:478][784]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCC762F380
+[2015.07.29-07.11.12:832][907]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.12.35:094][604]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.12.42:523][981]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.12.45:399][131]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.13.05:350][ 41]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.13.17:970][647]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.13.35:389][493]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.13.37:080][582]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.13.40:589][750]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.13.43:909][927]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.13.52:744][361]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.13.53:227][361]BlueprintEditorCompileResults: Info [0248.75] Compile of BPW_OnScreen successful! [in 482 ms]
+[2015.07.29-07.13.53:686][382]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.13.53:754][382]LogSavePackage: Save=22.292086ms
+[2015.07.29-07.13.53:754][382]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/BPW_OnScreenA4C0C5C740C508507343A6A6293D226E.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Widgets/BPW_OnScreen.uasset'
+[2015.07.29-07.13.54:956][439]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.13.54:956][439]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:13:54 am)
+[2015.07.29-07.13.54:956][439]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.13.54:996][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039781s)
+[2015.07.29-07.13.54:998][439]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.13.54:999][439]LogPlayLevel: PIE: World Init took: (0.002752s)
+[2015.07.29-07.13.54:999][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.043012s)
+[2015.07.29-07.13.55:171][439]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.13.55:200][439]LogInit: FAudioDevice initialized.
+[2015.07.29-07.13.55:212][439]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.13.55:256][439]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.13.55:275][439]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.13.55
+[2015.07.29-07.13.55:275][439]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.13.55:276][439]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.13.55:277][439]LogWorld: Bringing up level for play took: 0.018366
+[2015.07.29-07.13.55:298][439]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 -0.095
+[2015.07.29-07.13.58:980][500]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FC964A77E0
+[2015.07.29-07.14.01:422][592]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.14.15:770][288]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.14.23:010][485]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.14.25:781][629]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.14.26:261][641]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.14.31:496][818]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.14.31:801][826]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.14.37:757][ 64]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.14.47:114][454]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.14.47:768][454]BlueprintEditorCompileResults: Info [0303.30] Compile of BPW_OnScreen successful! [in 653 ms]
+[2015.07.29-07.14.48:230][468]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.14.48:317][468]LogSavePackage: Save=38.298946ms
+[2015.07.29-07.14.48:317][468]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/BPW_OnScreenCBFF141B4F5A1172E5E474B48102A401.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Widgets/BPW_OnScreen.uasset'
+[2015.07.29-07.14.52:952][570]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.15.35:799][418]LogEditorTransaction: Undo Move Node
+[2015.07.29-07.15.35:869][418]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.15.44:940][801]LogEditorTransaction: Undo Resize Node
+[2015.07.29-07.15.45:030][801]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.16.12:069][937]LogEditorTransaction: Undo Move Node
+[2015.07.29-07.16.12:173][937]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.16.42:955][162]BlueprintLog: New page: Compile BPC_Char
+[2015.07.29-07.16.43:662][162]BlueprintEditorCompileResults: Info [0419.21] Compile of BPC_Char successful! [in 707 ms]
+[2015.07.29-07.16.44:164][179]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.16.44:632][179]LogSavePackage: Save=428.775146ms
+[2015.07.29-07.16.44:632][179]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/BPC_CharEA0BE294464F65D537445E845EE4328D.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Blueprints/BPC_Char.uasset'
+[2015.07.29-07.16.45:153][191]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.16.45:153][191]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:16:45 am)
+[2015.07.29-07.16.45:154][191]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.16.45:200][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045923s)
+[2015.07.29-07.16.45:202][191]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.16.45:205][191]LogPlayLevel: PIE: World Init took: (0.005363s)
+[2015.07.29-07.16.45:206][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.051624s)
+[2015.07.29-07.16.45:332][191]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.16.45:358][191]LogAudio:Warning: CreateMasteringVoice error: Unhandled error code -2004287465
+[2015.07.29-07.16.45:358][191]LogInit:Warning: Failed to create the mastering voice for XAudio2
+[2015.07.29-07.16.45:380][191]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.16.45:438][191]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.16.45:460][191]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.16.45
+[2015.07.29-07.16.45:460][191]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.16.45:461][191]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.16.45:462][191]LogWorld: Bringing up level for play took: 0.021270
+[2015.07.29-07.16.45:531][191]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 0.161
+[2015.07.29-07.16.47:510][214]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCCB4BA660
+[2015.07.29-07.16.56:900][559]BlueprintLog: New page: Compile BPC_Char
+[2015.07.29-07.16.57:756][559]BlueprintEditorCompileResults: Info [0433.30] Compile of BPC_Char successful! [in 856 ms]
+[2015.07.29-07.16.58:412][574]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.16.58:826][574]LogSavePackage: Save=375.836334ms
+[2015.07.29-07.16.58:826][574]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/BPC_Char1EB89A144E985F594DBAD38768D10729.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Blueprints/BPC_Char.uasset'
+[2015.07.29-07.16.59:233][596]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.16.59:233][596]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:16:59 am)
+[2015.07.29-07.16.59:233][596]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.16.59:272][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038926s)
+[2015.07.29-07.16.59:280][596]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.16.59:283][596]LogPlayLevel: PIE: World Init took: (0.010468s)
+[2015.07.29-07.16.59:283][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.049836s)
+[2015.07.29-07.16.59:343][596]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.16.59:354][596]LogInit: FAudioDevice initialized.
+[2015.07.29-07.16.59:361][596]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.16.59:471][596]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.16.59:506][596]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.16.59
+[2015.07.29-07.16.59:506][596]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.16.59:507][596]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.16.59:508][596]LogWorld: Bringing up level for play took: 0.032041
+[2015.07.29-07.16.59:591][596]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 0.224
+[2015.07.29-07.17.07:922][713]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCCCA51BC0
+[2015.07.29-07.17.24:768][486]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.17.46:781][186]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.18.00:173][952]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.18.00:769][968]BlueprintLog: New page: Compile BPW_Inventory
+[2015.07.29-07.18.01:149][968]BlueprintEditorCompileResults: Info [0496.71] Compile of BPW_Inventory successful! [in 379 ms]
+[2015.07.29-07.18.01:811][  2]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.18.02:270][  2]LogSavePackage: Save=433.588165ms
+[2015.07.29-07.18.02:270][  2]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/BPW_Inventory5FB7693F46434A86F8F523BC715FBD9F.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Widgets/BPW_Inventory.uasset'
+[2015.07.29-07.18.10:192][334]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.18.16:538][619]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.18.37:058][454]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.18.40:225][570]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.18.57:278][250]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.19.01:034][372]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.19.08:250][721]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.19.11:143][878]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.19.19:730][253]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.19.36:044][ 96]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.19.36:319][ 96]BlueprintEditorCompileResults: Info [0591.87] Compile of BPW_OnScreen successful! [in 273 ms]
+[2015.07.29-07.19.36:752][120]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.19.36:811][120]LogSavePackage: Save=31.188778ms
+[2015.07.29-07.19.36:811][120]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/BPW_OnScreenD8BD1E2D4119EEDDE5DB0280EF785FD7.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Widgets/BPW_OnScreen.uasset'
+[2015.07.29-07.19.37:467][140]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.19.37:467][140]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:19:37 am)
+[2015.07.29-07.19.37:468][140]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.19.37:507][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039656s)
+[2015.07.29-07.19.37:509][140]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.19.37:511][140]LogPlayLevel: PIE: World Init took: (0.003137s)
+[2015.07.29-07.19.37:511][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.043199s)
+[2015.07.29-07.19.37:572][140]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.19.37:581][140]LogInit: FAudioDevice initialized.
+[2015.07.29-07.19.37:587][140]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.19.37:655][140]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.19.37:719][140]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.19.37
+[2015.07.29-07.19.37:719][140]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.19.37:720][140]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.19.37:721][140]LogWorld: Bringing up level for play took: 0.052521
+[2015.07.29-07.19.37:756][140]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 0.391
+[2015.07.29-07.19.41:155][187]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FC98458F40
+[2015.07.29-07.19.43:175][244]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.19.49:237][482]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.19.52:553][627]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.20.00:368][974]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.20.03:527][ 59]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.20.05:064][139]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.20.09:018][244]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.20.09:615][258]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.20.14:438][383]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.20.15:452][422]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.20.17:263][504]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.20.27:784][ 39]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.20.28:142][ 57]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.20.35:567][339]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.20.36:184][368]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.20.48:465][823]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.20.48:786][833]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.21.00:989][227]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.21.02:760][292]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.21.03:358][292]BlueprintEditorCompileResults: Info [0678.87] Compile of BPW_OnScreen successful! [in 597 ms]
+[2015.07.29-07.21.03:725][308]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.21.03:804][308]LogSavePackage: Save=40.414551ms
+[2015.07.29-07.21.03:804][308]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/BPW_OnScreen6E1ACF8C42EAEC9D108F0BB5088ED019.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Widgets/BPW_OnScreen.uasset'
+[2015.07.29-07.21.04:493][328]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.21.04:493][328]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:21:04 am)
+[2015.07.29-07.21.04:494][328]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.21.04:532][328]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037781s)
+[2015.07.29-07.21.04:533][328]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.21.04:534][328]LogPlayLevel: PIE: World Init took: (0.002706s)
+[2015.07.29-07.21.04:535][328]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.040818s)
+[2015.07.29-07.21.04:604][328]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.21.04:649][328]LogInit: FAudioDevice initialized.
+[2015.07.29-07.21.04:680][328]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.21.04:730][328]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.21.04:758][328]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.21.04
+[2015.07.29-07.21.04:758][328]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.21.04:759][328]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.21.04:759][328]LogWorld: Bringing up level for play took: 0.025597
+[2015.07.29-07.21.04:784][328]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 -0.618
+[2015.07.29-07.21.12:827][453]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCD095B6A0
+[2015.07.29-07.21.14:257][516]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.21.14:257][516]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:21:14 am)
+[2015.07.29-07.21.14:258][516]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.21.14:301][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042524s)
+[2015.07.29-07.21.14:309][516]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.21.14:312][516]LogPlayLevel: PIE: World Init took: (0.011159s)
+[2015.07.29-07.21.14:312][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.054051s)
+[2015.07.29-07.21.14:458][516]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.21.14:471][516]LogInit: FAudioDevice initialized.
+[2015.07.29-07.21.14:477][516]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.21.14:538][516]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.21.14:606][516]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.21.14
+[2015.07.29-07.21.14:606][516]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.21.14:607][516]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.21.14:608][516]LogWorld: Bringing up level for play took: 0.054780
+[2015.07.29-07.21.14:642][516]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 1.235
+[2015.07.29-07.21.19:780][594]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FC8470E5C0
+[2015.07.29-07.21.28:392][957]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.21.33:218][236]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.21.33:376][236]BlueprintEditorCompileResults: Info [0708.88] Compile of BPW_OnScreen successful! [in 156 ms]
+[2015.07.29-07.21.34:157][271]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.21.34:157][271]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:21:34 am)
+[2015.07.29-07.21.34:157][271]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.21.34:198][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040841s)
+[2015.07.29-07.21.34:206][271]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.21.34:209][271]LogPlayLevel: PIE: World Init took: (0.010310s)
+[2015.07.29-07.21.34:209][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.051516s)
+[2015.07.29-07.21.34:387][271]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.21.34:439][271]LogInit: FAudioDevice initialized.
+[2015.07.29-07.21.34:454][271]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.21.34:495][271]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.21.34:521][271]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.21.34
+[2015.07.29-07.21.34:521][271]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.21.34:522][271]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.21.34:522][271]LogWorld: Bringing up level for play took: 0.023827
+[2015.07.29-07.21.34:551][271]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 1.135
+[2015.07.29-07.21.38:818][346]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCCA150D60
+[2015.07.29-07.21.40:333][419]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.21.51:654][ 85]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.21.51:999][ 85]BlueprintEditorCompileResults: Info [0727.49] Compile of BPW_OnScreen successful! [in 344 ms]
+[2015.07.29-07.21.52:762][120]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.21.52:762][120]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:21:52 am)
+[2015.07.29-07.21.52:763][120]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.21.52:807][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043803s)
+[2015.07.29-07.21.52:814][120]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.21.52:817][120]LogPlayLevel: PIE: World Init took: (0.009945s)
+[2015.07.29-07.21.52:817][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.054056s)
+[2015.07.29-07.21.52:879][120]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.21.52:888][120]LogInit: FAudioDevice initialized.
+[2015.07.29-07.21.52:895][120]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.21.52:931][120]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.21.52:951][120]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.21.52
+[2015.07.29-07.21.52:951][120]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.21.52:953][120]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.21.52:953][120]LogWorld: Bringing up level for play took: 0.020425
+[2015.07.29-07.21.53:068][120]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 -0.356
+[2015.07.29-07.21.58:172][221]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCD08C04A0
+[2015.07.29-07.21.59:188][252]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.22.01:640][375]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.22.01:963][375]BlueprintEditorCompileResults: Info [0737.45] Compile of BPW_OnScreen successful! [in 321 ms]
+[2015.07.29-07.22.02:724][398]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.22.02:724][398]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:22:02 am)
+[2015.07.29-07.22.02:725][398]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.22.02:775][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050334s)
+[2015.07.29-07.22.02:777][398]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.22.02:778][398]LogPlayLevel: PIE: World Init took: (0.002702s)
+[2015.07.29-07.22.02:778][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.053458s)
+[2015.07.29-07.22.02:951][398]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.22.02:979][398]LogInit: FAudioDevice initialized.
+[2015.07.29-07.22.02:988][398]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.22.03:025][398]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.22.03:048][398]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.22.03
+[2015.07.29-07.22.03:048][398]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.22.03:049][398]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.22.03:049][398]LogWorld: Bringing up level for play took: 0.021111
+[2015.07.29-07.22.03:073][398]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 -0.355
+[2015.07.29-07.22.08:647][482]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCCA150720
+[2015.07.29-07.22.13:721][742]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.22.13:903][742]BlueprintEditorCompileResults: Info [0749.39] Compile of BPW_OnScreen successful! [in 182 ms]
+[2015.07.29-07.22.14:537][764]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.22.14:537][764]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:22:14 am)
+[2015.07.29-07.22.14:537][764]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.22.14:574][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035544s)
+[2015.07.29-07.22.14:581][764]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.22.14:583][764]LogPlayLevel: PIE: World Init took: (0.009613s)
+[2015.07.29-07.22.14:584][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.045641s)
+[2015.07.29-07.22.14:744][764]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.22.14:756][764]LogInit: FAudioDevice initialized.
+[2015.07.29-07.22.14:762][764]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.22.14:793][764]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.22.14:810][764]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.22.14
+[2015.07.29-07.22.14:810][764]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.22.14:811][764]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.22.14:811][764]LogWorld: Bringing up level for play took: 0.016205
+[2015.07.29-07.22.14:832][764]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 -0.601
+[2015.07.29-07.22.18:041][814]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCCEE72980
+[2015.07.29-07.22.32:139][470]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.22.32:380][470]BlueprintEditorCompileResults: Info [0767.86] Compile of BPW_OnScreen successful! [in 240 ms]
+[2015.07.29-07.22.33:092][492]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.22.33:092][492]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:22:33 am)
+[2015.07.29-07.22.33:093][492]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.22.33:127][492]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034430s)
+[2015.07.29-07.22.33:133][492]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.22.33:136][492]LogPlayLevel: PIE: World Init took: (0.008672s)
+[2015.07.29-07.22.33:136][492]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.043545s)
+[2015.07.29-07.22.33:197][492]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.22.33:212][492]LogInit: FAudioDevice initialized.
+[2015.07.29-07.22.33:269][492]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.22.33:338][492]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.22.33:369][492]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.22.33
+[2015.07.29-07.22.33:370][492]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.22.33:370][492]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.22.33:371][492]LogWorld: Bringing up level for play took: 0.029380
+[2015.07.29-07.22.33:397][492]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 -0.045
+[2015.07.29-07.22.37:051][550]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCCA152200
+[2015.07.29-07.22.39:006][635]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.22.42:645][791]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.22.42:645][791]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:22:42 am)
+[2015.07.29-07.22.42:646][791]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.22.42:686][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039649s)
+[2015.07.29-07.22.42:689][791]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.22.42:690][791]LogPlayLevel: PIE: World Init took: (0.004176s)
+[2015.07.29-07.22.42:690][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.044374s)
+[2015.07.29-07.22.42:792][791]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.22.42:807][791]LogInit: FAudioDevice initialized.
+[2015.07.29-07.22.42:816][791]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.22.42:852][791]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.22.42:873][791]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.22.42
+[2015.07.29-07.22.42:873][791]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.22.42:873][791]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.22.42:874][791]LogWorld: Bringing up level for play took: 0.019207
+[2015.07.29-07.22.42:897][791]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 -0.549
+[2015.07.29-07.22.46:385][842]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCD095BE20
+[2015.07.29-07.22.51:181][ 17]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.22.51:594][ 31]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.22.58:985][267]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.23.01:652][377]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.23.01:970][377]BlueprintEditorCompileResults: Info [0797.43] Compile of BPW_OnScreen successful! [in 317 ms]
+[2015.07.29-07.23.02:526][394]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.23.02:526][394]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:23:02 am)
+[2015.07.29-07.23.02:527][394]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.23.02:562][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035487s)
+[2015.07.29-07.23.02:569][394]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.23.02:572][394]LogPlayLevel: PIE: World Init took: (0.010103s)
+[2015.07.29-07.23.02:573][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.045930s)
+[2015.07.29-07.23.02:649][394]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.23.02:733][394]LogInit: FAudioDevice initialized.
+[2015.07.29-07.23.02:776][394]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.23.02:845][394]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.23.02:893][394]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.23.02
+[2015.07.29-07.23.02:893][394]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.23.02:894][394]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.23.02:895][394]LogWorld: Bringing up level for play took: 0.040571
+[2015.07.29-07.23.02:925][394]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 -0.53
+[2015.07.29-07.23.09:787][487]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCCC110860
+[2015.07.29-07.23.29:622][311]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.23.29:956][311]BlueprintEditorCompileResults: Info [0825.41] Compile of BPW_OnScreen successful! [in 332 ms]
+[2015.07.29-07.23.30:390][328]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.23.30:390][328]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:23:30 am)
+[2015.07.29-07.23.30:392][328]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.23.30:524][328]LogPlayLevel: PIE: StaticDuplicateObject took: (0.131692s)
+[2015.07.29-07.23.30:526][328]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.23.30:528][328]LogPlayLevel: PIE: World Init took: (0.004176s)
+[2015.07.29-07.23.30:529][328]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.136339s)
+[2015.07.29-07.23.30:601][328]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.23.30:613][328]LogInit: FAudioDevice initialized.
+[2015.07.29-07.23.30:620][328]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.23.30:661][328]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.23.30:691][328]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.23.30
+[2015.07.29-07.23.30:692][328]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.23.30:692][328]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.23.30:693][328]LogWorld: Bringing up level for play took: 0.028645
+[2015.07.29-07.23.30:722][328]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 1.256
+[2015.07.29-07.23.37:079][433]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCCC039E40
+[2015.07.29-07.23.48:542][ 22]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.23.51:593][198]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.23.51:764][198]BlueprintEditorCompileResults: Info [0847.21] Compile of BPW_OnScreen successful! [in 170 ms]
+[2015.07.29-07.23.52:746][235]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.23.52:746][235]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:23:52 am)
+[2015.07.29-07.23.52:747][235]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.23.52:876][235]LogPlayLevel: PIE: StaticDuplicateObject took: (0.128065s)
+[2015.07.29-07.23.52:881][235]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.23.52:891][235]LogPlayLevel: PIE: World Init took: (0.014806s)
+[2015.07.29-07.23.52:892][235]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.143995s)
+[2015.07.29-07.23.52:988][235]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.23.52:997][235]LogInit: FAudioDevice initialized.
+[2015.07.29-07.23.53:001][235]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.23.53:055][235]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.23.53:096][235]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.23.53
+[2015.07.29-07.23.53:096][235]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.23.53:097][235]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.23.53:098][235]LogWorld: Bringing up level for play took: 0.037659
+[2015.07.29-07.23.53:130][235]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 -0.345
+[2015.07.29-07.23.57:193][302]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCC5827880
+[2015.07.29-07.23.58:407][343]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.24.04:980][670]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.24.05:181][670]BlueprintEditorCompileResults: Info [0860.62] Compile of BPW_OnScreen successful! [in 200 ms]
+[2015.07.29-07.24.05:671][689]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.24.05:671][689]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:24:05 am)
+[2015.07.29-07.24.05:672][689]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.24.05:701][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029477s)
+[2015.07.29-07.24.05:709][689]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.24.05:712][689]LogPlayLevel: PIE: World Init took: (0.010920s)
+[2015.07.29-07.24.05:712][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.040773s)
+[2015.07.29-07.24.05:875][689]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.24.05:934][689]LogInit: FAudioDevice initialized.
+[2015.07.29-07.24.05:945][689]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.24.05:984][689]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.24.06:008][689]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.24.06
+[2015.07.29-07.24.06:008][689]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.24.06:009][689]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.24.06:009][689]LogWorld: Bringing up level for play took: 0.022085
+[2015.07.29-07.24.06:032][689]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 0.556
+[2015.07.29-07.24.09:670][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCCA1507C0
+[2015.07.29-07.24.11:646][831]LogEditorTransaction: Undo Change Number Pin Value
+[2015.07.29-07.24.11:696][831]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.24.14:317][930]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.24.14:525][930]BlueprintEditorCompileResults: Info [0869.96] Compile of BPW_OnScreen successful! [in 207 ms]
+[2015.07.29-07.24.16:246][ 18]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.24.16:310][ 18]LogSavePackage: Save=39.838501ms
+[2015.07.29-07.24.16:310][ 18]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/BPW_OnScreen18DA26B346281FC72A9C35AF7F793E0E.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Widgets/BPW_OnScreen.uasset'
+[2015.07.29-07.24.20:921][226]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.24.25:960][496]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.24.26:158][496]BlueprintEditorCompileResults: Info [0881.60] Compile of BPW_OnScreen successful! [in 197 ms]
+[2015.07.29-07.24.26:821][516]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.24.26:822][516]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:24:26 am)
+[2015.07.29-07.24.26:822][516]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.24.26:862][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039801s)
+[2015.07.29-07.24.26:864][516]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.24.26:865][516]LogPlayLevel: PIE: World Init took: (0.002750s)
+[2015.07.29-07.24.26:865][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.042862s)
+[2015.07.29-07.24.26:929][516]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.24.26:940][516]LogInit: FAudioDevice initialized.
+[2015.07.29-07.24.26:950][516]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.24.27:054][516]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.24.27:097][516]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.24.27
+[2015.07.29-07.24.27:097][516]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.24.27:098][516]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.24.27:099][516]LogWorld: Bringing up level for play took: 0.038582
+[2015.07.29-07.24.27:127][516]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 -0.349
+[2015.07.29-07.24.31:898][585]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCCCA6DA80
+[2015.07.29-07.24.32:694][611]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.24.35:991][744]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.24.36:375][744]BlueprintEditorCompileResults: Info [0891.81] Compile of BPW_OnScreen successful! [in 383 ms]
+[2015.07.29-07.24.37:482][774]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.24.37:483][774]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:24:37 am)
+[2015.07.29-07.24.37:484][774]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.24.37:538][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054140s)
+[2015.07.29-07.24.37:539][774]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.24.37:541][774]LogPlayLevel: PIE: World Init took: (0.002925s)
+[2015.07.29-07.24.37:541][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.057523s)
+[2015.07.29-07.24.37:618][774]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.24.37:631][774]LogInit: FAudioDevice initialized.
+[2015.07.29-07.24.37:665][774]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.24.37:735][774]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.24.37:808][774]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.24.37
+[2015.07.29-07.24.37:808][774]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.24.37:810][774]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.24.37:811][774]LogWorld: Bringing up level for play took: 0.054749
+[2015.07.29-07.24.37:842][774]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 0.365
+[2015.07.29-07.24.41:371][817]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FC8A2D2020
+[2015.07.29-07.24.42:191][846]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.24.44:561][961]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.24.44:784][961]BlueprintEditorCompileResults: Info [0900.22] Compile of BPW_OnScreen successful! [in 222 ms]
+[2015.07.29-07.24.45:569][987]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.24.45:569][987]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:24:45 am)
+[2015.07.29-07.24.45:570][987]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.24.45:609][987]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039586s)
+[2015.07.29-07.24.45:611][987]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.24.45:613][987]LogPlayLevel: PIE: World Init took: (0.003820s)
+[2015.07.29-07.24.45:614][987]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.043746s)
+[2015.07.29-07.24.45:675][987]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.24.45:683][987]LogInit: FAudioDevice initialized.
+[2015.07.29-07.24.45:689][987]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.24.45:783][987]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.24.45:862][987]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.24.45
+[2015.07.29-07.24.45:862][987]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.24.45:863][987]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.24.45:864][987]LogWorld: Bringing up level for play took: 0.059277
+[2015.07.29-07.24.45:899][987]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 0.421
+[2015.07.29-07.24.49:553][ 39]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FC975DFF60
+[2015.07.29-07.25.13:175][964]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.25.15:111][ 65]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.25.15:283][ 65]BlueprintEditorCompileResults: Info [0930.72] Compile of BPW_OnScreen successful! [in 171 ms]
+[2015.07.29-07.25.16:226][104]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.25.16:227][104]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:25:16 am)
+[2015.07.29-07.25.16:227][104]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.25.16:269][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041517s)
+[2015.07.29-07.25.16:274][104]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.25.16:277][104]LogPlayLevel: PIE: World Init took: (0.008054s)
+[2015.07.29-07.25.16:277][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.049902s)
+[2015.07.29-07.25.16:341][104]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.25.16:350][104]LogInit: FAudioDevice initialized.
+[2015.07.29-07.25.16:356][104]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.25.16:421][104]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.25.16:500][104]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.25.16
+[2015.07.29-07.25.16:500][104]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.25.16:501][104]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.25.16:502][104]LogWorld: Bringing up level for play took: 0.066579
+[2015.07.29-07.25.16:534][104]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 1.055
+[2015.07.29-07.25.23:251][225]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCCB41FEC0
+[2015.07.29-07.25.25:209][301]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.25.28:235][467]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.25.28:492][467]BlueprintEditorCompileResults: Info [0943.93] Compile of BPW_OnScreen successful! [in 256 ms]
+[2015.07.29-07.25.30:888][566]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.25.30:889][566]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:25:30 am)
+[2015.07.29-07.25.30:889][566]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.25.30:923][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033383s)
+[2015.07.29-07.25.30:931][566]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.25.30:933][566]LogPlayLevel: PIE: World Init took: (0.010591s)
+[2015.07.29-07.25.30:933][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.044414s)
+[2015.07.29-07.25.31:054][566]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.25.31:077][566]LogAudio:Warning: CreateMasteringVoice error: Unhandled error code -2004287465
+[2015.07.29-07.25.31:077][566]LogInit:Warning: Failed to create the mastering voice for XAudio2
+[2015.07.29-07.25.31:115][566]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.25.31:167][566]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.25.31:193][566]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.25.31
+[2015.07.29-07.25.31:194][566]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.25.31:194][566]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.25.31:195][566]LogWorld: Bringing up level for play took: 0.025209
+[2015.07.29-07.25.31:222][566]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 -0.258
+[2015.07.29-07.25.35:925][639]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FC9B008D60
+[2015.07.29-07.25.38:667][735]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.25.42:178][910]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.25.42:395][910]BlueprintEditorCompileResults: Info [0957.83] Compile of BPW_OnScreen successful! [in 215 ms]
+[2015.07.29-07.25.43:274][936]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.25.43:274][936]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:25:43 am)
+[2015.07.29-07.25.43:275][936]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.25.43:314][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039185s)
+[2015.07.29-07.25.43:316][936]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.25.43:317][936]LogPlayLevel: PIE: World Init took: (0.003119s)
+[2015.07.29-07.25.43:318][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.042666s)
+[2015.07.29-07.25.43:381][936]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.25.43:393][936]LogInit: FAudioDevice initialized.
+[2015.07.29-07.25.43:398][936]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.25.43:455][936]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.25.43:560][936]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.25.43
+[2015.07.29-07.25.43:560][936]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.25.43:562][936]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.25.43:563][936]LogWorld: Bringing up level for play took: 0.099868
+[2015.07.29-07.25.43:608][936]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 0.128
+[2015.07.29-07.25.49:519][ 30]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCCB41F240
+[2015.07.29-07.25.51:641][129]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.26.03:230][814]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.26.03:392][814]BlueprintEditorCompileResults: Info [0978.83] Compile of BPW_OnScreen successful! [in 161 ms]
+[2015.07.29-07.26.04:352][862]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.26.04:352][862]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:26:04 am)
+[2015.07.29-07.26.04:352][862]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.26.04:383][862]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030678s)
+[2015.07.29-07.26.04:384][862]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.26.04:386][862]LogPlayLevel: PIE: World Init took: (0.002633s)
+[2015.07.29-07.26.04:386][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.033655s)
+[2015.07.29-07.26.04:447][862]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.26.04:458][862]LogInit: FAudioDevice initialized.
+[2015.07.29-07.26.04:468][862]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.26.04:565][862]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.26.04:604][862]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.26.04
+[2015.07.29-07.26.04:604][862]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.26.04:605][862]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.26.04:606][862]LogWorld: Bringing up level for play took: 0.035662
+[2015.07.29-07.26.04:639][862]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 1.158
+[2015.07.29-07.26.09:555][951]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCCB4BB9C0
+[2015.07.29-07.26.42:016][357]BlueprintLog: New page: Compile BPC_Char
+[2015.07.29-07.26.42:858][357]BlueprintEditorCompileResults: Info [1018.29] Compile of BPC_Char successful! [in 841 ms]
+[2015.07.29-07.26.43:399][378]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.26.43:922][378]LogSavePackage: Save=440.020294ms
+[2015.07.29-07.26.43:922][378]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/BPC_Char58D6719249889B52F9E095BB421200D1.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Blueprints/BPC_Char.uasset'
+[2015.07.29-07.26.44:328][396]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.26.44:328][396]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:26:44 am)
+[2015.07.29-07.26.44:328][396]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.26.44:364][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035849s)
+[2015.07.29-07.26.44:370][396]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.26.44:373][396]LogPlayLevel: PIE: World Init took: (0.008337s)
+[2015.07.29-07.26.44:373][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.044521s)
+[2015.07.29-07.26.44:432][396]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.26.44:443][396]LogInit: FAudioDevice initialized.
+[2015.07.29-07.26.44:454][396]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.26.44:552][396]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.26.44:581][396]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.26.44
+[2015.07.29-07.26.44:581][396]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.26.44:582][396]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.26.44:582][396]LogWorld: Bringing up level for play took: 0.026493
+[2015.07.29-07.26.44:657][396]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 1.174
+[2015.07.29-07.26.48:953][458]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCD52FBE20
+[2015.07.29-07.27.46:823][336]BlueprintLog: New page: Compile BPC_Char
+[2015.07.29-07.27.47:435][336]BlueprintEditorCompileResults: Info [1082.87] Compile of BPC_Char successful! [in 611 ms]
+[2015.07.29-07.27.47:948][354]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.27.48:249][354]LogSavePackage: Save=272.414276ms
+[2015.07.29-07.27.48:249][354]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/BPC_Char994802C54FB6F4706E997FBE65BED918.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Blueprints/BPC_Char.uasset'
+[2015.07.29-07.27.49:755][435]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.27.49:832][435]LogSavePackage: Save=40.216976ms
+[2015.07.29-07.27.49:832][435]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/BPW_OnScreen780E258D46C4C9E7936D9E8B999C0518.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Widgets/BPW_OnScreen.uasset'
+[2015.07.29-07.27.57:978][900]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.27.58:162][900]BlueprintEditorCompileResults: Info [1093.59] Compile of BPW_OnScreen successful! [in 183 ms]
+[2015.07.29-07.27.58:880][925]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.27.58:880][925]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:27:58 am)
+[2015.07.29-07.27.58:881][925]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.27.58:925][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043997s)
+[2015.07.29-07.27.58:931][925]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.27.58:933][925]LogPlayLevel: PIE: World Init took: (0.007859s)
+[2015.07.29-07.27.58:933][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.052318s)
+[2015.07.29-07.27.58:994][925]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.27.59:005][925]LogInit: FAudioDevice initialized.
+[2015.07.29-07.27.59:014][925]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.27.59:073][925]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.27.59:106][925]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.27.59
+[2015.07.29-07.27.59:106][925]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.27.59:107][925]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.27.59:107][925]LogWorld: Bringing up level for play took: 0.030053
+[2015.07.29-07.27.59:138][925]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 -0.348
+[2015.07.29-07.28.03:125][  8]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCC516C220
+[2015.07.29-07.28.09:638][360]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.28.09:844][360]BlueprintEditorCompileResults: Info [1105.27] Compile of BPW_OnScreen successful! [in 206 ms]
+[2015.07.29-07.28.10:603][382]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.28.10:603][382]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:28:10 am)
+[2015.07.29-07.28.10:604][382]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.28.10:655][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051113s)
+[2015.07.29-07.28.10:657][382]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.28.10:658][382]LogPlayLevel: PIE: World Init took: (0.002808s)
+[2015.07.29-07.28.10:659][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.054366s)
+[2015.07.29-07.28.10:728][382]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.28.10:766][382]LogInit: FAudioDevice initialized.
+[2015.07.29-07.28.10:830][382]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.28.10:892][382]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.28.10:935][382]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.28.10
+[2015.07.29-07.28.10:936][382]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.28.10:936][382]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.28.10:937][382]LogWorld: Bringing up level for play took: 0.036525
+[2015.07.29-07.28.10:969][382]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 -0.518
+[2015.07.29-07.28.14:685][433]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCC1DFAC00
+[2015.07.29-07.28.20:504][708]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.28.20:837][708]BlueprintEditorCompileResults: Info [1116.27] Compile of BPW_OnScreen successful! [in 332 ms]
+[2015.07.29-07.28.21:882][760]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.28.21:882][760]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:28:21 am)
+[2015.07.29-07.28.21:883][760]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.28.21:921][760]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038031s)
+[2015.07.29-07.28.21:927][760]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.28.21:929][760]LogPlayLevel: PIE: World Init took: (0.007663s)
+[2015.07.29-07.28.21:929][760]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.046124s)
+[2015.07.29-07.28.21:996][760]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.28.22:007][760]LogInit: FAudioDevice initialized.
+[2015.07.29-07.28.22:016][760]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.28.22:107][760]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.28.22:143][760]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.28.22
+[2015.07.29-07.28.22:143][760]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.28.22:144][760]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.28.22:145][760]LogWorld: Bringing up level for play took: 0.033111
+[2015.07.29-07.28.22:176][760]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 0.688
+[2015.07.29-07.28.29:670][876]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FC975DF240
+[2015.07.29-07.28.37:586][188]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.28.37:833][188]BlueprintEditorCompileResults: Info [1133.26] Compile of BPW_OnScreen successful! [in 245 ms]
+[2015.07.29-07.28.39:269][252]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.28.39:269][252]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:28:39 am)
+[2015.07.29-07.28.39:270][252]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.28.39:312][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042189s)
+[2015.07.29-07.28.39:322][252]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.28.39:325][252]LogPlayLevel: PIE: World Init took: (0.013163s)
+[2015.07.29-07.28.39:325][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.055677s)
+[2015.07.29-07.28.39:389][252]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.28.39:399][252]LogInit: FAudioDevice initialized.
+[2015.07.29-07.28.39:405][252]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.28.39:461][252]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.28.39:512][252]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.28.39
+[2015.07.29-07.28.39:512][252]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.28.39:513][252]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.28.39:514][252]LogWorld: Bringing up level for play took: 0.042032
+[2015.07.29-07.28.39:550][252]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 0.062
+[2015.07.29-07.28.43:265][310]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCCC0399E0
+[2015.07.29-07.29.08:383][454]BlueprintLog: New page: Compile BPW_OnScreen
+[2015.07.29-07.29.08:896][454]BlueprintEditorCompileResults: Info [1164.32] Compile of BPW_OnScreen successful! [in 511 ms]
+[2015.07.29-07.29.09:333][473]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.29.09:389][473]LogSavePackage: Save=29.340033ms
+[2015.07.29-07.29.09:389][473]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/BPW_OnScreen3300227E4079DE1C5DC95987D8E6FC45.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Widgets/BPW_OnScreen.uasset'
+[2015.07.29-07.32.01:163][798]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.33.18:711][814]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.33.23:575][101]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.33.42:000][ 65]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.34.30:961][870]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.34.53:300][912]BlueprintLog: New page: Compile BPC_Char
+[2015.07.29-07.34.53:957][912]BlueprintEditorCompileResults: Info [1509.42] Compile of BPC_Char successful! [in 657 ms]
+[2015.07.29-07.34.54:418][933]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.34.54:754][933]LogSavePackage: Save=296.050262ms
+[2015.07.29-07.34.54:754][933]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/BPC_Char4DED036548BFDDEDC04E82AC8C9D19A3.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Blueprints/BPC_Char.uasset'
+[2015.07.29-07.34.58:289][ 79]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.35.13:105][793]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.35.44:972][620]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.35.50:604][916]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.35.59:785][326]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.36.00:247][343]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.36.05:050][509]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.36.05:402][521]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.36.13:026][761]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.36.13:424][773]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.36.17:085][917]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.36.21:295][ 99]BlueprintLog: New page: Compile BPC_Char
+[2015.07.29-07.36.22:131][ 99]BlueprintEditorCompileResults: Info [1597.61] Compile of BPC_Char successful! [in 834 ms]
+[2015.07.29-07.36.26:593][351]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.36.29:215][493]BlueprintLog: New page: Compile BPC_Char
+[2015.07.29-07.36.29:971][493]BlueprintEditorCompileResults: Info [1605.45] Compile of BPC_Char successful! [in 756 ms]
+[2015.07.29-07.36.30:763][524]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.36.31:096][524]LogSavePackage: Save=300.761963ms
+[2015.07.29-07.36.31:096][524]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/BPC_Char305164F64A43526C91BCC7B159B27121.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Blueprints/BPC_Char.uasset'
+[2015.07.29-07.36.32:358][585]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.36.32:358][585]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:36:32 am)
+[2015.07.29-07.36.32:359][585]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.36.32:408][585]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049189s)
+[2015.07.29-07.36.32:410][585]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.36.32:412][585]LogPlayLevel: PIE: World Init took: (0.003481s)
+[2015.07.29-07.36.32:412][585]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.053131s)
+[2015.07.29-07.36.32:557][585]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.36.32:572][585]LogInit: FAudioDevice initialized.
+[2015.07.29-07.36.32:580][585]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.36.32:626][585]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.36.32:648][585]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.36.32
+[2015.07.29-07.36.32:648][585]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.36.32:649][585]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.36.32:650][585]LogWorld: Bringing up level for play took: 0.020473
+[2015.07.29-07.36.32:719][585]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 1.277
+[2015.07.29-07.36.32:841][586]LogBlueprintUserMessages: 0.999556
+[2015.07.29-07.36.32:964][587]LogBlueprintUserMessages: 0.999415
+[2015.07.29-07.36.32:982][588]LogBlueprintUserMessages: 0.999394
+[2015.07.29-07.36.33:001][589]LogBlueprintUserMessages: 0.999372
+[2015.07.29-07.36.33:026][590]LogBlueprintUserMessages: 0.999348
+[2015.07.29-07.36.33:187][591]LogBlueprintUserMessages: 0.999168
+[2015.07.29-07.36.33:219][592]LogBlueprintUserMessages: 0.999131
+[2015.07.29-07.36.33:242][593]LogBlueprintUserMessages: 0.999105
+[2015.07.29-07.36.33:265][594]LogBlueprintUserMessages: 0.999079
+[2015.07.29-07.36.33:355][595]LogBlueprintUserMessages: 0.998988
+[2015.07.29-07.36.33:431][596]LogBlueprintUserMessages: 0.998896
+[2015.07.29-07.36.33:459][597]LogBlueprintUserMessages: 0.998865
+[2015.07.29-07.36.33:486][598]LogBlueprintUserMessages: 0.998834
+[2015.07.29-07.36.33:513][599]LogBlueprintUserMessages: 0.998805
+[2015.07.29-07.36.33:597][600]LogBlueprintUserMessages: 0.998716
+[2015.07.29-07.36.33:662][601]LogBlueprintUserMessages: 0.998638
+[2015.07.29-07.36.33:688][602]LogBlueprintUserMessages: 0.99861
+[2015.07.29-07.36.33:748][603]LogBlueprintUserMessages: 0.998554
+[2015.07.29-07.36.33:794][604]LogBlueprintUserMessages: 0.998492
+[2015.07.29-07.36.33:817][605]LogBlueprintUserMessages: 0.998467
+[2015.07.29-07.36.33:839][606]LogBlueprintUserMessages: 0.998443
+[2015.07.29-07.36.33:873][607]LogBlueprintUserMessages: 0.998412
+[2015.07.29-07.36.34:013][608]LogBlueprintUserMessages: 0.998258
+[2015.07.29-07.36.34:038][609]LogBlueprintUserMessages: 0.998223
+[2015.07.29-07.36.34:064][610]LogBlueprintUserMessages: 0.998194
+[2015.07.29-07.36.34:196][611]LogBlueprintUserMessages: 0.998119
+[2015.07.29-07.36.34:284][612]LogBlueprintUserMessages: 0.997952
+[2015.07.29-07.36.34:315][613]LogBlueprintUserMessages: 0.997917
+[2015.07.29-07.36.34:405][614]LogBlueprintUserMessages: 0.997814
+[2015.07.29-07.36.34:433][615]LogBlueprintUserMessages: 0.997782
+[2015.07.29-07.36.34:464][616]LogBlueprintUserMessages: 0.99775
+[2015.07.29-07.36.34:502][617]LogBlueprintUserMessages: 0.997714
+[2015.07.29-07.36.34:602][618]LogBlueprintUserMessages: 0.997597
+[2015.07.29-07.36.34:664][619]LogBlueprintUserMessages: 0.997552
+[2015.07.29-07.36.34:776][620]LogBlueprintUserMessages: 0.997406
+[2015.07.29-07.36.34:806][621]LogBlueprintUserMessages: 0.997369
+[2015.07.29-07.36.34:913][622]LogBlueprintUserMessages: 0.997255
+[2015.07.29-07.36.34:943][623]LogBlueprintUserMessages: 0.997218
+[2015.07.29-07.36.34:969][624]LogBlueprintUserMessages: 0.997189
+[2015.07.29-07.36.35:053][625]LogBlueprintUserMessages: 0.997096
+[2015.07.29-07.36.35:084][626]LogBlueprintUserMessages: 0.99706
+[2015.07.29-07.36.35:115][627]LogBlueprintUserMessages: 0.997029
+[2015.07.29-07.36.35:244][628]LogBlueprintUserMessages: 0.996882
+[2015.07.29-07.36.35:273][629]LogBlueprintUserMessages: 0.996849
+[2015.07.29-07.36.35:296][630]LogBlueprintUserMessages: 0.996824
+[2015.07.29-07.36.35:390][631]LogBlueprintUserMessages: 0.996745
+[2015.07.29-07.36.35:469][632]LogBlueprintUserMessages: 0.996636
+[2015.07.29-07.36.35:494][633]LogBlueprintUserMessages: 0.996605
+[2015.07.29-07.36.35:513][634]LogBlueprintUserMessages: 0.996583
+[2015.07.29-07.36.35:575][635]LogBlueprintUserMessages: 0.996557
+[2015.07.29-07.36.35:674][636]LogBlueprintUserMessages: 0.996409
+[2015.07.29-07.36.35:700][637]LogBlueprintUserMessages: 0.996376
+[2015.07.29-07.36.35:737][638]LogBlueprintUserMessages: 0.996344
+[2015.07.29-07.36.35:861][639]LogBlueprintUserMessages: 0.996199
+[2015.07.29-07.36.35:888][640]LogBlueprintUserMessages: 0.996166
+[2015.07.29-07.36.35:910][641]LogBlueprintUserMessages: 0.996141
+[2015.07.29-07.36.35:931][642]LogBlueprintUserMessages: 0.996117
+[2015.07.29-07.36.35:953][643]LogBlueprintUserMessages: 0.996094
+[2015.07.29-07.36.36:039][644]LogBlueprintUserMessages: 0.99601
+[2015.07.29-07.36.36:119][645]LogBlueprintUserMessages: 0.99591
+[2015.07.29-07.36.36:143][646]LogBlueprintUserMessages: 0.995883
+[2015.07.29-07.36.36:162][647]LogBlueprintUserMessages: 0.995861
+[2015.07.29-07.36.36:182][648]LogBlueprintUserMessages: 0.99584
+[2015.07.29-07.36.36:201][649]LogBlueprintUserMessages: 0.995818
+[2015.07.29-07.36.36:223][650]LogBlueprintUserMessages: 0.995794
+[2015.07.29-07.36.36:336][651]LogBlueprintUserMessages: 0.995669
+[2015.07.29-07.36.36:363][652]LogBlueprintUserMessages: 0.995638
+[2015.07.29-07.36.36:385][653]LogBlueprintUserMessages: 0.995614
+[2015.07.29-07.36.36:411][654]LogBlueprintUserMessages: 0.995585
+[2015.07.29-07.36.36:570][655]LogBlueprintUserMessages: 0.99541
+[2015.07.29-07.36.36:597][656]LogBlueprintUserMessages: 0.995378
+[2015.07.29-07.36.36:620][657]LogBlueprintUserMessages: 0.995353
+[2015.07.29-07.36.36:644][658]LogBlueprintUserMessages: 0.995326
+[2015.07.29-07.36.36:781][659]LogBlueprintUserMessages: 0.995177
+[2015.07.29-07.36.36:812][660]LogBlueprintUserMessages: 0.995139
+[2015.07.29-07.36.36:838][661]LogBlueprintUserMessages: 0.995111
+[2015.07.29-07.36.36:860][662]LogBlueprintUserMessages: 0.995086
+[2015.07.29-07.36.36:880][663]LogBlueprintUserMessages: 0.995063
+[2015.07.29-07.36.36:901][664]LogBlueprintUserMessages: 0.99504
+[2015.07.29-07.36.37:036][665]LogBlueprintUserMessages: 0.994898
+[2015.07.29-07.36.37:075][666]LogBlueprintUserMessages: 0.994846
+[2015.07.29-07.36.37:106][667]LogBlueprintUserMessages: 0.994813
+[2015.07.29-07.36.37:196][668]LogBlueprintUserMessages: 0.994726
+[2015.07.29-07.36.37:253][669]LogBlueprintUserMessages: 0.99465
+[2015.07.29-07.36.37:282][670]LogBlueprintUserMessages: 0.994618
+[2015.07.29-07.36.37:304][671]LogBlueprintUserMessages: 0.994593
+[2015.07.29-07.36.37:400][672]LogBlueprintUserMessages: 0.994503
+[2015.07.29-07.36.37:474][673]LogBlueprintUserMessages: 0.994404
+[2015.07.29-07.36.37:502][674]LogBlueprintUserMessages: 0.994373
+[2015.07.29-07.36.37:592][675]LogBlueprintUserMessages: 0.994281
+[2015.07.29-07.36.37:628][676]LogBlueprintUserMessages: 0.994233
+[2015.07.29-07.36.37:665][677]LogBlueprintUserMessages: 0.994202
+[2015.07.29-07.36.37:750][678]LogBlueprintUserMessages: 0.994098
+[2015.07.29-07.36.37:851][679]LogBlueprintUserMessages: 0.993995
+[2015.07.29-07.36.37:902][680]LogBlueprintUserMessages: 0.993929
+[2015.07.29-07.36.37:934][681]LogBlueprintUserMessages: 0.993895
+[2015.07.29-07.36.38:055][682]LogBlueprintUserMessages: 0.993763
+[2015.07.29-07.36.38:104][683]LogBlueprintUserMessages: 0.993705
+[2015.07.29-07.36.38:135][684]LogBlueprintUserMessages: 0.993669
+[2015.07.29-07.36.38:163][685]LogBlueprintUserMessages: 0.993643
+[2015.07.29-07.36.38:290][686]LogBlueprintUserMessages: 0.993503
+[2015.07.29-07.36.38:318][687]LogBlueprintUserMessages: 0.993467
+[2015.07.29-07.36.38:344][688]LogBlueprintUserMessages: 0.99344
+[2015.07.29-07.36.38:373][689]LogBlueprintUserMessages: 0.993408
+[2015.07.29-07.36.38:547][690]LogBlueprintUserMessages: 0.993217
+[2015.07.29-07.36.38:574][691]LogBlueprintUserMessages: 0.993182
+[2015.07.29-07.36.38:597][692]LogBlueprintUserMessages: 0.993158
+[2015.07.29-07.36.38:624][693]LogBlueprintUserMessages: 0.993129
+[2015.07.29-07.36.38:741][694]LogBlueprintUserMessages: 0.993003
+[2015.07.29-07.36.38:772][695]LogBlueprintUserMessages: 0.992963
+[2015.07.29-07.36.38:806][696]LogBlueprintUserMessages: 0.992929
+[2015.07.29-07.36.38:892][697]LogBlueprintUserMessages: 0.992828
+[2015.07.29-07.36.38:918][698]LogBlueprintUserMessages: 0.992799
+[2015.07.29-07.36.38:941][699]LogBlueprintUserMessages: 0.992774
+[2015.07.29-07.36.38:964][700]LogBlueprintUserMessages: 0.992749
+[2015.07.29-07.36.39:047][701]LogBlueprintUserMessages: 0.992679
+[2015.07.29-07.36.39:154][702]LogBlueprintUserMessages: 0.992538
+[2015.07.29-07.36.39:179][703]LogBlueprintUserMessages: 0.99251
+[2015.07.29-07.36.39:202][704]LogBlueprintUserMessages: 0.992484
+[2015.07.29-07.36.39:226][705]LogBlueprintUserMessages: 0.992458
+[2015.07.29-07.36.39:330][706]LogBlueprintUserMessages: 0.992354
+[2015.07.29-07.36.39:369][707]LogBlueprintUserMessages: 0.992298
+[2015.07.29-07.36.39:396][708]LogBlueprintUserMessages: 0.992269
+[2015.07.29-07.36.39:503][709]LogBlueprintUserMessages: 0.992159
+[2015.07.29-07.36.39:555][710]LogBlueprintUserMessages: 0.992093
+[2015.07.29-07.36.39:578][711]LogBlueprintUserMessages: 0.992067
+[2015.07.29-07.36.39:615][712]LogBlueprintUserMessages: 0.992033
+[2015.07.29-07.36.39:696][713]LogBlueprintUserMessages: 0.991941
+[2015.07.29-07.36.39:791][714]LogBlueprintUserMessages: 0.99183
+[2015.07.29-07.36.39:819][715]LogBlueprintUserMessages: 0.991799
+[2015.07.29-07.36.39:843][716]LogBlueprintUserMessages: 0.991773
+[2015.07.29-07.36.39:934][717]LogBlueprintUserMessages: 0.991683
+[2015.07.29-07.36.39:988][718]LogBlueprintUserMessages: 0.991612
+[2015.07.29-07.36.40:017][719]LogBlueprintUserMessages: 0.991579
+[2015.07.29-07.36.40:040][720]LogBlueprintUserMessages: 0.991554
+[2015.07.29-07.36.40:064][721]LogBlueprintUserMessages: 0.991527
+[2015.07.29-07.36.40:188][722]LogBlueprintUserMessages: 0.991392
+[2015.07.29-07.36.40:217][723]LogBlueprintUserMessages: 0.991356
+[2015.07.29-07.36.40:242][724]LogBlueprintUserMessages: 0.991329
+[2015.07.29-07.36.40:295][725]LogBlueprintUserMessages: 0.991287
+[2015.07.29-07.36.40:476][726]LogBlueprintUserMessages: 0.991075
+[2015.07.29-07.36.40:515][727]LogBlueprintUserMessages: 0.991026
+[2015.07.29-07.36.40:537][728]LogBlueprintUserMessages: 0.991001
+[2015.07.29-07.36.40:561][729]LogBlueprintUserMessages: 0.990976
+[2015.07.29-07.36.40:582][730]LogBlueprintUserMessages: 0.990951
+[2015.07.29-07.36.40:704][731]LogBlueprintUserMessages: 0.990833
+[2015.07.29-07.36.40:781][732]LogBlueprintUserMessages: 0.990731
+[2015.07.29-07.36.40:804][733]LogBlueprintUserMessages: 0.990703
+[2015.07.29-07.36.40:828][734]LogBlueprintUserMessages: 0.990678
+[2015.07.29-07.36.40:938][735]LogBlueprintUserMessages: 0.990556
+[2015.07.29-07.36.41:007][736]LogBlueprintUserMessages: 0.990489
+[2015.07.29-07.36.41:322][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FC91520F40
+[2015.07.29-07.36.49:306][148]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.36.49:661][162]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.37.00:919][488]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.37.03:941][613]BlueprintLog: New page: Compile BPC_Char
+[2015.07.29-07.37.04:757][613]BlueprintEditorCompileResults: Info [1640.23] Compile of BPC_Char successful! [in 816 ms]
+[2015.07.29-07.37.05:457][636]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.37.05:851][636]LogSavePackage: Save=367.849243ms
+[2015.07.29-07.37.05:851][636]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/BPC_CharC6CF1FFA4396C36D03E506A8CCC09714.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Blueprints/BPC_Char.uasset'
+[2015.07.29-07.37.06:298][648]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.37.06:299][648]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:37:06 am)
+[2015.07.29-07.37.06:299][648]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.37.06:341][648]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041534s)
+[2015.07.29-07.37.06:346][648]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.37.06:348][648]LogPlayLevel: PIE: World Init took: (0.006333s)
+[2015.07.29-07.37.06:348][648]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.048894s)
+[2015.07.29-07.37.06:525][648]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.37.06:560][648]LogInit: FAudioDevice initialized.
+[2015.07.29-07.37.06:580][648]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.37.06:642][648]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.37.06:665][648]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.37.06
+[2015.07.29-07.37.06:665][648]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.37.06:666][648]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.37.06:666][648]LogWorld: Bringing up level for play took: 0.021364
+[2015.07.29-07.37.06:754][648]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 1.306
+[2015.07.29-07.37.22:660][914]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCCDDE34C0
+[2015.07.29-07.37.47:088][861]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.37.47:551][861]LogSavePackage: Save=429.387756ms
+[2015.07.29-07.37.47:551][861]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/BPC_Char84672D144B1FADEB7080008021D0CD60.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Blueprints/BPC_Char.uasset'
+[2015.07.29-07.38.02:049][608]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.38.42:536][636]BlueprintLog: New page: Compile BPC_Char
+[2015.07.29-07.38.43:410][636]BlueprintEditorCompileResults: Info [1738.86] Compile of BPC_Char successful! [in 873 ms]
+[2015.07.29-07.38.44:153][661]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.38.44:645][661]LogSavePackage: Save=464.257996ms
+[2015.07.29-07.38.44:646][661]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/BPC_Char2FC6BB3645E26E732CE51096E28251EE.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Blueprints/BPC_Char.uasset'
+[2015.07.29-07.38.45:069][672]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.38.45:070][672]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:38:45 am)
+[2015.07.29-07.38.45:070][672]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.38.45:123][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052522s)
+[2015.07.29-07.38.45:125][672]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.38.45:126][672]LogPlayLevel: PIE: World Init took: (0.003155s)
+[2015.07.29-07.38.45:126][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.056114s)
+[2015.07.29-07.38.45:313][672]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.38.45:356][672]LogInit: FAudioDevice initialized.
+[2015.07.29-07.38.45:367][672]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.38.45:419][672]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.38.45:442][672]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.38.45
+[2015.07.29-07.38.45:442][672]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.38.45:442][672]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.38.45:443][672]LogWorld: Bringing up level for play took: 0.021090
+[2015.07.29-07.38.45:511][672]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 0.048
+[2015.07.29-07.39.07:834][ 58]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCC5B35EE0
+[2015.07.29-07.39.36:232][355]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.39.36:600][367]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.39.41:572][547]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.39.41:859][556]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.39.43:971][628]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.39.45:663][700]BlueprintLog: New page: Compile BPC_Char
+[2015.07.29-07.39.46:566][700]BlueprintEditorCompileResults: Info [1802.01] Compile of BPC_Char successful! [in 902 ms]
+[2015.07.29-07.39.47:366][732]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.29-07.39.47:366][732]PIE: New page: PIE session: LevelTest_Test01 (30 Jul 2015 3:39:47 am)
+[2015.07.29-07.39.47:367][732]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.29-07.39.47:416][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049288s)
+[2015.07.29-07.39.47:424][732]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-07.39.47:425][732]LogPlayLevel: PIE: World Init took: (0.008849s)
+[2015.07.29-07.39.47:425][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.058602s)
+[2015.07.29-07.39.47:538][732]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-07.39.47:578][732]LogInit: FAudioDevice initialized.
+[2015.07.29-07.39.47:589][732]LogD3D11RHI: InitD3DDevice
+[2015.07.29-07.39.47:641][732]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-07.39.47:662][732]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.29-17.39.47
+[2015.07.29-07.39.47:664][732]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.39.47:664][732]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.29-07.39.47:665][732]LogWorld: Bringing up level for play took: 0.020109
+[2015.07.29-07.39.47:731][732]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 0.257
+[2015.07.29-07.39.47:852][733]LogBlueprintUserMessages: 99.967%
+[2015.07.29-07.39.47:965][734]LogBlueprintUserMessages: 99.959%
+[2015.07.29-07.39.48:024][735]LogBlueprintUserMessages: 99.952%
+[2015.07.29-07.39.48:050][736]LogBlueprintUserMessages: 99.95%
+[2015.07.29-07.39.48:127][737]LogBlueprintUserMessages: 99.944%
+[2015.07.29-07.39.48:166][738]LogBlueprintUserMessages: 99.94%
+[2015.07.29-07.39.48:192][739]LogBlueprintUserMessages: 99.938%
+[2015.07.29-07.39.48:219][740]LogBlueprintUserMessages: 99.936%
+[2015.07.29-07.39.48:372][741]LogBlueprintUserMessages: 99.924%
+[2015.07.29-07.39.48:412][742]LogBlueprintUserMessages: 99.92%
+[2015.07.29-07.39.48:433][743]LogBlueprintUserMessages: 99.918%
+[2015.07.29-07.39.48:457][744]LogBlueprintUserMessages: 99.916%
+[2015.07.29-07.39.48:563][745]LogBlueprintUserMessages: 99.908%
+[2015.07.29-07.39.48:632][746]LogBlueprintUserMessages: 99.902%
+[2015.07.29-07.39.48:658][747]LogBlueprintUserMessages: 99.899%
+[2015.07.29-07.39.48:679][748]LogBlueprintUserMessages: 99.898%
+[2015.07.29-07.39.48:754][749]LogBlueprintUserMessages: 99.892%
+[2015.07.29-07.39.48:830][750]LogBlueprintUserMessages: 99.885%
+[2015.07.29-07.39.48:856][751]LogBlueprintUserMessages: 99.883%
+[2015.07.29-07.39.48:881][752]LogBlueprintUserMessages: 99.881%
+[2015.07.29-07.39.48:935][753]LogBlueprintUserMessages: 99.878%
+[2015.07.29-07.39.49:091][754]LogBlueprintUserMessages: 99.864%
+[2015.07.29-07.39.49:118][755]LogBlueprintUserMessages: 99.861%
+[2015.07.29-07.39.49:189][756]LogBlueprintUserMessages: 99.857%
+[2015.07.29-07.39.49:240][757]LogBlueprintUserMessages: 99.851%
+[2015.07.29-07.39.49:306][758]LogBlueprintUserMessages: 99.848%
+[2015.07.29-07.39.49:347][759]LogBlueprintUserMessages: 99.842%
+[2015.07.29-07.39.49:375][760]LogBlueprintUserMessages: 99.84%
+[2015.07.29-07.39.49:397][761]LogBlueprintUserMessages: 99.838%
+[2015.07.29-07.39.49:426][762]LogBlueprintUserMessages: 99.836%
+[2015.07.29-07.39.49:592][763]LogBlueprintUserMessages: 99.822%
+[2015.07.29-07.39.49:628][764]LogBlueprintUserMessages: 99.819%
+[2015.07.29-07.39.49:651][765]LogBlueprintUserMessages: 99.817%
+[2015.07.29-07.39.49:672][766]LogBlueprintUserMessages: 99.815%
+[2015.07.29-07.39.49:696][767]LogBlueprintUserMessages: 99.813%
+[2015.07.29-07.39.49:904][768]LogBlueprintUserMessages: 99.796%
+[2015.07.29-07.39.49:942][769]LogBlueprintUserMessages: 99.793%
+[2015.07.29-07.39.49:966][770]LogBlueprintUserMessages: 99.79%
+[2015.07.29-07.39.49:990][771]LogBlueprintUserMessages: 99.789%
+[2015.07.29-07.39.50:063][772]LogBlueprintUserMessages: 99.785%
+[2015.07.29-07.39.50:198][773]LogBlueprintUserMessages: 99.772%
+[2015.07.29-07.39.50:234][774]LogBlueprintUserMessages: 99.768%
+[2015.07.29-07.39.50:292][775]LogBlueprintUserMessages: 99.764%
+[2015.07.29-07.39.50:323][776]LogBlueprintUserMessages: 99.761%
+[2015.07.29-07.39.50:410][777]LogBlueprintUserMessages: 99.754%
+[2015.07.29-07.39.50:445][778]LogBlueprintUserMessages: 99.751%
+[2015.07.29-07.39.50:468][779]LogBlueprintUserMessages: 99.749%
+[2015.07.29-07.39.50:494][780]LogBlueprintUserMessages: 99.746%
+[2015.07.29-07.39.50:610][781]LogBlueprintUserMessages: 99.737%
+[2015.07.29-07.39.50:637][782]LogBlueprintUserMessages: 99.734%
+[2015.07.29-07.39.50:669][783]LogBlueprintUserMessages: 99.732%
+[2015.07.29-07.39.50:799][784]LogBlueprintUserMessages: 99.721%
+[2015.07.29-07.39.50:833][785]LogBlueprintUserMessages: 99.718%
+[2015.07.29-07.39.50:862][786]LogBlueprintUserMessages: 99.716%
+[2015.07.29-07.39.50:890][787]LogBlueprintUserMessages: 99.714%
+[2015.07.29-07.39.51:022][788]LogBlueprintUserMessages: 99.703%
+[2015.07.29-07.39.51:047][789]LogBlueprintUserMessages: 99.7%
+[2015.07.29-07.39.51:158][790]LogBlueprintUserMessages: 99.691%
+[2015.07.29-07.39.51:185][791]LogBlueprintUserMessages: 99.689%
+[2015.07.29-07.39.51:210][792]LogBlueprintUserMessages: 99.687%
+[2015.07.29-07.39.51:231][793]LogBlueprintUserMessages: 99.685%
+[2015.07.29-07.39.51:250][794]LogBlueprintUserMessages: 99.683%
+[2015.07.29-07.39.51:272][795]LogBlueprintUserMessages: 99.682%
+[2015.07.29-07.39.51:364][796]LogBlueprintUserMessages: 99.674%
+[2015.07.29-07.39.51:416][797]LogBlueprintUserMessages: 99.67%
+[2015.07.29-07.39.51:441][798]LogBlueprintUserMessages: 99.668%
+[2015.07.29-07.39.51:468][799]LogBlueprintUserMessages: 99.665%
+[2015.07.29-07.39.51:648][800]LogBlueprintUserMessages: 99.655%
+[2015.07.29-07.39.51:679][801]LogBlueprintUserMessages: 99.648%
+[2015.07.29-07.39.51:703][802]LogBlueprintUserMessages: 99.646%
+[2015.07.29-07.39.51:826][803]LogBlueprintUserMessages: 99.64%
+[2015.07.29-07.39.51:878][804]LogBlueprintUserMessages: 99.631%
+[2015.07.29-07.39.51:906][805]LogBlueprintUserMessages: 99.629%
+[2015.07.29-07.39.51:985][806]LogBlueprintUserMessages: 99.623%
+[2015.07.29-07.39.52:015][807]LogBlueprintUserMessages: 99.62%
+[2015.07.29-07.39.52:126][808]LogBlueprintUserMessages: 99.612%
+[2015.07.29-07.39.52:201][809]LogBlueprintUserMessages: 99.605%
+[2015.07.29-07.39.52:265][810]LogBlueprintUserMessages: 99.599%
+[2015.07.29-07.39.52:295][811]LogBlueprintUserMessages: 99.596%
+[2015.07.29-07.39.52:371][812]LogBlueprintUserMessages: 99.59%
+[2015.07.29-07.39.52:397][813]LogBlueprintUserMessages: 99.588%
+[2015.07.29-07.39.52:424][814]LogBlueprintUserMessages: 99.586%
+[2015.07.29-07.39.52:493][815]LogBlueprintUserMessages: 99.583%
+[2015.07.29-07.39.52:580][816]LogBlueprintUserMessages: 99.573%
+[2015.07.29-07.39.52:612][817]LogBlueprintUserMessages: 99.57%
+[2015.07.29-07.39.52:689][818]LogBlueprintUserMessages: 99.564%
+[2015.07.29-07.39.52:723][819]LogBlueprintUserMessages: 99.561%
+[2015.07.29-07.39.52:749][820]LogBlueprintUserMessages: 99.559%
+[2015.07.29-07.39.52:857][821]LogBlueprintUserMessages: 99.553%
+[2015.07.29-07.39.52:950][822]LogBlueprintUserMessages: 99.542%
+[2015.07.29-07.39.52:978][823]LogBlueprintUserMessages: 99.539%
+[2015.07.29-07.39.53:039][824]LogBlueprintUserMessages: 99.534%
+[2015.07.29-07.39.53:068][825]LogBlueprintUserMessages: 99.532%
+[2015.07.29-07.39.53:146][826]LogBlueprintUserMessages: 99.526%
+[2015.07.29-07.39.53:224][827]LogBlueprintUserMessages: 99.519%
+[2015.07.29-07.39.53:255][828]LogBlueprintUserMessages: 99.516%
+[2015.07.29-07.39.53:283][829]LogBlueprintUserMessages: 99.514%
+[2015.07.29-07.39.53:309][830]LogBlueprintUserMessages: 99.512%
+[2015.07.29-07.39.53:408][831]LogBlueprintUserMessages: 99.504%
+[2015.07.29-07.39.53:472][832]LogBlueprintUserMessages: 99.498%
+[2015.07.29-07.39.53:500][833]LogBlueprintUserMessages: 99.496%
+[2015.07.29-07.39.53:524][834]LogBlueprintUserMessages: 99.494%
+[2015.07.29-07.39.53:547][835]LogBlueprintUserMessages: 99.492%
+[2015.07.29-07.39.53:669][836]LogBlueprintUserMessages: 99.483%
+[2015.07.29-07.39.53:748][837]LogBlueprintUserMessages: 99.475%
+[2015.07.29-07.39.53:773][838]LogBlueprintUserMessages: 99.473%
+[2015.07.29-07.39.53:795][839]LogBlueprintUserMessages: 99.471%
+[2015.07.29-07.39.53:818][840]LogBlueprintUserMessages: 99.469%
+[2015.07.29-07.39.53:842][841]LogBlueprintUserMessages: 99.467%
+[2015.07.29-07.39.53:952][842]LogBlueprintUserMessages: 99.458%
+[2015.07.29-07.39.53:987][843]LogBlueprintUserMessages: 99.455%
+[2015.07.29-07.39.54:015][844]LogBlueprintUserMessages: 99.453%
+[2015.07.29-07.39.54:107][845]LogBlueprintUserMessages: 99.446%
+[2015.07.29-07.39.54:162][846]LogBlueprintUserMessages: 99.441%
+[2015.07.29-07.39.54:190][847]LogBlueprintUserMessages: 99.439%
+[2015.07.29-07.39.54:217][848]LogBlueprintUserMessages: 99.436%
+[2015.07.29-07.39.54:323][849]LogBlueprintUserMessages: 99.427%
+[2015.07.29-07.39.54:356][850]LogBlueprintUserMessages: 99.425%
+[2015.07.29-07.39.54:420][851]LogBlueprintUserMessages: 99.419%
+[2015.07.29-07.39.54:455][852]LogBlueprintUserMessages: 99.416%
+[2015.07.29-07.39.54:481][853]LogBlueprintUserMessages: 99.414%
+[2015.07.29-07.39.54:509][854]LogBlueprintUserMessages: 99.412%
+[2015.07.29-07.39.54:578][855]LogBlueprintUserMessages: 99.408%
+[2015.07.29-07.39.54:776][856]LogBlueprintUserMessages: 99.393%
+[2015.07.29-07.39.54:866][857]LogBlueprintUserMessages: 99.382%
+[2015.07.29-07.39.54:983][858]LogBlueprintUserMessages: 99.373%
+[2015.07.29-07.39.55:014][859]LogBlueprintUserMessages: 99.37%
+[2015.07.29-07.39.55:116][860]LogBlueprintUserMessages: 99.362%
+[2015.07.29-07.39.55:204][861]LogBlueprintUserMessages: 99.354%
+[2015.07.29-07.39.55:230][862]LogBlueprintUserMessages: 99.352%
+[2015.07.29-07.39.55:252][863]LogBlueprintUserMessages: 99.35%
+[2015.07.29-07.39.55:276][864]LogBlueprintUserMessages: 99.348%
+[2015.07.29-07.39.55:358][865]LogBlueprintUserMessages: 99.342%
+[2015.07.29-07.39.55:387][866]LogBlueprintUserMessages: 99.339%
+[2015.07.29-07.39.55:469][867]LogBlueprintUserMessages: 99.332%
+[2015.07.29-07.39.55:498][868]LogBlueprintUserMessages: 99.33%
+[2015.07.29-07.39.55:522][869]LogBlueprintUserMessages: 99.328%
+[2015.07.29-07.39.55:546][870]LogBlueprintUserMessages: 99.326%
+[2015.07.29-07.39.55:699][871]LogBlueprintUserMessages: 99.315%
+[2015.07.29-07.39.55:729][872]LogBlueprintUserMessages: 99.31%
+[2015.07.29-07.39.55:767][873]LogBlueprintUserMessages: 99.308%
+[2015.07.29-07.39.55:925][874]LogBlueprintUserMessages: 99.294%
+[2015.07.29-07.39.55:949][875]LogBlueprintUserMessages: 99.292%
+[2015.07.29-07.39.55:976][876]LogBlueprintUserMessages: 99.29%
+[2015.07.29-07.39.56:071][877]LogBlueprintUserMessages: 99.282%
+[2015.07.29-07.39.56:177][878]LogBlueprintUserMessages: 99.273%
+[2015.07.29-07.39.56:205][879]LogBlueprintUserMessages: 99.271%
+[2015.07.29-07.39.56:232][880]LogBlueprintUserMessages: 99.268%
+[2015.07.29-07.39.56:256][881]LogBlueprintUserMessages: 99.266%
+[2015.07.29-07.39.56:309][882]LogBlueprintUserMessages: 99.264%
+[2015.07.29-07.39.56:433][883]LogBlueprintUserMessages: 99.252%
+[2015.07.29-07.39.56:460][884]LogBlueprintUserMessages: 99.249%
+[2015.07.29-07.39.56:485][885]LogBlueprintUserMessages: 99.247%
+[2015.07.29-07.39.56:509][886]LogBlueprintUserMessages: 99.245%
+[2015.07.29-07.39.56:670][887]LogBlueprintUserMessages: 99.234%
+[2015.07.29-07.39.56:700][888]LogBlueprintUserMessages: 99.229%
+[2015.07.29-07.39.56:728][889]LogBlueprintUserMessages: 99.227%
+[2015.07.29-07.39.56:888][890]LogBlueprintUserMessages: 99.215%
+[2015.07.29-07.39.56:916][891]LogBlueprintUserMessages: 99.211%
+[2015.07.29-07.39.56:975][892]LogBlueprintUserMessages: 99.208%
+[2015.07.29-07.39.57:072][893]LogBlueprintUserMessages: 99.199%
+[2015.07.29-07.39.57:099][894]LogBlueprintUserMessages: 99.196%
+[2015.07.29-07.39.57:198][895]LogBlueprintUserMessages: 99.188%
+[2015.07.29-07.39.57:224][896]LogBlueprintUserMessages: 99.186%
+[2015.07.29-07.39.57:251][897]LogBlueprintUserMessages: 99.183%
+[2015.07.29-07.39.57:275][898]LogBlueprintUserMessages: 99.181%
+[2015.07.29-07.39.57:381][899]LogBlueprintUserMessages: 99.174%
+[2015.07.29-07.39.57:417][900]LogBlueprintUserMessages: 99.17%
+[2015.07.29-07.39.57:439][901]LogBlueprintUserMessages: 99.168%
+[2015.07.29-07.39.57:460][902]LogBlueprintUserMessages: 99.166%
+[2015.07.29-07.39.57:503][903]LogBlueprintUserMessages: 99.163%
+[2015.07.29-07.39.57:641][904]LogBlueprintUserMessages: 99.151%
+[2015.07.29-07.39.57:673][905]LogBlueprintUserMessages: 99.148%
+[2015.07.29-07.39.57:696][906]LogBlueprintUserMessages: 99.146%
+[2015.07.29-07.39.57:718][907]LogBlueprintUserMessages: 99.145%
+[2015.07.29-07.39.57:825][908]LogBlueprintUserMessages: 99.138%
+[2015.07.29-07.39.57:885][909]LogBlueprintUserMessages: 99.131%
+[2015.07.29-07.39.57:909][910]LogBlueprintUserMessages: 99.129%
+[2015.07.29-07.39.57:932][911]LogBlueprintUserMessages: 99.127%
+[2015.07.29-07.39.57:978][912]LogBlueprintUserMessages: 99.124%
+[2015.07.29-07.39.58:131][913]LogBlueprintUserMessages: 99.11%
+[2015.07.29-07.39.58:195][914]LogBlueprintUserMessages: 99.105%
+[2015.07.29-07.39.58:246][915]LogBlueprintUserMessages: 99.102%
+[2015.07.29-07.39.58:297][916]LogBlueprintUserMessages: 99.096%
+[2015.07.29-07.39.58:326][917]LogBlueprintUserMessages: 99.094%
+[2015.07.29-07.39.58:349][918]LogBlueprintUserMessages: 99.092%
+[2015.07.29-07.39.58:445][919]LogBlueprintUserMessages: 99.085%
+[2015.07.29-07.39.58:484][920]LogBlueprintUserMessages: 99.081%
+[2015.07.29-07.39.58:573][921]LogBlueprintUserMessages: 99.073%
+[2015.07.29-07.39.58:616][922]LogBlueprintUserMessages: 99.07%
+[2015.07.29-07.39.58:641][923]LogBlueprintUserMessages: 99.068%
+[2015.07.29-07.39.58:663][924]LogBlueprintUserMessages: 99.066%
+[2015.07.29-07.39.58:682][925]LogBlueprintUserMessages: 99.064%
+[2015.07.29-07.39.58:718][926]LogBlueprintUserMessages: 99.061%
+[2015.07.29-07.39.58:870][927]LogBlueprintUserMessages: 99.049%
+[2015.07.29-07.39.58:969][928]LogBlueprintUserMessages: 99.04%
+[2015.07.29-07.39.59:002][929]LogBlueprintUserMessages: 99.038%
+[2015.07.29-07.39.59:026][930]LogBlueprintUserMessages: 99.036%
+[2015.07.29-07.39.59:051][931]LogBlueprintUserMessages: 99.034%
+[2015.07.29-07.39.59:183][932]LogBlueprintUserMessages: 99.023%
+[2015.07.29-07.39.59:216][933]LogBlueprintUserMessages: 99.02%
+[2015.07.29-07.39.59:247][934]LogBlueprintUserMessages: 99.017%
+[2015.07.29-07.39.59:270][935]LogBlueprintUserMessages: 99.015%
+[2015.07.29-07.39.59:291][936]LogBlueprintUserMessages: 99.014%
+[2015.07.29-07.39.59:317][937]LogBlueprintUserMessages: 99.011%
+[2015.07.29-07.39.59:493][938]LogBlueprintUserMessages: 98.999%
+[2015.07.29-07.39.59:595][939]LogBlueprintUserMessages: 98.99%
+[2015.07.29-07.39.59:656][940]LogBlueprintUserMessages: 98.983%
+[2015.07.29-07.39.59:679][941]LogBlueprintUserMessages: 98.981%
+[2015.07.29-07.39.59:701][942]LogBlueprintUserMessages: 98.979%
+[2015.07.29-07.39.59:726][943]LogBlueprintUserMessages: 98.977%
+[2015.07.29-07.39.59:840][944]LogBlueprintUserMessages: 98.968%
+[2015.07.29-07.39.59:917][945]LogBlueprintUserMessages: 98.961%
+[2015.07.29-07.39.59:945][946]LogBlueprintUserMessages: 98.959%
+[2015.07.29-07.39.59:971][947]LogBlueprintUserMessages: 98.957%
+[2015.07.29-07.40.00:067][948]LogBlueprintUserMessages: 98.951%
+[2015.07.29-07.40.00:156][949]LogBlueprintUserMessages: 98.942%
+[2015.07.29-07.40.00:181][950]LogBlueprintUserMessages: 98.939%
+[2015.07.29-07.40.00:203][951]LogBlueprintUserMessages: 98.937%
+[2015.07.29-07.40.00:312][952]LogBlueprintUserMessages: 98.932%
+[2015.07.29-07.40.00:415][953]LogBlueprintUserMessages: 98.92%
+[2015.07.29-07.40.00:439][954]LogBlueprintUserMessages: 98.918%
+[2015.07.29-07.40.00:461][955]LogBlueprintUserMessages: 98.916%
+[2015.07.29-07.40.00:601][956]LogBlueprintUserMessages: 98.905%
+[2015.07.29-07.40.00:670][957]LogBlueprintUserMessages: 98.899%
+[2015.07.29-07.40.00:701][958]LogBlueprintUserMessages: 98.896%
+[2015.07.29-07.40.00:767][959]LogBlueprintUserMessages: 98.891%
+[2015.07.29-07.40.00:843][960]LogBlueprintUserMessages: 98.884%
+[2015.07.29-07.40.00:871][961]LogBlueprintUserMessages: 98.882%
+[2015.07.29-07.40.00:896][962]LogBlueprintUserMessages: 98.88%
+[2015.07.29-07.40.00:916][963]LogBlueprintUserMessages: 98.878%
+[2015.07.29-07.40.00:936][964]LogBlueprintUserMessages: 98.876%
+[2015.07.29-07.40.01:056][965]LogBlueprintUserMessages: 98.867%
+[2015.07.29-07.40.01:153][966]LogBlueprintUserMessages: 98.858%
+[2015.07.29-07.40.01:242][967]LogBlueprintUserMessages: 98.852%
+[2015.07.29-07.40.01:323][968]LogBlueprintUserMessages: 98.844%
+[2015.07.29-07.40.01:353][969]LogBlueprintUserMessages: 98.842%
+[2015.07.29-07.40.01:377][970]LogBlueprintUserMessages: 98.84%
+[2015.07.29-07.40.01:503][971]LogBlueprintUserMessages: 98.831%
+[2015.07.29-07.40.01:585][972]LogBlueprintUserMessages: 98.822%
+[2015.07.29-07.40.01:610][973]LogBlueprintUserMessages: 98.82%
+[2015.07.29-07.40.01:637][974]LogBlueprintUserMessages: 98.818%
+[2015.07.29-07.40.01:776][975]LogBlueprintUserMessages: 98.808%
+[2015.07.29-07.40.01:832][976]LogBlueprintUserMessages: 98.802%
+[2015.07.29-07.40.01:872][977]LogBlueprintUserMessages: 98.798%
+[2015.07.29-07.40.01:899][978]LogBlueprintUserMessages: 98.796%
+[2015.07.29-07.40.01:992][979]LogBlueprintUserMessages: 98.789%
+[2015.07.29-07.40.02:030][980]LogBlueprintUserMessages: 98.785%
+[2015.07.29-07.40.02:059][981]LogBlueprintUserMessages: 98.783%
+[2015.07.29-07.40.02:083][982]LogBlueprintUserMessages: 98.781%
+[2015.07.29-07.40.02:237][983]LogBlueprintUserMessages: 98.769%
+[2015.07.29-07.40.02:296][984]LogBlueprintUserMessages: 98.763%
+[2015.07.29-07.40.02:352][985]LogBlueprintUserMessages: 98.758%
+[2015.07.29-07.40.02:389][986]LogBlueprintUserMessages: 98.755%
+[2015.07.29-07.40.02:463][987]LogBlueprintUserMessages: 98.749%
+[2015.07.29-07.40.02:493][988]LogBlueprintUserMessages: 98.747%
+[2015.07.29-07.40.02:577][989]LogBlueprintUserMessages: 98.74%
+[2015.07.29-07.40.02:610][990]LogBlueprintUserMessages: 98.737%
+[2015.07.29-07.40.02:637][991]LogBlueprintUserMessages: 98.735%
+[2015.07.29-07.40.02:746][992]LogBlueprintUserMessages: 98.726%
+[2015.07.29-07.40.02:777][993]LogBlueprintUserMessages: 98.723%
+[2015.07.29-07.40.02:861][994]LogBlueprintUserMessages: 98.719%
+[2015.07.29-07.40.02:963][995]Lo

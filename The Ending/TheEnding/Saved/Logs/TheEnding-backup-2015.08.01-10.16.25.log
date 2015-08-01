@@ -1,0 +1,538 @@
+﻿[2015.08.01-00.07.28:079][  0]Log file open, 08/01/15 10:07:28
+[2015.08.01-00.07.28:079][  0]LogInit:Display: Running engine for game: TheEnding
+[2015.08.01-00.07.28:079][  0]LogInit:Display: RandInit(-583933578) SRandInit(-583933577).
+[2015.08.01-00.07.28:079][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.08.01-00.07.28:079][  0]LogStats: Stats thread started
+[2015.08.01-00.07.28:079][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.01-00.07.28:079][  0]LogInit: API Version: 2579680
+[2015.08.01-00.07.28:079][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.01-00.07.28:079][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.01-00.07.28:079][  0]LogInit: Build Configuration: Development
+[2015.08.01-00.07.28:079][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.01-00.07.28:079][  0]LogInit: Command line:  
+[2015.08.01-00.07.28:079][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.08.01-00.07.28:079][  0]LogInit: Rocket: 1
+[2015.08.01-00.07.28:095][  0]LogInit: Using libcurl 7.41.0
+[2015.08.01-00.07.28:095][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.01-00.07.28:095][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.01-00.07.28:095][  0]LogInit:  - other features:
+[2015.08.01-00.07.28:095][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.01-00.07.28:095][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.01-00.07.28:095][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.01-00.07.28:095][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.01-00.07.28:095][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.01-00.07.28:095][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.01-00.07.28:095][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.01-00.07.28:095][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.01-00.07.28:095][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.01-00.07.28:095][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.01-00.07.28:106][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.01-00.07.28:119][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.01-00.07.28:128][  0]LogInit: Object subsystem initialized
+[2015.08.01-00.07.28:129][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.01-00.07.28:129][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.01-00.07.28:129][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.01-00.07.28:129][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.01-00.07.28:129][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.01-00.07.28:129][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.01-00.07.28:130][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.01-00.07.28:130][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.01-00.07.28:141][  0]LogInit: Computer: TAB-1090
+[2015.08.01-00.07.28:141][  0]LogInit: User: 076271
+[2015.08.01-00.07.28:141][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.08.01-00.07.28:141][  0]LogInit: High frequency timer resolution =1.558889 MHz
+[2015.08.01-00.07.28:141][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.08.01-00.07.28:142][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.01-00.07.28:142][  0]LogMemory: Process Physical Memory: 51.79 MB used, 51.79 MB peak
+[2015.08.01-00.07.28:142][  0]LogMemory: Process Virtual Memory: 25.35 MB used, 25.35 MB peak
+[2015.08.01-00.07.28:142][  0]LogMemory: Physical Memory: 3156.19 MB used, 8097.05 MB total
+[2015.08.01-00.07.28:142][  0]LogMemory: Virtual Memory: 297.66 MB used, 134217728.00 MB total
+[2015.08.01-00.07.28:174][  0]LogTextLocalizationManager: The requested culture ('en_AU') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.01-00.07.28:646][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.01-00.07.29:536][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2015.08.01-00.07.29:536][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
+[2015.08.01-00.07.29:538][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.08.01-00.07.29:538][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.08.01-00.07.29:538][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.01-00.07.29:542][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.07.29:542][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.01-00.07.29:542][  0]LogRHI: Texture pool is 627 MB (70% of 896 MB)
+[2015.08.01-00.07.29:549][  0]LogD3D11RHI: Async texture creation enabled
+[2015.08.01-00.07.29:557][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.01-00.07.31:309][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.01-00.07.31:332][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.01-00.07.31:350][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.01-00.07.31:366][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.01-00.07.31:383][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.01-00.07.31:397][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.01-00.07.31:409][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.01-00.07.31:421][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.01-00.07.31:434][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.01-00.07.31:446][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.01-00.07.31:459][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.01-00.07.31:471][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.01-00.07.31:484][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.08.01-00.07.31:519][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.01-00.07.31:532][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.01-00.07.31:546][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.01-00.07.31:562][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.01-00.07.31:562][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.01-00.07.31:897][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.01-00.07.31:978][  0]LogDerivedDataCache: Loaded boot cache 0.08s 53MB C:/Users/076271/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.01-00.07.31:978][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/076271/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.01-00.07.31:979][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.01-00.07.31:979][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.01-00.07.31:979][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.01-00.07.31:979][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.01-00.07.32:298][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.01-00.07.32:310][  0]LogDerivedDataCache: Using Local data cache path C:/Users/076271/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.01-00.07.32:600][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.01-00.07.32:724][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.01-00.07.32:725][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.01-00.07.32:770][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.01-00.07.32:770][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.01-00.07.33:372][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.01-00.07.34:988][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.01-00.07.35:371][  0]SourceControl: Info Source control is disabled
+[2015.08.01-00.07.35:383][  0]SourceControl: Info Source control is disabled
+[2015.08.01-00.07.35:392][  0]SourceControl: Info Source control is disabled
+[2015.08.01-00.07.35:401][  0]SourceControl: Info Source control is disabled
+[2015.08.01-00.07.35:622][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.08.01-00.07.35:622][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.08.01-00.07.35:724][  0]LogEngine: Initializing Engine...
+[2015.08.01-00.07.35:727][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.08.01-00.07.35:729][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 100
+[2015.08.01-00.07.36:050][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.01-00.07.36:054][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.01-00.07.36:395][  0]LogInit: FAudioDevice initialized.
+[2015.08.01-00.07.36:425][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/076271/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.01-00.07.36:431][  0]LogInit: Texture streaming: Disabled
+[2015.08.01-00.07.36:454][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.01-00.07.36:454][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.01-00.07.36:454][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 76c04c81496839754ea32aa1f64fd1dc|0cceb55ada7a48d4a2aa42507710ea50|1bc6e7bf-6992-4f6c-b1ed-24e2f407b47a
+[2015.08.01-00.07.36:454][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.08.01-00.07.36:488][  0]LogInit: Transaction tracking system initialized
+[2015.08.01-00.07.36:707][  0]BlueprintLog: New page: Editor Load
+[2015.08.01-00.07.36:777][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2015.08.01-00.07.36:777][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.01-00.07.38:495][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.08.01-00.07.38:495][  0]LogConsoleResponse:Display: 
+[2015.08.01-00.07.38:996][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.01-00.07.39:496][  0]SourceControl: Info Source control is disabled
+[2015.08.01-00.07.39:496][  0]Cmd: MAP LOAD FILE="../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Maps/LevelTest_Test01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.01-00.07.39:497][  0]LightingResults: New page: Lighting Build
+[2015.08.01-00.07.39:515][  0]MapCheck: New page: Map Check
+[2015.08.01-00.07.39:515][  0]LightingResults: New page: Lighting Build
+[2015.08.01-00.07.39:545][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F5A7BB4F40
+[2015.08.01-00.07.41:280][  0]LogLinker:Warning: Asset '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/PP_Outliner_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.01-00.07.41:282][  0]LogLinker:Warning: Can't find file '/Game/Materials/PP_Outliner_M'
+[2015.08.01-00.07.41:282][  0]LogLinker:Warning: Can't find file for asset '/Game/Materials/PP_Outliner_M' while loading ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/PP_Outliner_Inst.uasset.
+[2015.08.01-00.07.41:283][  0]LoadErrors:Error: Error /Game/FirstPersonBP/PP_Outliner_Inst : Can't find file for asset. /Game/Materials/PP_Outliner_M
+[2015.08.01-00.07.41:283][  0]LogLinker:Warning: Can't find file '/Game/Materials/PP_Outliner_M'
+[2015.08.01-00.07.41:284][  0]LogLinker:Warning: Can't find file for asset '/Game/Materials/PP_Outliner_M' while loading ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/PP_Outliner_Inst.uasset.
+[2015.08.01-00.07.41:284][  0]LoadErrors:Error: Error /Game/FirstPersonBP/PP_Outliner_Inst : Can't find file for asset. /Game/Materials/PP_Outliner_M
+[2015.08.01-00.07.41:365][  0]LogLinker:Warning: Can't find file '/Game/Materials/PP_Outliner_M'
+[2015.08.01-00.07.41:365][  0]LoadErrors: Info Failed to load /Game/Materials/PP_Outliner_M.PP_Outliner_M Referenced by PP_Outliner_Inst
+[2015.08.01-00.07.41:365][  0]LogLinker:Warning: Can't find file for asset '/Game/Materials/PP_Outliner_M' while loading NULL.
+[2015.08.01-00.07.41:365][  0]LoadErrors: Info Failed to load /Game/Materials/PP_Outliner_M.PP_Outliner_M Referenced by PP_Outliner_Inst
+[2015.08.01-00.07.43:199][  0]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.08.01-00.07.43:422][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.01-00.07.47:754][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.01-00.07.47:809][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.804ms to complete.
+[2015.08.01-00.07.47:809][  0]LogFileHelpers: Loading map 'LevelTest_Test01' took 8.313
+[2015.08.01-00.07.47:973][  0]LogCollectionManager: Loaded 0 collections in 0.001831 seconds
+[2015.08.01-00.07.47:983][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 1792 classes and 301 folders.
+[2015.08.01-00.07.48:027][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.08.01-00.07.48:058][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.08.01-00.07.48:075][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2015.08.01-00.07.48:110][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.01-00.07.48:111][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.07.48:118][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.08.01-00.07.48:141][  0]LogLoad: Full Startup: 22.89 seconds (BP compile: 0.99 seconds)
+[2015.08.01-00.07.48:534][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.01-00.07.48:605][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.08.01-00.07.48:610][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.07.48:787][  0]LogRenderer: Reallocating scene render targets to support 688x400 (Frame:2).
+[2015.08.01-00.07.49:995][  2]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.07.52:015][  8]LogAssetRegistry: Asset discovery search completed in 15.2487 seconds
+[2015.08.01-00.07.54:525][ 46]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.07.57:807][138]LogLinker:Warning: ObjectProperty_968 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Widgets/BPW_InventoryItemButton.uasset)
+[2015.08.01-00.07.57:814][138]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/FirstPersonBP/Widgets/BPW_InventoryItemButton.BPW_InventoryItemButton_C:ItemData'. Unknown structure.
+[2015.08.01-00.07.57:913][138]LogLinker:Warning: ObjectProperty_968 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Widgets/BPW_InventoryItemButton.uasset)
+[2015.08.01-00.07.57:913][138]LogClass:Warning: Property ItemData of BPW_InventoryItemButton_C struct type mismatch STRUCT_REINST_BPS_ItemData_0/FallbackStruct for package:  ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Widgets/BPW_InventoryItemButton.uasset. If that property got renamed, add an ActiveStructRedirect.
+[2015.08.01-00.07.57:966][138]LogClass:Warning: Property ItemData of BPW_InventoryItemButton_C struct type mismatch FallbackStruct/BPS_ItemData for package:  FObjectReader. If that property got renamed, add an ActiveStructRedirect.
+[2015.08.01-00.07.58:953][138]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.07.59:155][138]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.01-00.07.59:215][138]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.01-00.08.01:033][138]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.08.08:122][371]LogLinker:Warning: Asset '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.01-00.08.08:164][371]LogLinker:Warning: Asset '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.01-00.08.08:194][371]LogLinker:Warning: Asset '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.01-00.08.08:223][371]LogLinker:Warning: Asset '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.01-00.08.08:225][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ConvolveTexture'
+[2015.08.01-00.08.08:225][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ConvolveTexture' while loading ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/PP_Outliner_M.uasset.
+[2015.08.01-00.08.08:226][371]LoadErrors:Error: Error /Game/FirstPersonBP/PP_Outliner_M : Can't find file for asset. /Game/Materials/MF_ConvolveTexture
+[2015.08.01-00.08.08:226][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:226][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/PP_Outliner_M.uasset.
+[2015.08.01-00.08.08:226][371]LoadErrors:Error: Error /Game/FirstPersonBP/PP_Outliner_M : Can't find file for asset. /Game/Materials/MF_ExtractDepth
+[2015.08.01-00.08.08:226][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_SampleSceneTextureNeighbourUVs'
+[2015.08.01-00.08.08:227][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_SampleSceneTextureNeighbourUVs' while loading ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/PP_Outliner_M.uasset.
+[2015.08.01-00.08.08:227][371]LoadErrors:Error: Error /Game/FirstPersonBP/PP_Outliner_M : Can't find file for asset. /Game/Materials/MF_SampleSceneTextureNeighbourUVs
+[2015.08.01-00.08.08:227][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ConvolveTexture'
+[2015.08.01-00.08.08:227][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ConvolveTexture' while loading ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/PP_Outliner_M.uasset.
+[2015.08.01-00.08.08:228][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:228][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/PP_Outliner_M.uasset.
+[2015.08.01-00.08.08:228][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_SampleSceneTextureNeighbourUVs'
+[2015.08.01-00.08.08:228][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_SampleSceneTextureNeighbourUVs' while loading ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/PP_Outliner_M.uasset.
+[2015.08.01-00.08.08:232][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ConvolveTexture'
+[2015.08.01-00.08.08:232][371]LoadErrors: Info Failed to load /Game/Materials/MF_ConvolveTexture.MF_ConvolveTexture Referenced by PP_Outliner_M
+[2015.08.01-00.08.08:233][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ConvolveTexture' while loading NULL.
+[2015.08.01-00.08.08:233][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_SampleSceneTextureNeighbourUVs'
+[2015.08.01-00.08.08:233][371]LoadErrors: Info Failed to load /Game/Materials/MF_SampleSceneTextureNeighbourUVs.MF_SampleSceneTextureNeighbourUVs Referenced by PP_Outliner_M
+[2015.08.01-00.08.08:233][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_SampleSceneTextureNeighbourUVs' while loading NULL.
+[2015.08.01-00.08.08:233][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:233][371]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by PP_Outliner_M
+[2015.08.01-00.08.08:234][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:234][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:234][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:234][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:234][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:235][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:235][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:235][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:235][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:236][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:236][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:236][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:236][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:236][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:237][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:237][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:237][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:237][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ConvolveTexture'
+[2015.08.01-00.08.08:237][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ConvolveTexture' while loading NULL.
+[2015.08.01-00.08.08:238][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_SampleSceneTextureNeighbourUVs'
+[2015.08.01-00.08.08:238][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_SampleSceneTextureNeighbourUVs' while loading NULL.
+[2015.08.01-00.08.08:238][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:238][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:238][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:239][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:239][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:239][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:239][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:239][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:240][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:240][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:240][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:240][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:240][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:241][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:241][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:241][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:241][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:241][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:242][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ConvolveTexture'
+[2015.08.01-00.08.08:242][371]LoadErrors: Info Failed to load /Game/Materials/MF_ConvolveTexture.MF_ConvolveTexture Referenced by MaterialExpressionMaterialFunctionCall_13
+[2015.08.01-00.08.08:242][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ConvolveTexture' while loading NULL.
+[2015.08.01-00.08.08:242][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_SampleSceneTextureNeighbourUVs'
+[2015.08.01-00.08.08:243][371]LoadErrors: Info Failed to load /Game/Materials/MF_SampleSceneTextureNeighbourUVs.MF_SampleSceneTextureNeighbourUVs Referenced by MaterialExpressionMaterialFunctionCall_14
+[2015.08.01-00.08.08:243][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_SampleSceneTextureNeighbourUVs' while loading NULL.
+[2015.08.01-00.08.08:243][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:243][371]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_15
+[2015.08.01-00.08.08:243][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:244][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:244][371]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_16
+[2015.08.01-00.08.08:244][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:244][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:244][371]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_17
+[2015.08.01-00.08.08:245][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:245][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:245][371]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_18
+[2015.08.01-00.08.08:245][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:245][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:246][371]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_19
+[2015.08.01-00.08.08:246][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:246][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:246][371]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_20
+[2015.08.01-00.08.08:246][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:247][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:247][371]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_21
+[2015.08.01-00.08.08:247][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:247][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:247][371]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_22
+[2015.08.01-00.08.08:247][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:248][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:248][371]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_23
+[2015.08.01-00.08.08:248][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:248][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ConvolveTexture'
+[2015.08.01-00.08.08:249][371]LoadErrors: Info Failed to load /Game/Materials/MF_ConvolveTexture.MF_ConvolveTexture Referenced by MaterialExpressionMaterialFunctionCall_24
+[2015.08.01-00.08.08:249][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ConvolveTexture' while loading NULL.
+[2015.08.01-00.08.08:249][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_SampleSceneTextureNeighbourUVs'
+[2015.08.01-00.08.08:249][371]LoadErrors: Info Failed to load /Game/Materials/MF_SampleSceneTextureNeighbourUVs.MF_SampleSceneTextureNeighbourUVs Referenced by MaterialExpressionMaterialFunctionCall_25
+[2015.08.01-00.08.08:249][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_SampleSceneTextureNeighbourUVs' while loading NULL.
+[2015.08.01-00.08.08:250][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:250][371]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_26
+[2015.08.01-00.08.08:250][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:250][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:251][371]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_27
+[2015.08.01-00.08.08:251][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:251][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:251][371]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_28
+[2015.08.01-00.08.08:251][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:252][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:252][371]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_29
+[2015.08.01-00.08.08:252][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:252][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:253][371]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_30
+[2015.08.01-00.08.08:253][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:253][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:253][371]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_31
+[2015.08.01-00.08.08:253][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:254][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:254][371]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_32
+[2015.08.01-00.08.08:254][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:255][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:255][371]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_33
+[2015.08.01-00.08.08:255][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:255][371]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2015.08.01-00.08.08:256][371]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_34
+[2015.08.01-00.08.08:256][371]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2015.08.01-00.08.08:257][371]LogMaterial: Missing cached shader map for material PP_Outliner_M, compiling. 
+[2015.08.01-00.08.08:258][371]LogMaterial:Warning: Failed to compile Material /Game/FirstPersonBP/PP_Outliner_M.PP_Outliner_M for platform PCD3D_SM5, Default Material will be used in game.
+[2015.08.01-00.08.08:258][371]LogMaterial:Warning: 	Missing Material Function
+[2015.08.01-00.08.08:258][371]LogMaterial:Warning: 	(Node If) If input A must be of type float.
+[2015.08.01-00.08.08:276][371]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2015.08.01-00.08.08:368][371]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.08.08:400][372]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2015.08.01-00.08.08:568][373]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2015.08.01-00.08.08:571][373]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.08.01-00.08.08:571][373]LogMaterial:Warning: 	SceneTexture expressions cannot be used in opaque materials
+[2015.08.01-00.08.10:071][422]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.08.10:990][455]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.08.11:034][455]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.08.11:311][455]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.08.11:465][455]LogSavePackage: Save=67.465355ms
+[2015.08.01-00.08.11:465][455]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/MF_ConvolveTexture4764A8A747F558FCD1A105BBFD1041C7.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Materials/MF_ConvolveTexture.uasset'
+[2015.08.01-00.08.11:601][455]LogSavePackage: Save=48.511471ms
+[2015.08.01-00.08.11:601][455]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/MF_ExtractDepthB6CB61A7434E2B88E7867986D66DF86D.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Materials/MF_ExtractDepth.uasset'
+[2015.08.01-00.08.11:800][455]LogSavePackage: Save=76.671913ms
+[2015.08.01-00.08.11:800][455]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/MF_SampleSceneTextureNeighbourUVs8405CE144D6E892359816C98001B4F45.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Materials/MF_SampleSceneTextureNeighbourUVs.uasset'
+[2015.08.01-00.08.11:894][455]LogSavePackage: Save=36.809547ms
+[2015.08.01-00.08.11:894][455]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/PP_Outliner_InstD4359FE6434F1468E29310BD085B8EBC.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Materials/PP_Outliner_Inst.uasset'
+[2015.08.01-00.08.12:023][455]LogSavePackage: Save=18.297647ms
+[2015.08.01-00.08.12:023][455]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/PP_Outliner_InstB81678694A6189776763F6BF47A27528.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/PP_Outliner_Inst.uasset'
+[2015.08.01-00.08.12:137][455]LogSavePackage: Save=42.005558ms
+[2015.08.01-00.08.12:137][455]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/PP_Outliner_M0CBF13204DBE1C93DA98B3B00234D14D.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Materials/PP_Outliner_M.uasset'
+[2015.08.01-00.08.12:151][455]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.08.13:055][455]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.08.35:372][130]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_96.EdGraphPin_5839''
+[2015.08.01-00.08.35:372][130]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_865.EdGraphPin_5940''
+[2015.08.01-00.08.35:372][130]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_783.EdGraphPin_6133''
+[2015.08.01-00.08.35:374][130]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_299.EdGraphPin_5812''
+[2015.08.01-00.08.35:374][130]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_783.EdGraphPin_6133''
+[2015.08.01-00.08.35:374][130]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_96.EdGraphPin_5837''
+[2015.08.01-00.08.35:376][130]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_299.EdGraphPin_5809''
+[2015.08.01-00.08.35:376][130]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_865.EdGraphPin_5940''
+[2015.08.01-00.08.35:377][130]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_33.EdGraphPin_5887''
+[2015.08.01-00.08.35:377][130]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_299.EdGraphPin_5810''
+[2015.08.01-00.08.35:378][130]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_783.EdGraphPin_6133''
+[2015.08.01-00.08.35:378][130]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_36938.EdGraphPin_6815''
+[2015.08.01-00.08.35:379][130]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_863.EdGraphPin_5778''
+[2015.08.01-00.08.35:379][130]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_783.EdGraphPin_6133''
+[2015.08.01-00.08.54:686][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:LineTraceItem.K2Node_IfThenElse_96 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem:EventGraph.K2Node_IfThenElse_96
+[2015.08.01-00.08.54:686][554]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem:EventGraph.K2Node_IfThenElse_96.EdGraphPin_25960) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:LineTraceItem.K2Node_CallFunction_43764.EdGraphPin_25933).  Import failed...
+[2015.08.01-00.08.54:686][554]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_96.EdGraphPin_25960''
+[2015.08.01-00.08.54:687][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem:EventGraph.K2Node_CallFunction_36585 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:LineTraceItem.K2Node_CallFunction_36585
+[2015.08.01-00.08.54:687][554]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem:EventGraph.K2Node_CallFunction_36585.EdGraphPin_25948) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:LineTraceItem.K2Node_IfThenElse_96.EdGraphPin_25958).  Import failed...
+[2015.08.01-00.08.54:687][554]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_36585.EdGraphPin_25948''
+[2015.08.01-00.08.54:688][554]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem:EventGraph.K2Node_CallFunction_36938 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:LineTraceItem.K2Node_CallFunction_36938
+[2015.08.01-00.08.54:688][554]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem:EventGraph.K2Node_CallFunction_36938.EdGraphPin_25981) from referencer (EdGraphPin /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:LineTraceItem.K2Node_MacroInstance_652.EdGraphPin_25971).  Import failed...
+[2015.08.01-00.08.54:688][554]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_36938.EdGraphPin_25981''
+[2015.08.01-00.09.11:006][836]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.09.27:670][117]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:EdGraph_229.K2Node_IfThenElse_96 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:LineTraceItem.K2Node_IfThenElse_96
+[2015.08.01-00.09.27:670][117]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:EdGraph_229.K2Node_IfThenElse_96 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem:EventGraph.K2Node_IfThenElse_96
+[2015.08.01-00.09.27:670][117]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_96.EdGraphPin_25960''
+[2015.08.01-00.09.27:670][117]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem:EventGraph.K2Node_CallFunction_36585 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:LineTraceItem.K2Node_CallFunction_36585
+[2015.08.01-00.09.27:671][117]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem:EventGraph.K2Node_CallFunction_36585 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:EdGraph_229.K2Node_CallFunction_36585
+[2015.08.01-00.09.27:671][117]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_36585.EdGraphPin_25948''
+[2015.08.01-00.09.27:671][117]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem:EventGraph.K2Node_CallFunction_36938 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:LineTraceItem.K2Node_CallFunction_36938
+[2015.08.01-00.09.27:671][117]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem:EventGraph.K2Node_CallFunction_36938 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:EdGraph_229.K2Node_CallFunction_36938
+[2015.08.01-00.09.27:671][117]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_36938.EdGraphPin_25981''
+[2015.08.01-00.09.33:370][536]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.09.46:239][548]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.09.46:755][581]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.09.49:853][808]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.09.53:990][140]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.10.11:868][459]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.10.19:388][890]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.10.28:241][608]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.10.38:642][581]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.10.41:436][797]BlueprintLog: New page: Compile BPA_MasterItem
+[2015.08.01-00.10.44:134][797]BlueprintEditorCompileResults: Info [0198.88] Compile of BPA_MasterItem successful! [in 2,698 ms]
+[2015.08.01-00.10.48:764][187]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.10.51:207][354]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.01-00.10.51:237][354]LogPlayLevel: [PIE] Compiling BPC_Char before PIE...
+[2015.08.01-00.10.51:975][354]LogPlayLevel: [PIE] Compiling BPW_Inventory before PIE...
+[2015.08.01-00.10.52:165][354]LogPlayLevel: [PIE] Compiling BPW_InventoryItemButton before PIE...
+[2015.08.01-00.10.52:284][354]LogPlayLevel: [PIE] Compiling BPW_OnScreen before PIE...
+[2015.08.01-00.10.52:490][354]LogPlayLevel: PIE:  Blueprint regeneration took 1282 ms (4 blueprints)
+[2015.08.01-00.10.52:492][354]PIE: New page: PIE session: LevelTest_Test01 (1 Aug 2015 8:10:52 pm)
+[2015.08.01-00.10.52:493][354]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.08.01-00.10.52:546][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052861s)
+[2015.08.01-00.10.52:549][354]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.08.01-00.10.52:580][354]LogPlayLevel: PIE: World Init took: (0.034056s)
+[2015.08.01-00.10.52:584][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.090912s)
+[2015.08.01-00.10.52:770][354]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.01-00.10.52:785][354]LogInit: FAudioDevice initialized.
+[2015.08.01-00.10.52:791][354]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.10.52:891][354]LogLinker:Warning: ObjectProperty_968 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Widgets/BPW_InventoryItemButton.uasset)
+[2015.08.01-00.10.53:051][354]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.08.01-00.10.53:070][354]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 0) at 2015.08.01-10.10.53
+[2015.08.01-00.10.53:070][354]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.01-00.10.53:071][354]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.01-00.10.53:071][354]LogWorld: Bringing up level for play took: 0.017818
+[2015.08.01-00.10.53:091][354]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 2.309
+[2015.08.01-00.10.56:742][426]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F59C1A39C0
+[2015.08.01-00.11.15:190][749]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.01-00.11.15:190][749]PIE: New page: PIE session: LevelTest_Test01 (1 Aug 2015 8:11:15 pm)
+[2015.08.01-00.11.15:190][749]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.08.01-00.11.15:256][749]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065860s)
+[2015.08.01-00.11.15:266][749]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.08.01-00.11.15:270][749]LogPlayLevel: PIE: World Init took: (0.013485s)
+[2015.08.01-00.11.15:270][749]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.079745s)
+[2015.08.01-00.11.15:414][749]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.01-00.11.15:427][749]LogInit: FAudioDevice initialized.
+[2015.08.01-00.11.15:431][749]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.11.15:476][749]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.08.01-00.11.15:492][749]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 0) at 2015.08.01-10.11.15
+[2015.08.01-00.11.15:492][749]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.01-00.11.15:493][749]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.01-00.11.15:493][749]LogWorld: Bringing up level for play took: 0.016072
+[2015.08.01-00.11.15:560][749]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 0.778
+[2015.08.01-00.11.22:127][882]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F5AD4BA0C0
+[2015.08.01-00.11.35:076][632]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.11.35:137][632]LogSavePackage: Save=30.437702ms
+[2015.08.01-00.11.35:137][632]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/BPA_MasterItem04AC5C2F4637EA21470F85A73C0982BB.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Blueprints/BPA_MasterItem.uasset'
+[2015.08.01-00.11.36:423][711]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.11.36:920][711]LogSavePackage: Save=463.613495ms
+[2015.08.01-00.11.36:920][711]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/BPC_Char3EC755F14914A7335A4719A187EA27F0.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Blueprints/BPC_Char.uasset'
+[2015.08.01-00.11.38:810][804]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.11.49:015][804]LogSavePackage: Save=9991.903320ms
+[2015.08.01-00.11.49:015][804]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/LevelTest_Test01786314624DD5D93EBAD24CB0691B6B9C.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Maps/LevelTest_Test01.umap'
+[2015.08.01-00.12.55:841][176]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_33.EdGraphPin_5886''
+[2015.08.01-00.12.55:841][176]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:EdGraph_229.K2Node_IfThenElse_96 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:LineTraceItem.K2Node_IfThenElse_96
+[2015.08.01-00.12.55:841][176]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:EdGraph_229.K2Node_IfThenElse_96 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem:EventGraph.K2Node_IfThenElse_96
+[2015.08.01-00.12.55:841][176]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_96.EdGraphPin_5836''
+[2015.08.01-00.12.55:841][176]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem:EventGraph.K2Node_MacroInstance_652 or K2Node_MacroInstance /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:LineTraceItem.K2Node_MacroInstance_652
+[2015.08.01-00.12.55:842][176]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem:EventGraph.K2Node_MacroInstance_652 or K2Node_MacroInstance /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:EdGraph_229.K2Node_MacroInstance_652
+[2015.08.01-00.12.55:842][176]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MacroInstance_652.EdGraphPin_6803''
+[2015.08.01-00.12.55:842][176]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5981.EdGraphPin_6631''
+[2015.08.01-00.12.55:842][176]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem:EventGraph.K2Node_CallFunction_36585 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:LineTraceItem.K2Node_CallFunction_36585
+[2015.08.01-00.12.55:842][176]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem:EventGraph.K2Node_CallFunction_36585 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:EdGraph_229.K2Node_CallFunction_36585
+[2015.08.01-00.12.55:842][176]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_36585.EdGraphPin_6768''
+[2015.08.01-00.12.55:842][176]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_865.EdGraphPin_5942''
+[2015.08.01-00.12.55:842][176]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_37062.EdGraphPin_6793''
+[2015.08.01-00.12.55:843][176]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_783.EdGraphPin_6133''
+[2015.08.01-00.12.55:843][176]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:EdGraph_229.K2Node_IfThenElse_96 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:LineTraceItem.K2Node_IfThenElse_96
+[2015.08.01-00.12.55:843][176]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:EdGraph_229.K2Node_IfThenElse_96 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem:EventGraph.K2Node_IfThenElse_96
+[2015.08.01-00.12.55:843][176]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_96.EdGraphPin_5837''
+[2015.08.01-00.12.55:844][176]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_865.EdGraphPin_5940''
+[2015.08.01-00.12.55:844][176]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem:EventGraph.K2Node_CallFunction_43764 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:LineTraceItem.K2Node_CallFunction_43764
+[2015.08.01-00.12.55:844][176]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem:EventGraph.K2Node_CallFunction_43764 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:EdGraph_229.K2Node_CallFunction_43764
+[2015.08.01-00.12.55:844][176]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_43764.EdGraphPin_6779''
+[2015.08.01-00.12.55:845][176]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_865.EdGraphPin_5940''
+[2015.08.01-00.12.55:845][176]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_783.EdGraphPin_6133''
+[2015.08.01-00.12.55:845][176]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_865.EdGraphPin_5941''
+[2015.08.01-00.12.55:846][176]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_33.EdGraphPin_5887''
+[2015.08.01-00.12.55:846][176]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_783.EdGraphPin_6133''
+[2015.08.01-00.12.55:846][176]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem:EventGraph.K2Node_CallFunction_36938 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:LineTraceItem.K2Node_CallFunction_36938
+[2015.08.01-00.12.55:846][176]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem:EventGraph.K2Node_CallFunction_36938 or K2Node_CallFunction /Game/FirstPersonBP/Blueprints/BPC_Char.BPC_Char:EdGraph_229.K2Node_CallFunction_36938
+[2015.08.01-00.12.55:846][176]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_36938.EdGraphPin_6815''
+[2015.08.01-00.12.55:847][176]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_863.EdGraphPin_5778''
+[2015.08.01-00.12.55:847][176]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_783.EdGraphPin_6133''
+[2015.08.01-00.12.55:848][176]LogLinker:Warning: Can't find file '/Game/Blueprints/MyCharacter'
+[2015.08.01-00.12.55:849][176]LogLinker: Can't find file '/Game/Blueprints/MyCharacter'
+[2015.08.01-00.12.55:849][176]LogLinker:Warning: Can't find file '/Game/Blueprints/MyCharacter'
+[2015.08.01-00.12.55:849][176]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/Blueprints/MyCharacter.MyCharacter_C')'
+[2015.08.01-00.12.55:850][176]LogLinker:Warning: Can't find file '/Game/Blueprints/MyCharacter'
+[2015.08.01-00.12.55:850][176]LogLinker: Can't find file '/Game/Blueprints/MyCharacter'
+[2015.08.01-00.12.55:851][176]LogLinker:Warning: Can't find file '/Game/Blueprints/MyCharacter'
+[2015.08.01-00.12.55:851][176]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/Blueprints/MyCharacter.MyCharacter_C')'
+[2015.08.01-00.12.55:852][176]LogLinker:Warning: Can't find file '/Game/Blueprints/MyCharacter'
+[2015.08.01-00.12.55:852][176]LogLinker: Can't find file '/Game/Blueprints/MyCharacter'
+[2015.08.01-00.12.55:852][176]LogLinker:Warning: Can't find file '/Game/Blueprints/MyCharacter'
+[2015.08.01-00.12.55:852][176]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/Blueprints/MyCharacter.MyCharacter_C')'
+[2015.08.01-00.12.55:861][176]LogBlueprint:Warning: [BPA_MasterItem] CreatePinForVariable: 'CurrentTarget' variable not found. Base class was probably changed.
+[2015.08.01-00.12.55:862][176]LogBlueprint:Warning: [BPA_MasterItem] CreatePinForVariable: 'CurrentTarget' variable not found. Base class was probably changed.
+[2015.08.01-00.12.55:862][176]LogBlueprint:Warning: [BPA_MasterItem] CreatePinForVariable: 'CurrentTarget' variable not found. Base class was probably changed.
+[2015.08.01-00.12.55:862][176]LogBlueprint:Warning: [BPA_MasterItem] CreatePinForVariable: 'CurrentTarget' variable not found. Base class was probably changed.
+[2015.08.01-00.12.55:862][176]LogBlueprint:Warning: [BPA_MasterItem] CreatePinForVariable: 'CurrentTarget' variable not found. Base class was probably changed.
+[2015.08.01-00.13.13:677][518]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.13.16:475][716]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.13.18:642][840]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.13.19:410][929]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.13.24:930][337]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.13.25:580][381]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.13.36:639][351]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.13.47:215][877]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.13.48:163][933]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.13.49:473][997]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.13.51:370][130]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.13.52:500][208]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.13.53:602][297]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.14.00:969][660]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.14.26:872][213]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.14.39:726][  0]LogEditorTransaction: Undo Move Nodes
+[2015.08.01-00.14.39:832][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.14.44:553][237]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.14.46:378][385]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.14.47:835][490]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.15.01:317][452]BlueprintLog: New page: Compile BPA_MasterItem
+[2015.08.01-00.15.02:370][452]BlueprintEditorCompileResults: Info [0457.12] Compile of BPA_MasterItem successful! [in 1,051 ms]
+[2015.08.01-00.15.03:235][544]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.15.03:306][544]LogSavePackage: Save=40.722591ms
+[2015.08.01-00.15.03:306][544]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/BPA_MasterItemD5020D734EB6B9B6B46906AABBB9F9F1.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Blueprints/BPA_MasterItem.uasset'
+[2015.08.01-00.15.06:045][681]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.01-00.15.06:046][681]PIE: New page: PIE session: LevelTest_Test01 (1 Aug 2015 8:15:06 pm)
+[2015.08.01-00.15.06:046][681]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.08.01-00.15.06:090][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044339s)
+[2015.08.01-00.15.06:099][681]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.08.01-00.15.06:101][681]LogPlayLevel: PIE: World Init took: (0.010887s)
+[2015.08.01-00.15.06:102][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.055631s)
+[2015.08.01-00.15.06:180][681]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.01-00.15.06:264][681]LogInit: FAudioDevice initialized.
+[2015.08.01-00.15.06:275][681]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.15.06:331][681]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.08.01-00.15.06:351][681]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 0) at 2015.08.01-10.15.06
+[2015.08.01-00.15.06:351][681]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.01-00.15.06:352][681]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.01-00.15.06:352][681]LogWorld: Bringing up level for play took: 0.018965
+[2015.08.01-00.15.06:449][681]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 -0.332
+[2015.08.01-00.15.09:219][720]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F59D0E0AE0
+[2015.08.01-00.15.14:289][833]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.15.14:478][833]LogRenderer: Reallocating scene render targets to support 992x616 (Frame:1351).
+[2015.08.01-00.15.25:055][576]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.15.34:674][ 81]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.08.01-00.15.34:675][ 81]PIE: New page: PIE session: LevelTest_Test01 (1 Aug 2015 8:15:34 pm)
+[2015.08.01-00.15.34:676][ 81]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.08.01-00.15.34:720][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044845s)
+[2015.08.01-00.15.34:729][ 81]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.08.01-00.15.34:732][ 81]LogPlayLevel: PIE: World Init took: (0.011272s)
+[2015.08.01-00.15.34:732][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.056550s)
+[2015.08.01-00.15.34:800][ 81]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.01-00.15.34:848][ 81]LogInit: FAudioDevice initialized.
+[2015.08.01-00.15.34:867][ 81]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.15.34:911][ 81]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.08.01-00.15.34:937][ 81]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 0) at 2015.08.01-10.15.34
+[2015.08.01-00.15.34:937][ 81]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.01-00.15.34:938][ 81]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.01-00.15.34:938][ 81]LogWorld: Bringing up level for play took: 0.024281
+[2015.08.01-00.15.34:975][ 81]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 0.194
+[2015.08.01-00.15.38:770][140]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F5DAA9D8A0
+[2015.08.01-00.15.44:488][332]LogD3D11RHI: InitD3DDevice
+[2015.08.01-00.15.44:506][332]LogMaterial: Missing cached shader map for material PP_Outliner_M, compiling. 
+[2015.08.01-00.15.44:507][332]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PP_Outliner_M for platform PCD3D_SM5, Default Material will be used in game.
+[2015.08.01-00.15.44:507][332]LogMaterial:Warning: 	Missing Material Function
+[2015.08.

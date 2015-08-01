@@ -1,0 +1,4 @@
+Char: Pixel Man
+Description: Detective, doesn't know where he is. Has robot friend to help him look for things.
+Robot: Bolt
+Description:

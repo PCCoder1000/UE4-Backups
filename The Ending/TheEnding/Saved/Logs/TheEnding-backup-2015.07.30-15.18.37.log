@@ -1,0 +1,327 @@
+﻿[2015.07.30-04.21.37:776][  0]Log file open, 07/30/15 14:21:37
+[2015.07.30-04.21.37:776][  0]LogInit:Display: Running engine for game: TheEnding
+[2015.07.30-04.21.37:776][  0]LogInit:Display: RandInit(1891698393) SRandInit(1891698393).
+[2015.07.30-04.21.37:776][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.07.30-04.21.37:776][  0]LogStats: Stats thread started
+[2015.07.30-04.21.37:776][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.07.30-04.21.37:776][  0]LogInit: API Version: 2579680
+[2015.07.30-04.21.37:776][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.07.30-04.21.37:776][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.30-04.21.37:776][  0]LogInit: Build Configuration: Development
+[2015.07.30-04.21.37:776][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.30-04.21.37:776][  0]LogInit: Command line:  
+[2015.07.30-04.21.37:776][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.30-04.21.37:776][  0]LogInit: Rocket: 1
+[2015.07.30-04.21.37:807][  0]LogInit: Using libcurl 7.41.0
+[2015.07.30-04.21.37:807][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.30-04.21.37:807][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.30-04.21.37:807][  0]LogInit:  - other features:
+[2015.07.30-04.21.37:807][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.30-04.21.37:807][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.30-04.21.37:807][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.30-04.21.37:807][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.30-04.21.37:807][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.30-04.21.37:807][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.30-04.21.37:807][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.30-04.21.37:807][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.30-04.21.37:807][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.30-04.21.37:807][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.30-04.21.37:807][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.30-04.21.37:870][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.30-04.21.37:885][  0]LogInit: Object subsystem initialized
+[2015.07.30-04.21.37:901][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.30-04.21.37:901][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.30-04.21.37:901][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.30-04.21.37:901][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.30-04.21.37:901][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.30-04.21.37:901][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.30-04.21.37:901][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.30-04.21.37:901][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.30-04.21.37:938][  0]LogInit: Computer: TAB-1090
+[2015.07.30-04.21.37:938][  0]LogInit: User: 076271
+[2015.07.30-04.21.37:938][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.07.30-04.21.37:938][  0]LogInit: High frequency timer resolution =1.558892 MHz
+[2015.07.30-04.21.37:938][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.07.30-04.21.37:938][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.30-04.21.37:938][  0]LogMemory: Process Physical Memory: 49.63 MB used, 49.63 MB peak
+[2015.07.30-04.21.37:938][  0]LogMemory: Process Virtual Memory: 22.23 MB used, 22.23 MB peak
+[2015.07.30-04.21.37:938][  0]LogMemory: Physical Memory: 1606.16 MB used, 8097.05 MB total
+[2015.07.30-04.21.37:938][  0]LogMemory: Virtual Memory: 294.59 MB used, 134217728.00 MB total
+[2015.07.30-04.21.38:282][  0]LogTextLocalizationManager: The requested culture ('en_AU') has no localization data; parent culture's ('en') localization data will be used.
+[2015.07.30-04.21.38:602][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.30-04.21.39:255][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2015.07.30-04.21.39:255][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
+[2015.07.30-04.21.39:256][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.30-04.21.39:256][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.07.30-04.21.39:256][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.30-04.21.39:260][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.21.39:260][  0]LogD3D11RHI: !Direct3DDevice
+[2015.07.30-04.21.39:260][  0]LogRHI: Texture pool is 627 MB (70% of 896 MB)
+[2015.07.30-04.21.39:267][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.30-04.21.39:300][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.30-04.21.41:427][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.30-04.21.41:444][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.30-04.21.41:461][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.30-04.21.41:477][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.30-04.21.41:494][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.30-04.21.41:509][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.30-04.21.41:522][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.30-04.21.41:535][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.30-04.21.41:548][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.30-04.21.41:561][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.30-04.21.41:575][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.30-04.21.41:588][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.30-04.21.41:604][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.07.30-04.21.41:677][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.30-04.21.41:691][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.30-04.21.41:704][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.30-04.21.41:722][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.30-04.21.41:722][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.30-04.21.42:255][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.30-04.21.42:417][  0]LogDerivedDataCache: Loaded boot cache 0.16s 53MB C:/Users/076271/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.30-04.21.42:417][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/076271/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.30-04.21.42:417][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.30-04.21.42:417][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.30-04.21.42:417][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.30-04.21.42:417][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.30-04.21.42:632][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.30-04.21.42:644][  0]LogDerivedDataCache: Using Local data cache path C:/Users/076271/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.30-04.21.46:679][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.30-04.21.46:874][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.30-04.21.46:875][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.30-04.21.46:929][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.30-04.21.46:929][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.30-04.21.47:877][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.30-04.21.50:942][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.30-04.21.51:573][  0]SourceControl: Info Source control is disabled
+[2015.07.30-04.21.51:586][  0]SourceControl: Info Source control is disabled
+[2015.07.30-04.21.51:600][  0]SourceControl: Info Source control is disabled
+[2015.07.30-04.21.51:612][  0]SourceControl: Info Source control is disabled
+[2015.07.30-04.21.51:958][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.07.30-04.21.51:958][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.07.30-04.21.52:095][  0]LogEngine: Initializing Engine...
+[2015.07.30-04.21.52:099][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.30-04.21.52:116][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 100
+[2015.07.30-04.21.52:608][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.30-04.21.52:621][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.30-04.21.53:073][  0]LogInit: FAudioDevice initialized.
+[2015.07.30-04.21.53:102][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/076271/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.30-04.21.53:108][  0]LogInit: Texture streaming: Disabled
+[2015.07.30-04.21.53:133][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.30-04.21.53:134][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.07.30-04.21.53:134][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 76c04c81496839754ea32aa1f64fd1dc|0cceb55ada7a48d4a2aa42507710ea50|1bc6e7bf-6992-4f6c-b1ed-24e2f407b47a
+[2015.07.30-04.21.53:134][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.30-04.21.53:189][  0]LogInit: Transaction tracking system initialized
+[2015.07.30-04.21.53:355][  0]BlueprintLog: New page: Editor Load
+[2015.07.30-04.21.53:399][  0]LogAssetRegistry: FAssetRegistry took 0.0131 seconds to start up
+[2015.07.30-04.21.53:413][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.30-04.21.54:885][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.30-04.21.54:886][  0]LogConsoleResponse:Display: 
+[2015.07.30-04.21.55:533][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.30-04.21.55:825][  0]SourceControl: Info Source control is disabled
+[2015.07.30-04.21.55:827][  0]Cmd: MAP LOAD FILE="../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Maps/LevelTest_Test01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.30-04.21.55:831][  0]LightingResults: New page: Lighting Build
+[2015.07.30-04.21.55:857][  0]MapCheck: New page: Map Check
+[2015.07.30-04.21.55:857][  0]LightingResults: New page: Lighting Build
+[2015.07.30-04.21.55:887][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D50F5D4F40
+[2015.07.30-04.21.56:488][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem_C:ItemData'. Unknown structure.
+[2015.07.30-04.21.56:488][  0]LogClass:Warning: Property ItemData of BPA_MasterItem_C struct type mismatch STRUCT_REINST_BPS_ItemData_26/FallbackStruct for package:  ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Blueprints/BPA_MasterItem.uasset. If that property got renamed, add an ActiveStructRedirect.
+[2015.07.30-04.21.56:533][  0]LogClass:Warning: Property ItemData of BPA_MasterItem_C struct type mismatch FallbackStruct/BPS_ItemData for package:  FObjectReader. If that property got renamed, add an ActiveStructRedirect.
+[2015.07.30-04.22.01:131][  0]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.30-04.22.01:460][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.30-04.22.06:270][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.30-04.22.06:340][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.302ms to complete.
+[2015.07.30-04.22.06:340][  0]LogFileHelpers: Loading map 'LevelTest_Test01' took 10.514
+[2015.07.30-04.22.06:567][  0]LogCollectionManager: Loaded 0 collections in 0.002110 seconds
+[2015.07.30-04.22.06:580][  0]LogContentBrowser: Native class hierarchy populated in 0.0128 seconds. Added 1792 classes and 301 folders.
+[2015.07.30-04.22.06:658][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2015.07.30-04.22.06:855][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2015.07.30-04.22.06:879][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2015.07.30-04.22.06:975][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.30-04.22.06:984][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.22.06:991][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.30-04.22.07:019][  0]LogLoad: Full Startup: 31.78 seconds (BP compile: 0.50 seconds)
+[2015.07.30-04.22.07:508][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.30-04.22.07:606][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.07.30-04.22.07:890][  0]LogRenderer: Reallocating scene render targets to support 776x376 (Frame:2).
+[2015.07.30-04.22.10:116][ 15]LogAssetRegistry: Asset discovery search completed in 16.7300 seconds
+[2015.07.30-04.22.10:218][ 16]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.22.24:721][245]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.22.25:086][258]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.22.33:417][313]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.22.33:451][313]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/Artwork/Can/Can.fbx)
+[2015.07.30-04.22.33:477][313]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.07.30-04.22.33:477][313]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.07.30-04.22.33:477][313]LogFbx: ItemName: Model, ItemCount : 1
+[2015.07.30-04.22.33:531][313]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.22.47:159][313]LogFbx: Loading FBX Scene from ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/Artwork/Can/Can.fbx
+[2015.07.30-04.22.47:175][313]LogFbx: FBX Scene Loaded Succesfully
+[2015.07.30-04.22.47:180][313]LogFbx:Warning: Triangulating static mesh Cylinder
+[2015.07.30-04.22.47:206][313]LogStaticMesh: Building static mesh Can...
+[2015.07.30-04.22.47:218][313]LogStaticMesh: Built static mesh [0.011962.2s] /Game/FirstPersonBP/Meshes/Items/Can.Can
+[2015.07.30-04.22.47:231][313]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.07.30-04.22.47:231][313]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.07.30-04.22.47:236][313]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.22.59:116][552]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.23.02:862][567]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.23.03:798][567]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.23.03:837][567]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.27.59:759][494]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.27.59:923][503]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.28.02:673][550]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.28.02:690][550]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/Artwork/Can/Can.fbx)
+[2015.07.30-04.28.02:695][550]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.07.30-04.28.02:695][550]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.07.30-04.28.02:695][550]LogFbx: ItemName: Model, ItemCount : 1
+[2015.07.30-04.28.02:713][550]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.28.06:045][550]LogFbx: Loading FBX Scene from ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/Artwork/Can/Can.fbx
+[2015.07.30-04.28.06:053][550]LogFbx: FBX Scene Loaded Succesfully
+[2015.07.30-04.28.06:056][550]LogFbx:Warning: Triangulating static mesh Cylinder
+[2015.07.30-04.28.06:081][550]LogStaticMesh: Building static mesh Can...
+[2015.07.30-04.28.06:090][550]LogStaticMesh: Built static mesh [0.013166.2s] /Game/FirstPersonBP/Meshes/Items/Can.Can
+[2015.07.30-04.28.06:098][550]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.07.30-04.28.06:103][550]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.28.13:659][840]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.28.16:144][932]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.28.16:251][932]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.28.16:277][932]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.28.16:362][932]LogSavePackage: Save=25.446278ms
+[2015.07.30-04.28.16:363][932]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/SM_Cola184C742C4281DCB19A9B6E85E5D4ABA8.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Meshes/Items/SM_Cola.uasset'
+[2015.07.30-04.28.16:377][932]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.28.17:982][972]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.28.18:300][972]LogRenderer: Reallocating scene render targets to support 1016x616 (Frame:1461).
+[2015.07.30-04.28.40:646][650]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.28.40:834][654]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.28.44:494][685]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.28.44:511][685]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/Artwork/Can/CanTextured.png)
+[2015.07.30-04.28.44:565][685]LogTexture:Display: Building textures: CanTextured (AutoDXT)
+[2015.07.30-04.28.54:257][875]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.28.54:293][875]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.28.54:366][875]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.28.54:639][875]LogSavePackage: Save=96.986832ms
+[2015.07.30-04.28.54:639][875]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/T_ColaTextured92B4ADF249D26D3C2239D48EAE90B947.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Textures/Items/T_ColaTextured.uasset'
+[2015.07.30-04.28.54:653][875]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.28.54:708][875]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.28.54:768][875]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D53B2C8180
+[2015.07.30-04.28.56:298][899]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.28.56:364][899]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2015.07.30-04.29.06:337][292]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.29.06:848][307]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.29.10:902][411]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.29.15:388][551]LogMaterial: Missing cached shader map for material M_ColaTextured, compiling. 
+[2015.07.30-04.29.17:115][570]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.29.19:132][623]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.29.21:512][679]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.29.21:552][679]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.29.21:578][679]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.29.28:023][679]LogSavePackage: Save=31.725739ms
+[2015.07.30-04.29.28:023][679]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/M_ColaTextured30650A204A38E76A6A4417B4CC146CD9.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Materials/M_ColaTextured.uasset'
+[2015.07.30-04.29.28:036][679]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.29.34:632][783]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.29.35:232][806]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.29.36:107][836]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.29.36:163][836]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.29.36:193][836]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.29.36:305][836]LogSavePackage: Save=27.316837ms
+[2015.07.30-04.29.36:305][836]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/M_ColaTexturedA5C2FD574F79658CEE5C519A843BA7C4.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Materials/Items/M_ColaTextured.uasset'
+[2015.07.30-04.29.36:318][836]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.29.36:378][836]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.29.38:599][862]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.29.38:772][862]LogMaterial: Missing cached shader map for material M_ColaTextured, compiling. 
+[2015.07.30-04.29.38:944][862]LogMaterial: Missing cached shader map for material M_ColaTextured, compiling. 
+[2015.07.30-04.29.38:954][862]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.30-04.29.38:981][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.07.30-04.29.49:489][ 38]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D501CBA660
+[2015.07.30-04.29.49:586][ 38]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.29.49:626][ 38]LogSavePackage: Save=7.827354ms
+[2015.07.30-04.29.49:626][ 38]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/CanC690E9B24F6147128F57B280093DBB4D.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Meshes/Items/Can.uasset'
+[2015.07.30-04.29.49:655][ 38]LogSavePackage: Save=7.817732ms
+[2015.07.30-04.29.49:655][ 38]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/M_ColaTexturedC1F8C6634A711F8790986F9DE88B043B.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Textures/Items/M_ColaTextured.uasset'
+[2015.07.30-04.29.58:099][139]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.29.58:331][139]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.30-04.29.58:629][139]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.30-04.30.06:641][266]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.30.56:863][ 95]LogEditorViewport: Clicking on Actor (LMB): BPA_Cola_C (BPA_Cola2)
+[2015.07.30-04.31.14:090][338]LogEditorViewport: Clicking on Actor (LMB): BPA_Cola_C (BPA_Cola)
+[2015.07.30-04.31.23:120][474]LogEditorViewport: Clicking on Actor (LMB): BPA_Cola_C (BPA_Cola5)
+[2015.07.30-04.31.27:090][523]LogEditorViewport: Clicking on Actor (LMB): BPA_Cola_C (BPA_Cola3)
+[2015.07.30-04.31.34:589][619]LogEditorViewport: Clicking on Actor (LMB): BPA_Cola_C (BPA_Cola4)
+[2015.07.30-04.31.47:906][769]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.31.50:662][831]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.32.08:324][147]BlueprintLog: New page: Compile BPA_Cola
+[2015.07.30-04.32.08:709][147]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D53D098CC0
+[2015.07.30-04.32.08:801][147]BlueprintEditorCompileResults: Info [0633.56] Compile of BPA_Cola successful! [in 477 ms]
+[2015.07.30-04.32.09:364][156]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.32.09:509][156]LogSavePackage: Save=54.685635ms
+[2015.07.30-04.32.09:509][156]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/BPA_Cola2888302848B19294E2F300AB5FC0A527.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Items/BPA_Cola.uasset'
+[2015.07.30-04.32.11:359][185]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.32.20:975][185]LogSavePackage: Save=9353.644531ms
+[2015.07.30-04.32.20:975][185]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/LevelTest_Test010BD1017044A477D7FF88E2B46EF19AA0.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Maps/LevelTest_Test01.umap'
+[2015.07.30-04.32.22:948][212]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.30-04.32.22:979][212]PIE: New page: PIE session: LevelTest_Test01 (31 Jul 2015 12:32:22 am)
+[2015.07.30-04.32.22:979][212]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.30-04.32.23:021][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041689s)
+[2015.07.30-04.32.23:024][212]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.30-04.32.23:025][212]LogPlayLevel: PIE: World Init took: (0.002743s)
+[2015.07.30-04.32.23:025][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.045898s)
+[2015.07.30-04.32.23:064][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D5138E0900
+[2015.07.30-04.32.23:149][212]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.30-04.32.23:182][212]LogAudio:Warning: CreateMasteringVoice error: Unhandled error code -2004287465
+[2015.07.30-04.32.23:183][212]LogInit:Warning: Failed to create the mastering voice for XAudio2
+[2015.07.30-04.32.23:222][212]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.32.24:982][212]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.30-04.32.25:021][212]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.30-14.32.25
+[2015.07.30-04.32.25:021][212]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-04.32.25:023][212]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-04.32.25:026][212]LogWorld: Bringing up level for play took: 0.029777
+[2015.07.30-04.32.25:073][212]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 1.495
+[2015.07.30-04.32.44:345][479]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D547542C00
+[2015.07.30-04.32.58:784][649]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.33.21:239][ 42]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.33.28:009][183]BlueprintLog: New page: Compile BPA_Cola
+[2015.07.30-04.33.28:297][183]BlueprintEditorCompileResults: Info [0713.06] Compile of BPA_Cola successful! [in 287 ms]
+[2015.07.30-04.33.29:492][205]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.30-04.33.29:492][205]PIE: New page: PIE session: LevelTest_Test01 (31 Jul 2015 12:33:29 am)
+[2015.07.30-04.33.29:493][205]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.30-04.33.29:548][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055282s)
+[2015.07.30-04.33.29:556][205]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.30-04.33.29:558][205]LogPlayLevel: PIE: World Init took: (0.010053s)
+[2015.07.30-04.33.29:559][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.065933s)
+[2015.07.30-04.33.29:776][205]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.30-04.33.29:797][205]LogInit: FAudioDevice initialized.
+[2015.07.30-04.33.29:804][205]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.33.29:838][205]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.30-04.33.29:858][205]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.30-14.33.29
+[2015.07.30-04.33.29:858][205]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-04.33.29:859][205]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-04.33.29:859][205]LogWorld: Bringing up level for play took: 0.019091
+[2015.07.30-04.33.29:883][205]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 0.304
+[2015.07.30-04.33.50:009][470]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D53B4CE520
+[2015.07.30-04.34.01:357][628]BlueprintLog: New page: Compile BPA_Cola
+[2015.07.30-04.34.01:571][628]BlueprintEditorCompileResults: Info [0746.33] Compile of BPA_Cola successful! [in 213 ms]
+[2015.07.30-04.34.02:276][638]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.34.02:521][638]LogSavePackage: Save=88.588562ms
+[2015.07.30-04.34.02:521][638]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/BPA_ColaE5388A7A4DE942C7BA4C8DA00AA4F16F.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Items/BPA_Cola.uasset'
+[2015.07.30-04.34.05:052][669]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.30-04.34.05:053][669]PIE: New page: PIE session: LevelTest_Test01 (31 Jul 2015 12:34:05 am)
+[2015.07.30-04.34.05:054][669]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01
+[2015.07.30-04.34.05:114][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059835s)
+[2015.07.30-04.34.05:122][669]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.30-04.34.05:124][669]LogPlayLevel: PIE: World Init took: (0.009484s)
+[2015.07.30-04.34.05:125][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LevelTest_Test01.LevelTest_Test01 to /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 (0.070755s)
+[2015.07.30-04.34.05:326][669]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.30-04.34.05:340][669]LogInit: FAudioDevice initialized.
+[2015.07.30-04.34.05:345][669]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.34.05:468][669]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.30-04.34.05:573][669]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01 up for play (max tick rate 60) at 2015.07.30-14.34.05
+[2015.07.30-04.34.05:574][669]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-04.34.05:575][669]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01.LevelTest_Test01:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.30-04.34.05:576][669]LogWorld: Bringing up level for play took: 0.080113
+[2015.07.30-04.34.05:625][669]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LevelTest_Test01 0.045
+[2015.07.30-04.34.23:864][886]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D5020BA480
+[2015.07.30-04.34.29:906][939]LogD3D11RHI: InitD3DDevice
+[2015.07.30-04.34.40:419][939]LogSavePackage: Save=10242.407227ms
+[2015.07.30-04.34.40:419][939]LogSavePackage: Moving '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/LevelTest_Test0113AE40044735600BB0D431866E8812E2.tmp' to '../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Maps/LevelTest_Test01.umap'
+[2015.07.30-04.34.40:607][939]LogFileHelpers: Saving ma

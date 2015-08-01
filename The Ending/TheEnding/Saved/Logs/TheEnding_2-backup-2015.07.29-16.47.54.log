@@ -1,0 +1,1411 @@
+﻿[2015.07.29-06.41.32:557][  0]Log file open, 07/29/15 16:41:32
+[2015.07.29-06.41.32:557][  0]LogInit:Display: Running engine for game: TheEnding
+[2015.07.29-06.41.32:557][  0]LogInit:Display: RandInit(1958276054) SRandInit(1958276054).
+[2015.07.29-06.41.32:557][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.07.29-06.41.32:557][  0]LogStats: Stats thread started
+[2015.07.29-06.41.32:557][  0]LogInit: Version: 4.8.2-2614606+++depot+UE4-Releases+4.8
+[2015.07.29-06.41.32:557][  0]LogInit: API Version: 2579680
+[2015.07.29-06.41.32:557][  0]LogInit: Compiled (64-bit): Jul  8 2015 23:43:41
+[2015.07.29-06.41.32:557][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.29-06.41.32:557][  0]LogInit: Build Configuration: Development
+[2015.07.29-06.41.32:557][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.29-06.41.32:557][  0]LogInit: Command line:  /Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCLevelTest_Test01 -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+[2015.07.29-06.41.32:557][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.29-06.41.32:557][  0]LogInit: Rocket: 1
+[2015.07.29-06.41.32:574][  0]LogInit: Using libcurl 7.41.0
+[2015.07.29-06.41.32:574][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.29-06.41.32:574][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.29-06.41.32:574][  0]LogInit:  - other features:
+[2015.07.29-06.41.32:574][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.29-06.41.32:574][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.29-06.41.32:574][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.29-06.41.32:574][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.29-06.41.32:574][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.29-06.41.32:574][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.29-06.41.32:574][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.29-06.41.32:574][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.29-06.41.32:574][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.29-06.41.32:574][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.29-06.41.32:585][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.29-06.41.32:599][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.29-06.41.32:609][  0]LogInit: Object subsystem initialized
+[2015.07.29-06.41.32:610][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.29-06.41.32:610][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.29-06.41.32:610][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.29-06.41.32:610][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.29-06.41.32:610][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.29-06.41.32:610][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.29-06.41.32:611][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.29-06.41.32:611][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.29-06.41.32:615][  0]LogInit: Computer: TAB-1090
+[2015.07.29-06.41.32:615][  0]LogInit: User: 076271
+[2015.07.29-06.41.32:615][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.07.29-06.41.32:615][  0]LogInit: High frequency timer resolution =1.558894 MHz
+[2015.07.29-06.41.32:615][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.07.29-06.41.32:615][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.29-06.41.32:615][  0]LogMemory: Process Physical Memory: 49.42 MB used, 49.42 MB peak
+[2015.07.29-06.41.32:615][  0]LogMemory: Process Virtual Memory: 22.23 MB used, 22.23 MB peak
+[2015.07.29-06.41.32:615][  0]LogMemory: Physical Memory: 3500.37 MB used, 8097.05 MB total
+[2015.07.29-06.41.32:615][  0]LogMemory: Virtual Memory: 290.65 MB used, 134217728.00 MB total
+[2015.07.29-06.41.32:654][  0]LogTextLocalizationManager: The requested culture ('en_AU') has no localization data; parent culture's ('en') localization data will be used.
+[2015.07.29-06.41.33:082][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.29-06.41.33:846][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2015.07.29-06.41.33:846][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
+[2015.07.29-06.41.33:848][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.29-06.41.33:848][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.07.29-06.41.33:848][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.29-06.41.33:860][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.29-06.41.33:860][  0]LogD3D11RHI: !Direct3DDevice
+[2015.07.29-06.41.33:861][  0]LogRHI: Texture pool is 627 MB (70% of 896 MB)
+[2015.07.29-06.41.33:947][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.29-06.41.33:979][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.29-06.41.35:943][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.29-06.41.35:958][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.29-06.41.35:973][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.29-06.41.35:987][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.29-06.41.36:003][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.29-06.41.36:016][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.29-06.41.36:029][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.29-06.41.36:041][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.29-06.41.36:054][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.29-06.41.36:067][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.29-06.41.36:080][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.29-06.41.36:094][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.29-06.41.36:109][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.07.29-06.41.36:148][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.29-06.41.36:212][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.29-06.41.36:241][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.29-06.41.36:265][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.29-06.41.36:265][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.29-06.41.36:477][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.29-06.41.36:566][  0]LogDerivedDataCache: Loaded boot cache 0.09s 53MB C:/Users/076271/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.29-06.41.36:566][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/076271/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.29-06.41.36:567][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.29-06.41.36:567][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.29-06.41.36:567][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.29-06.41.36:567][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.29-06.41.36:988][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.29-06.41.37:000][  0]LogDerivedDataCache: Using Local data cache path C:/Users/076271/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.29-06.41.37:351][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.29-06.41.37:488][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.29-06.41.37:489][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.29-06.41.37:516][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.29-06.41.37:516][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.29-06.41.38:160][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.29-06.41.38:782][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.29-06.41.38:790][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/Movies/Default_Startup.mp4
+[2015.07.29-06.41.39:155][  0]SourceControl: Info Source control is disabled
+[2015.07.29-06.41.39:155][  0]SourceControl: Info Source control is disabled
+[2015.07.29-06.41.39:169][  0]SourceControl: Info Source control is disabled
+[2015.07.29-06.41.39:351][  0]LogObj: 25781 objects as part of root set at end of initial load.
+[2015.07.29-06.41.39:351][  0]LogUObjectAllocator: 5195968 out of 0 bytes used by permanent object pool.
+[2015.07.29-06.41.39:488][  0]LogAutomationTest:Warning: ERR: Transient text cannot be serialized "Testing Transient serialization detection".
+[2015.07.29-06.41.39:488][  0]LogEngine: Initializing Engine...
+[2015.07.29-06.41.39:492][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.29-06.41.39:494][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 100
+[2015.07.29-06.41.39:609][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.29-06.41.39:629][  0]LogInit: FAudioDevice initialized.
+[2015.07.29-06.41.39:690][  0]LogInit: Texture streaming: Disabled
+[2015.07.29-06.41.39:932][  0]LogNet: Browse: /Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCLevelTest_Test01?Name=Player
+[2015.07.29-06.41.39:932][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCLevelTest_Test01?Name=Player
+[2015.07.29-06.41.39:953][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000797683B560
+[2015.07.29-06.41.39:973][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.29-06.41.39:973][  0]LogMemory: Process Physical Memory: 363.05 MB used, 363.06 MB peak
+[2015.07.29-06.41.39:973][  0]LogMemory: Process Virtual Memory: 310.87 MB used, 310.87 MB peak
+[2015.07.29-06.41.39:973][  0]LogMemory: Physical Memory: 3800.55 MB used, 8097.05 MB total
+[2015.07.29-06.41.39:973][  0]LogMemory: Virtual Memory: 808.38 MB used, 134217728.00 MB total
+[2015.07.29-06.41.39:973][  0]LogMemory: 
+[2015.07.29-06.41.39:973][  0]Allocator Stats for TBB: (not implemented)
+[2015.07.29-06.41.40:482][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/FirstPersonBP/Blueprints/BPA_MasterItem.BPA_MasterItem_C:ItemData'. Unknown structure.
+[2015.07.29-06.41.40:485][  0]LogClass:Warning: Property ItemData of BPA_MasterItem_C struct type mismatch STRUCT_REINST_BPS_ItemData_6/FallbackStruct for package:  ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Blueprints/BPA_MasterItem.uasset. If that property got renamed, add an ActiveStructRedirect.
+[2015.07.29-06.41.40:529][  0]LogClass:Warning: Property ItemData of BPA_MasterItem_C struct type mismatch FallbackStruct/BPS_ItemData for package:  FObjectReader. If that property got renamed, add an ActiveStructRedirect.
+[2015.07.29-06.41.42:875][  0]LogAIModule: Creating AISystem for world LevelTest_Test01
+[2015.07.29-06.41.42:924][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/FirstPersonBP/Widgets/BPW_InventoryItemButton.BPW_InventoryItemButton_C:ItemData'. Unknown structure.
+[2015.07.29-06.41.43:009][  0]LogUObjectGlobals:Warning: Attempted to create a package with a short package name: ObjectProperty_1199 Outer: NullOuter
+[2015.07.29-06.41.43:009][  0]LogLinker:Warning: ObjectProperty_1199 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Widgets/BPW_InventoryItemButton.uasset)
+[2015.07.29-06.41.43:009][  0]LogClass:Warning: Property ItemData of BPW_InventoryItemButton_C struct type mismatch STRUCT_REINST_BPS_ItemData_6/FallbackStruct for package:  ../../../../../../Users/076271/Desktop/Apps+Games+PixelArt/Games/The Ending/TheEnding/Content/FirstPersonBP/Widgets/BPW_InventoryItemButton.uasset. If that property got renamed, add an ActiveStructRedirect.
+[2015.07.29-06.41.43:055][  0]LogClass:Warning: Property ItemData of BPW_InventoryItemButton_C struct type mismatch FallbackStruct/BPS_ItemData for package:  FObjectReader. If that property got renamed, add an ActiveStructRedirect.
+[2015.07.29-06.41.44:234][  0]LogWorld: Game class is 'BPG_TheEnding_C'
+[2015.07.29-06.41.48:319][  0]LogWorld: Bringing World /Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCLevelTest_Test01.LevelTest_Test01 up for play (max tick rate 0) at 2015.07.29-16.41.48
+[2015.07.29-06.41.48:320][  0]LogWorld: Bringing up level for play took: 0.085038
+[2015.07.29-06.41.48:345][  0]LogInit:Display: Game Engine Initialized.
+[2015.07.29-06.41.48:635][  0]LogAssetRegistry: FAssetRegistry took 0.0002 seconds to start up
+[2015.07.29-06.41.48:636][  0]LogLoad: Full Startup: 17.98 seconds (BP compile: 1.42 seconds)
+[2015.07.29-06.41.48:653][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.29-06.41.48:653][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.29-06.41.48:733][  0]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
+[2015.07.29-06.41.49:041][  0]LogContentStreaming: Texture pool size is 200.000000MB
+[2015.07.29-06.41.49:286][  1]LogRenderer: Reallocating scene render targets to support 640x360 (Frame:2).
+[2015.07.29-06.41.51:196][ 55]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:197][ 55]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:202][ 56]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:202][ 56]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:222][ 57]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:222][ 57]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:239][ 58]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:239][ 58]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:254][ 59]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:254][ 59]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:270][ 60]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:270][ 60]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:287][ 61]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:287][ 61]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:302][ 62]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:302][ 62]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:318][ 63]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:318][ 63]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:335][ 64]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:335][ 64]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:369][ 65]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:370][ 65]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:385][ 66]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:385][ 66]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:397][ 67]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:397][ 67]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:420][ 68]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:420][ 68]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:436][ 69]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:436][ 69]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:460][ 70]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:461][ 70]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:535][ 71]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:535][ 71]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:557][ 72]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:557][ 72]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:576][ 73]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:576][ 73]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:592][ 74]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:592][ 74]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:641][ 75]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:641][ 75]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:663][ 76]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:663][ 76]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:682][ 77]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:682][ 77]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:698][ 78]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:698][ 78]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:714][ 79]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:714][ 79]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:737][ 80]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:737][ 80]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:811][ 81]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:811][ 81]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:839][ 82]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:839][ 82]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:858][ 83]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:858][ 83]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:874][ 84]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:874][ 84]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:890][ 85]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:890][ 85]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:906][ 86]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:906][ 86]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:922][ 87]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:922][ 87]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:966][ 88]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.51:967][ 88]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.52:009][ 89]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.52:010][ 89]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.52:085][ 90]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.52:085][ 90]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.52:098][ 91]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.52:098][ 91]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.52:118][ 92]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.52:118][ 92]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.52:134][ 93]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.52:134][ 93]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.52:150][ 94]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.52:150][ 94]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.53:814][145]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.53:814][145]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.53:822][146]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.53:822][146]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.53:838][147]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.53:838][147]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.53:855][148]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.53:855][148]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.53:872][149]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.53:873][149]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.53:887][150]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.53:887][150]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.53:904][151]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.53:904][151]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.53:938][152]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.53:939][152]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.53:972][153]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.53:972][153]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.53:991][154]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.53:991][154]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:008][155]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:009][155]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:026][156]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:026][156]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:043][157]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:043][157]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:058][158]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:058][158]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:104][159]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:104][159]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:124][160]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:124][160]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:145][161]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:145][161]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:161][162]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:161][162]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:178][163]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:178][163]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:194][164]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:194][164]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:210][165]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:210][165]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:231][166]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:231][166]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:260][167]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:261][167]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:290][168]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:290][168]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:340][169]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:340][169]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:392][170]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:392][170]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:413][171]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:414][171]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:432][172]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:432][172]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:508][173]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:511][173]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:547][174]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:548][174]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:576][175]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:576][175]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:595][176]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:596][176]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:640][177]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:640][177]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:678][178]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:678][178]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:699][179]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:699][179]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:716][180]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:716][180]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:733][181]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:733][181]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:750][182]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:750][182]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:767][183]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:767][183]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:784][184]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:784][184]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:804][185]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:804][185]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:872][186]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:873][186]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:906][187]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:906][187]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:940][188]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:940][188]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:952][189]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.54:953][189]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:034][190]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:035][190]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:094][191]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:094][191]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:114][192]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:114][192]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:132][193]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:133][193]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:150][194]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:150][194]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:180][195]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:181][195]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:217][196]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:218][196]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:245][197]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:246][197]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:267][198]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:267][198]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:285][199]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:285][199]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:301][200]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:301][200]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:319][201]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:319][201]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:336][202]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:336][202]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:354][203]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:354][203]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:371][204]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:371][204]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:391][205]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:391][205]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:435][206]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.55:435][206]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.57:684][289]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.57:684][289]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.57:704][290]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.57:704][290]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.57:721][291]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.57:722][291]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.57:740][292]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.57:740][292]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.57:760][293]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.57:760][293]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.57:777][294]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.57:777][294]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.57:795][295]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.57:795][295]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.57:815][296]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.57:815][296]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.57:853][297]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.57:854][297]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.41.58:920][340]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.58:921][340]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.58:939][341]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.58:940][341]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.58:968][342]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.58:968][342]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.58:991][343]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.58:991][343]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:009][344]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:009][344]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:027][345]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:028][345]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:053][346]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:053][346]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:079][347]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:079][347]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:117][348]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:118][348]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:167][349]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:167][349]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:190][350]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:191][350]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:209][351]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:209][351]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:227][352]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:227][352]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:245][353]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:246][353]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:264][354]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:264][354]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:302][355]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:304][355]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:328][356]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:328][356]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:381][357]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:382][357]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:425][358]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:426][358]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:470][359]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:471][359]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:491][360]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:491][360]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:510][361]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:510][361]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:529][362]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:529][362]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:547][363]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:547][363]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:565][364]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:565][364]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:607][365]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:608][365]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:644][366]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:644][366]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:667][367]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:667][367]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:683][368]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:683][368]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:703][369]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:704][369]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:722][370]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:722][370]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:741][371]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:741][371]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:759][372]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:759][372]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:778][373]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:778][373]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:823][374]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:823][374]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:864][375]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:864][375]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:910][376]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:910][376]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:932][377]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:932][377]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:953][378]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:953][378]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:972][379]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:972][379]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:990][380]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.41.59:991][380]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.00:010][381]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.00:010][381]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.00:059][382]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.00:062][382]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.00:117][383]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.00:118][383]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.00:150][384]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.00:150][384]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.00:164][385]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.00:164][385]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.00:202][386]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.00:203][386]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.00:261][387]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.00:262][387]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.01:264][416]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.01:264][416]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.01:283][417]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.01:283][417]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.01:301][418]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.01:301][418]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.01:322][419]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.01:322][419]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.01:341][420]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.01:341][420]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.01:385][421]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.01:385][421]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.01:405][422]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.01:406][422]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.01:421][423]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.01:421][423]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.05:988][554]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.05:988][554]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:006][555]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:006][555]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:022][556]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:022][556]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:046][557]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:046][557]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:084][558]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:084][558]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:134][559]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:134][559]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:188][560]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:188][560]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:235][561]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:236][561]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:293][562]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:293][562]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:316][563]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:316][563]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:339][564]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:339][564]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:363][565]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:363][565]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:386][566]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:386][566]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:433][567]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:440][567]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:509][568]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:510][568]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:567][569]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:567][569]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:609][570]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:609][570]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:630][571]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:630][571]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:651][572]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:651][572]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:678][573]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:678][573]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:731][574]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:731][574]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:751][575]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:751][575]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:814][576]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:814][576]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:870][577]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:871][577]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:918][578]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:918][578]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:940][579]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:940][579]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:965][580]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:965][580]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:988][581]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.06:988][581]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.07:036][582]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.07:037][582]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.07:062][583]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.07:063][583]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/1]!
+[2015.07.29-06.42.07:913][610]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.07:913][610]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.07:922][611]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.07:922][611]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.07:942][612]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.07:942][612]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.07:967][613]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.07:967][613]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.07:991][614]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.07:991][614]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.08:013][615]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.08:013][615]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.08:051][616]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.08:052][616]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.08:088][617]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.08:089][617]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:222][709]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:222][709]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:241][710]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:241][710]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:266][711]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:266][711]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:290][712]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:290][712]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:316][713]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:316][713]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:361][714]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:362][714]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:391][715]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:391][715]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:408][716]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:408][716]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:431][717]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:431][717]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:455][718]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:455][718]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:478][719]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:479][719]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:503][720]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:503][720]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:528][721]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:528][721]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:577][722]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:578][722]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:607][723]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:607][723]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:631][724]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:632][724]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:664][725]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:664][725]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:688][726]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:688][726]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:712][727]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:712][727]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:736][728]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:736][728]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:760][729]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:760][729]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:783][730]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:783][730]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:806][731]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:806][731]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:830][732]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.11:830][732]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.12:888][763]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.12:889][763]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.12:902][764]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.12:902][764]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.12:956][765]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.12:957][765]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.12:997][766]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.12:997][766]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:072][767]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:072][767]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:115][768]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:115][768]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:139][769]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:139][769]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:163][770]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:163][770]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:186][771]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:186][771]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:210][772]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:210][772]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:258][773]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:259][773]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:291][774]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:292][774]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:331][775]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:332][775]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:367][776]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:367][776]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:418][777]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:418][777]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:440][778]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:441][778]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:468][779]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:468][779]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:514][780]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:515][780]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:551][781]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:552][781]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:611][782]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:611][782]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:649][783]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:650][783]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:671][784]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:671][784]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:695][785]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:695][785]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:719][786]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:719][786]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:743][787]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:743][787]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:792][788]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:793][788]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:828][789]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:829][789]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:864][790]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:864][790]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:892][791]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:892][791]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:913][792]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:913][792]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:937][793]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:937][793]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:961][794]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.13:961][794]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.14:983][826]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.14:986][826]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.15:028][827]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.15:028][827]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.15:118][828]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.15:121][828]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:157][862]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:157][862]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:172][863]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:172][863]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:196][864]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:196][864]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:241][865]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:242][865]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:272][866]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:273][866]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:309][867]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:310][867]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:389][868]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:390][868]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:460][869]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:460][869]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:481][870]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:481][870]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:505][871]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:505][871]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:533][872]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:534][872]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:573][873]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:574][873]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:636][874]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:636][874]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:659][875]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:659][875]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:699][876]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:700][876]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:745][877]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:745][877]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:782][878]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:782][878]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:840][879]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:842][879]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:894][880]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:895][880]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:959][881]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.16:960][881]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.17:029][882]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.17:029][882]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.18:402][915]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.18:402][915]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.18:473][916]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.18:473][916]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.18:539][917]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.18:539][917]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:253][ 29]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:254][ 29]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:274][ 30]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:274][ 30]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:299][ 31]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:299][ 31]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:325][ 32]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:325][ 32]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:350][ 33]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:350][ 33]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:376][ 34]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:376][ 34]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:400][ 35]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:400][ 35]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:426][ 36]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:426][ 36]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:450][ 37]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:450][ 37]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:476][ 38]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:477][ 38]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:502][ 39]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:502][ 39]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:532][ 40]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:532][ 40]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:566][ 41]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:570][ 41]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:585][ 42]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:585][ 42]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:602][ 43]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:602][ 43]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:627][ 44]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:627][ 44]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:651][ 45]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:651][ 45]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:678][ 46]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:678][ 46]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:731][ 47]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:732][ 47]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:747][ 48]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:747][ 48]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:764][ 49]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:765][ 49]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:789][ 50]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:789][ 50]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:813][ 51]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:813][ 51]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:855][ 52]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:856][ 52]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:875][ 53]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:876][ 53]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:909][ 54]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:910][ 54]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:951][ 55]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.22:952][ 55]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.23:025][ 56]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.23:025][ 56]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.23:046][ 57]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.23:046][ 57]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.23:072][ 58]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.23:073][ 58]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.23:094][ 59]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.23:094][ 59]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.23:119][ 60]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.23:119][ 60]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.23:164][ 61]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.23:164][ 61]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.23:195][ 62]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.23:196][ 62]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.23:932][ 85]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.23:934][ 85]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.23:952][ 86]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.23:952][ 86]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.23:969][ 87]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.23:970][ 87]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.24:000][ 88]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.24:001][ 88]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.24:052][ 89]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.24:053][ 89]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.24:084][ 90]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.24:084][ 90]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:001][176]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:001][176]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:032][177]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:033][177]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:059][178]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:060][178]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:077][179]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:077][179]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:097][180]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:097][180]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:127][181]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:128][181]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:146][182]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:146][182]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:168][183]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:168][183]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:191][184]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:191][184]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:215][185]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:215][185]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:239][186]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:239][186]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:263][187]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:263][187]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:296][188]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:296][188]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:367][189]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:368][189]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:399][190]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:399][190]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:410][191]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:410][191]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:428][192]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:428][192]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:452][193]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:452][193]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:502][194]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:502][194]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:561][195]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:567][195]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:588][196]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.27:589][196]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.28:991][241]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.28:991][241]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:009][242]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:009][242]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:043][243]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:044][243]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:064][244]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:065][244]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:081][245]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:081][245]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:105][246]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:105][246]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:126][247]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:127][247]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:149][248]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:149][248]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:173][249]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:173][249]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:197][250]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:197][250]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:246][251]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:247][251]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:262][252]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:262][252]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:280][253]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:280][253]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:304][254]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:304][254]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:325][255]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:325][255]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:348][256]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:348][256]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:398][257]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:399][257]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:454][258]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:455][258]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:518][259]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:520][259]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:559][260]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:559][260]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:578][261]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:578][261]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:600][262]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:600][262]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:623][263]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:623][263]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:646][264]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:646][264]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:693][265]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:693][265]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:726][266]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:727][266]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:762][267]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:762][267]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:777][268]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:778][268]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:799][269]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:800][269]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:823][270]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:823][270]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:844][271]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:845][271]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:869][272]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:869][272]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:917][273]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:918][273]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:959][274]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:960][274]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:997][275]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.29:998][275]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.30:031][276]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.30:031][276]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.30:060][277]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.30:060][277]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.30:082][278]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.30:082][278]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.30:105][279]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.30:105][279]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.30:126][280]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.30:126][280]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.30:149][281]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.30:149][281]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.30:182][282]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.30:182][282]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.30:213][283]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.30:213][283]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.30:224][284]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.30:224][284]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.31:330][324]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.31:331][324]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.31:349][325]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.31:349][325]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.31:371][326]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.31:371][326]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.31:393][327]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.31:393][327]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.31:415][328]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.31:415][328]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.31:462][329]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.31:462][329]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.31:493][330]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.31:494][330]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:249][454]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:249][454]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:267][455]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:267][455]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:288][456]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:288][456]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:311][457]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:311][457]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:336][458]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:336][458]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:394][459]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:395][459]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:420][460]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:422][460]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:444][461]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:444][461]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:461][462]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:461][462]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:480][463]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:481][463]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:504][464]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:504][464]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:548][465]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:549][465]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:580][466]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:580][466]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:607][467]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:607][467]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:661][468]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:661][468]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:682][469]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:682][469]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:703][470]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:703][470]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:728][471]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:728][471]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:778][472]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:779][472]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:798][473]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:798][473]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:831][474]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:831][474]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:886][475]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:886][475]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:906][476]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:906][476]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:928][477]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:929][477]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:950][478]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:950][478]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:981][479]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.35:982][479]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.36:054][480]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.36:055][480]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.36:866][509]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.36:867][509]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.36:902][510]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.36:903][510]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.36:939][511]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.36:939][511]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.36:967][512]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.36:967][512]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.36:988][513]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.36:988][513]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.37:009][514]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.37:009][514]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.37:058][515]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.37:058][515]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:363][606]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:363][606]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:395][607]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:396][607]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:413][608]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:413][608]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:437][609]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:437][609]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:455][610]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:455][610]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:478][611]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:478][611]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:529][612]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:530][612]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:591][613]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:592][613]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:639][614]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:639][614]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:655][615]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:655][615]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:726][616]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:726][616]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:771][617]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:771][617]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:790][618]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:790][618]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:814][619]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:814][619]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:838][620]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:838][620]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:890][621]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:890][621]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:919][622]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:924][622]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:959][623]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:960][623]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:984][624]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.40:984][624]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.41:004][625]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.41:004][625]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.41:028][626]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.41:028][626]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.41:051][627]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.41:051][627]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.41:076][628]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.41:076][628]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.41:100][629]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.41:100][629]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.41:127][630]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.41:127][630]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.41:168][631]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.41:168][631]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.41:200][632]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.41:201][632]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.41:237][633]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.41:237][633]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.42:166][663]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.42:166][663]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.42:189][664]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.42:189][664]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.42:213][665]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.42:213][665]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.42:259][666]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.42:261][666]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.42:285][667]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.42:285][667]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.42:304][668]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.42:304][668]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.42:364][669]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.42:364][669]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.43:948][718]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.43:949][718]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.43:969][719]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.43:969][719]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.43:987][720]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.43:988][720]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:009][721]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:009][721]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:032][722]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:033][722]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:061][723]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:061][723]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:111][724]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:112][724]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:121][725]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:121][725]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:142][726]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:143][726]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:191][727]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:191][727]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:229][728]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:229][728]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:253][729]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:253][729]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:277][730]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:278][730]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:300][731]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:300][731]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:366][732]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:367][732]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:413][733]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:413][733]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:435][734]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:435][734]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:449][735]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:449][735]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:472][736]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:472][736]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:496][737]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:496][737]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:519][738]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:519][738]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:569][739]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:570][739]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:617][740]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:618][740]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:642][741]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:642][741]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:655][742]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:656][742]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:726][743]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.44:726][743]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:088][807]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:089][807]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:125][808]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:127][808]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:183][809]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:184][809]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:238][810]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:240][810]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:264][811]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:264][811]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:319][812]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:319][812]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:366][813]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:373][813]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:410][814]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:411][814]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:434][815]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:434][815]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:461][816]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:462][816]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:513][817]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:513][817]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:553][818]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:553][818]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:584][819]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:585][819]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:656][820]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:658][820]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:699][821]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:699][821]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:722][822]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:722][822]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:747][823]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:747][823]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:772][824]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:772][824]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:797][825]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:797][825]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:824][826]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:824][826]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:879][827]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:880][827]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:919][828]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:920][828]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:975][829]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.47:975][829]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.48:799][853]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.48:800][853]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.48:833][854]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.48:834][854]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.49:016][855]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.49:016][855]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:166][913]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:167][913]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:201][914]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:201][914]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:247][915]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:248][915]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:283][916]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:284][916]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:345][917]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:346][917]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:367][918]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:367][918]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:392][919]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:392][919]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:453][920]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:453][920]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:469][921]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:469][921]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:494][922]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:494][922]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:557][923]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:557][923]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:580][924]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:580][924]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:606][925]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:606][925]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:631][926]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:631][926]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:658][927]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:658][927]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:691][928]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:691][928]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:746][929]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:746][929]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:812][930]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:812][930]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:856][931]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:856][931]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:868][932]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:868][932]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:893][933]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:893][933]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:956][934]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:956][934]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:988][935]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.51:988][935]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.52:049][936]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.52:050][936]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:278][967]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:278][967]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:303][968]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:304][968]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:332][969]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:332][969]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:359][970]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:359][970]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:434][971]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:434][971]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:459][972]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:460][972]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:501][973]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:501][973]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:526][974]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:526][974]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:548][975]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:548][975]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:574][976]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:574][976]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:601][977]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:601][977]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:658][978]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:659][978]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:677][979]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:677][979]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:697][980]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:697][980]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:722][981]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:722][981]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:748][982]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:748][982]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:775][983]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:775][983]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:802][984]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:802][984]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:828][985]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:828][985]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:855][986]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:855][986]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:882][987]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:882][987]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:909][988]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:909][988]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:937][989]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:937][989]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:978][990]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.53:978][990]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.54:015][991]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.54:016][991]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.54:039][992]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.54:040][992]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.54:058][993]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.54:058][993]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.54:082][994]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.54:082][994]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.54:108][995]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.54:108][995]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.54:136][996]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.54:136][996]LogArray:Warning: Attempted to get an item from array Inventory out of bounds [-1/0]!
+[2015.07.29-06.42.57:541][ 95]LogRenderer: Reallocating scene render targets to support 688x360 (Frame:2098).
+[2015.07.29-06.42.59:507][148]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.29-06.42.59:507][148]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.29-06.42.59:520][148]LogEngine: All Windows Closed
+[2015.07.29-06.42.59:520][148]LogWindows: FPlatformMisc::RequestExit(0)
+[2015.07.29-06.43.00:536][149]LogExit: Preparing to exit.
+[2015.07.29-06.43.00:661][149]LogExit: Game engine shut down
+[2015.07.29-06.43.00:662][149]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007905537BA0
+[2015.07.29-06.43.01:896][149]LogExit: Object subsystem successfully closed.
+[2015.07.29-06.43.02:051][149]LogD3D11RHI: Shutdown
+[2015.07.29-06.43.02:051][149]LogD3D11RHI: CleanupD3DDevice
+[2015.07.29-06.43.02:162][149]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.07.29-06.43.02:321][149]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (108)
+[2015.07.29-06.43.02:800][149]LogModuleManager: Shutting down and abandoning module AssetRegistry (107)
+[2015.07.29-06.43.02:804][149]LogModuleManager: Shutting down and abandoning module AutomationWorker (106)
+[2015.07.29-06.43.02:804][149]LogModuleManager: Shutting down and abandoning module CharacterAI (105)
+[2015.07.29-06.43.02:805][149]LogModuleManager: Shutting down and abandoning module AITestSuite (104)
+[2015.07.29-06.43.02:805][149]LogModuleManager: Shutting down and abandoning module GameplayDebugger (103)
+[2015.07.29-06.43.02:805][149]LogModuleManager: Shutting down and abandoning module AIModule (102)
+[2015.07.29-06.43.02:805][149]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (101)
+[2015.07.29-06.43.02:806][149]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (100)
+[2015.07.29-06.43.02:808][149]LogModuleManager: Shutting down and abandoning module ProfilerService (99)
+[2015.07.29-06.43.03:043][149]LogModuleManager: Shutting down and abandoning module TaskGraph (98)
+[2015.07.29-06.43.03:044][149]LogModuleManager: Shutting down and abandoning module SlateRemote (97)
+[2015.07.29-06.43.03:045][149]LogModuleManager: Shutting down and abandoning module SteamVRController (96)
+[2015.07.29-06.43.03:045][149]LogModuleManager: Shutting down and abandoning module SteamVR (95)
+[2015.07.29-06.43.03:046][149]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (94)
+[2015.07.29-06.43.03:046][149]LogModuleManager: Shutting down and abandoning module OculusRift (93)
+[2015.07.29-06.43.03:046][149]LogModuleManager: Shutting down and abandoning module LeapMotionController (92)
+[2015.07.29-06.43.03:174][149]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (91)
+[2015.07.29-06.43.03:174][149]LogModuleManager: Shutting down and abandoning module CableComponent (90)
+[2015.07.29-06.43.03:174][149]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2015.07.29-06.43.03:174][149]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (88)
+[2015.07.29-06.43.03:174][149]LogModuleManager: Shutting down and abandoning module HotReload (87)
+[2015.07.29-06.43.03:174][149]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (86)
+[2015.07.29-06.43.03:174][149]LogModuleManager: Shutting down and abandoning module UObjectPlugin (85)
+[2015.07.29-06.43.03:174][149]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (84)
+[2015.07.29-06.43.03:174][149]LogModuleManager: Shutting down and abandoning module SourceControl (83)
+[2015.07.29-06.43.03:174][149]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (82)
+[2015.07.29-06.43.03:174][149]LogModuleManager: Shutting down and abandoning module BlankPlugin (81)
+[2015.07.29-06.43.03:174][149]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.07.29-06.43.03:174][149]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.07.29-06.43.03:175][149]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.07.29-06.43.03:185][149]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.07.29-06.43.03:185][149]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.07.29-06.43.03:185][149]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.07.29-06.43.03:185][149]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.07.29-06.43.03:185][149]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.07.29-06.43.03:185][149]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.07.29-06.43.03:186][149]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.07.29-06.43.03:186][149]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.07.29-06.43.03:186][149]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.07.29-06.43.03:186][149]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.07.29-06.43.03:186][149]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.07.29-06.43.03:186][149]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.07.29-06.43.03:186][149]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.07.29-06.43.03:186][149]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.07.29-06.43.03:186][149]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.07.29-06.43.03:192][149]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.07.29-06.43.03:193][149]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.07.29-06.43.03:193][149]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.07.29-06.43.03:193][149]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.07.29-06.43.03:193][149]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.07.29-06.43.03:193][149]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.07.29-06.43.03:193][149]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.07.29-06.43.03:193][149]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.07.29-06.43.03:193][149]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.07.29-06.43.03:193][149]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.07.29-06.43.03:629][149]LogDerivedDataCache: Shutdown
+[2015.07.29-06.43.03:629][149]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.07.29-06.43.03:629][149]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.07.29-06.43.03:629][149]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.07.29-06.43.03:629][149]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.07.29-06.43.03:629][149]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.07.29-06.43.03:629][149]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.07.29-06.43.03:629][149]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.07.29-06.43.03:629][149]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.07.29-06.43.03:629][149]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.07.29-06.43.03:629][149]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.07.29-06.43.03:629][149]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.07.29-06.43.03:629][149]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.07.29-06.43.03:629][149]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.07.29-06.43.03:629][149]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.07.29-06.43.03:629][149]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.07.29-06.43.03:629][149]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.07.29-06.43.03:629][149]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.07.29-06.43.03:629][149]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.07.29-06.43.03:629][149]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.07.29-06.43.03:629][149]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.07.29-06.43.03:629][149]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.07.29-06.43.03:630][149]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.07.29-06.43.03:630][149]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.07.29-06.43.03:630][149]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.07.29-06.43.03:630][149]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.07.29-06.43.03:630][149]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.07.29-06.43.03:630][149]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.07.29-06.43.03:630][149]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.07.29-06.43.03:630][149]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.07.29-06.43.03:630][149]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.07.29-06.43.03:630][149]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.07.29-06.43.03:630][149]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.07.29-06.43.03:630][149]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.07.29-06.43.03:630][149]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.07.29-06.43.03:630][149]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.07.29-06.43.03:630][149]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.07.29-06.43.03:630][149]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.07.29-06.43.03:630][149]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.07.29-06.43.03:631][149]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.07.29-06.43.03:631][149]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.07.29-06.43.03:631][149]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.07.29-06.43.03:631][149]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.07.29-06.43.03:631][149]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.07.29-06.43.03:631][149]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.07.29-06.43.03:632][149]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.07.29-06.43.03:632][149]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.07.29-06.43.03:632][149]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.07.29-06.43.03:632][149]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.07.29-06.43.03:632][149]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.07.29-06.43.03:632][149]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.07.29-06.43.03:633][149]LogExit: Exiting.
+[2015.07.29-06.43.03:638][149]Log file closed, 07/29/15 16:43:03
